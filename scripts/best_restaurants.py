@@ -1,5 +1,6 @@
 import argparse
 import json
+import math
 import random
 import re
 import shutil
@@ -20,6 +21,8 @@ from playwright.sync_api import sync_playwright
 YELP = "https://www.yelp.com"
 PAGE_SIZE = 10
 MAX_RESULTS = 240
+DEFAULT_RADIUS_MILES = 5
+MILES_PER_DEGREE = 69.0
 CARD_SELECTOR = '[data-testid="serp-ia-card"]'
 PRICE_LEVELS = {"$": "Low", "$$": "Medium", "$$$": "High", "$$$$": "Very High"}
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -78,8 +81,37 @@ def slugify(text):
     return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
 
 
-def search_path(what, location, start):
-    return f"/search?find_desc={quote_plus(what)}&find_loc={quote_plus(location)}&sortby=rating&start={start}"
+def search_path(what, location, start, bounds=None):
+    path = f"/search?find_desc={quote_plus(what)}&find_loc={quote_plus(location)}&sortby=rating&start={start}"
+    return f"{path}&l={quote_plus(bounds)}" if bounds else path
+
+
+def search_center(page):
+    presets = page.evaluate("() => Array.from(document.querySelectorAll('input[name=\"l\"]')).map((input) => input.value)")
+    boxes = [preset[2:].split(",") for preset in presets if preset.startswith("g:")]
+    if not boxes:
+        return None
+    west, south, east, north = (float(value) for value in boxes[0])
+    return ((south + north) / 2, (west + east) / 2)
+
+
+def bounds_for_radius(center, radius_miles):
+    lat, lon = center
+    dlat = radius_miles / MILES_PER_DEGREE
+    dlon = radius_miles / (MILES_PER_DEGREE * math.cos(math.radians(lat)))
+    return f"g:{lon - dlon:.6f},{lat - dlat:.6f},{lon + dlon:.6f},{lat + dlat:.6f}"
+
+
+def resolve_bounds(page, radius_miles):
+    if not radius_miles:
+        return None
+    center = search_center(page)
+    if not center:
+        log("Yelp gave no map bounds for this location, falling back to its default radius")
+        return None
+    bounds = bounds_for_radius(center, radius_miles)
+    log(f"Searching within {radius_miles:g} miles of {center[0]:.4f}, {center[1]:.4f} ({bounds})")
+    return bounds
 
 
 def pause(low=1.2, high=2.2):
@@ -131,12 +163,12 @@ def fetch_in_page(page, js, path, search_url, attempts=3):
     raise RuntimeError(f"Yelp kept refusing {path}")
 
 
-def fetch_search_pages(page, what, location, search_url):
+def fetch_search_pages(page, what, location, search_url, bounds):
     pages = []
     limit = MAX_RESULTS
     start = 0
     while start < limit:
-        result = fetch_in_page(page, FETCH_SEARCH_PAGE_JS, search_path(what, location, start), search_url)
+        result = fetch_in_page(page, FETCH_SEARCH_PAGE_JS, search_path(what, location, start, bounds), search_url)
         organic = [card for card in result["cards"] if not card["sponsored"]]
         if result["total"]:
             limit = min(limit, result["total"])
@@ -184,7 +216,7 @@ def launch_chrome(playwright, channel):
     )
 
 
-def scrape_with_browser(what, location, channel, search_url):
+def scrape_with_browser(what, location, radius_miles, channel, search_url):
     with sync_playwright() as playwright:
         context = launch_chrome(playwright, channel)
         page = context.pages[0] if context.pages else context.new_page()
@@ -192,14 +224,17 @@ def scrape_with_browser(what, location, channel, search_url):
             open_search(page, search_url, 300)
             page_title = page.title()
             log(f"Yelp page title: {page_title}")
-            pages = fetch_search_pages(page, what, location, search_url)
+            bounds = resolve_bounds(page, radius_miles)
+            pages = fetch_search_pages(page, what, location, search_url, bounds)
             exact_counts = resolve_exact_counts(page, pages, search_url)
         finally:
             context.close()
     return {
         "location": location,
         "what": what,
-        "search_url": search_url,
+        "radius_miles": radius_miles if bounds else None,
+        "bounds": bounds,
+        "search_url": f"{YELP}{search_path(what, location, 0, bounds)}",
         "page_title": page_title,
         "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "pages": pages,
@@ -207,16 +242,22 @@ def scrape_with_browser(what, location, channel, search_url):
     }
 
 
-def scrape(what, location, channel):
+def scrape(what, location, radius_miles, channel):
     search_url = f"{YELP}{search_path(what, location, 0)}"
     try:
-        return scrape_with_browser(what, location, channel, search_url)
+        return scrape_with_browser(what, location, radius_miles, channel, search_url)
     except BotCheckFailed as error:
         if str(error) != "blocked":
             raise
         log("Yelp blocked this Chrome profile, wiping it and trying once more with a fresh one")
         shutil.rmtree(PROFILE_DIR, ignore_errors=True)
-        return scrape_with_browser(what, location, channel, search_url)
+        return scrape_with_browser(what, location, radius_miles, channel, search_url)
+
+
+def describe_area(run):
+    if run.get("radius_miles"):
+        return f"within {run['radius_miles']:g} miles of {run['location']}"
+    return f"near {run['location']}"
 
 
 def build_results(pages, exact_counts):
@@ -267,7 +308,7 @@ def plot_ratings_by_price(df, title, output_path):
 
 
 def print_summary(df, run, out_dir):
-    print(f"{run['what']} near {run['location']} ({run['page_title']})")
+    print(f"{run['what']} {describe_area(run)} ({run['page_title']})")
     print(f"results: {len(df)}, exact review counts: {int(df['review_count_is_exact'].sum())} of {len(df)}")
     print(f"saved to {out_dir}: results.csv, ratings_by_price.png, search_pages.json")
     print()
@@ -283,6 +324,12 @@ def main():
     parser = argparse.ArgumentParser(description="Pull Yelp's full ranked list of places near an address or city")
     parser.add_argument("location", help="an address or a city, e.g. '682 MacArthur Dr, Daly City' or 'Santa Barbara, CA'")
     parser.add_argument("--what", default="Restaurants", help="Yelp search term (default: Restaurants)")
+    parser.add_argument(
+        "--radius",
+        type=float,
+        default=DEFAULT_RADIUS_MILES,
+        help=f"miles from the location to search, 0 to let Yelp pick (default: {DEFAULT_RADIUS_MILES})",
+    )
     parser.add_argument("--out-dir", type=Path, help="output folder (default: results/<location slug> in the repo)")
     parser.add_argument("--channel", default="chrome", help="Playwright browser channel: chrome, msedge, or chromium")
     parser.add_argument("--rebuild", action="store_true", help="rebuild results.csv and the plot from the saved search_pages.json")
@@ -295,12 +342,12 @@ def main():
     if args.rebuild:
         run = json.loads(pages_file.read_text())
     else:
-        run = scrape(args.what, args.location, args.channel)
+        run = scrape(args.what, args.location, args.radius, args.channel)
         pages_file.write_text(json.dumps(run, indent=1, ensure_ascii=False))
 
     df = build_results(run["pages"], run["exact_counts"])
     df.to_csv(out_dir / "results.csv", index=False)
-    plot_ratings_by_price(df, f"{run['what']} Ratings by Price Level near {run['location']}", out_dir / "ratings_by_price.png")
+    plot_ratings_by_price(df, f"{run['what']} Ratings by Price Level {describe_area(run)}", out_dir / "ratings_by_price.png")
     print_summary(df, run, out_dir)
 
 

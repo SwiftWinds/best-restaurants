@@ -1,241 +1,241 @@
 url,name,rating,review_count,review_count_is_exact,price,distance_miles,yelp_rank,categories
-https://www.yelp.com/biz/mesoresto-daly-city,Mesoresto,5.0,9,True,,0.7,1,"Mediterranean, Salad, Wraps"
-https://www.yelp.com/biz/garden-deli-daly-city,Garden Deli,5.0,2,True,,1.0,47,"Sandwiches, Soup, Delis"
-https://www.yelp.com/biz/hellaxbomb-daly-city-2,HELLAxBOMB,5.0,1,True,,1.6,83,"Filipino, Guamanian"
-https://www.yelp.com/biz/frisco-fresh-tacos-san-francisco,Frisco Fresh Tacos,5.0,1,True,,2.0,85,"Tacos, Caterers"
-https://www.yelp.com/biz/city-cafe-daly-city,City Cafe,5.0,1,True,,0.7,86,"Cafes, Coffee & Tea"
-https://www.yelp.com/biz/savage-smokehouse-bbq-daly-city,SAVAGE SMOKEHOUSE BBQ,5.0,1,True,,1.6,87,"Caterers, Barbeque"
-https://www.yelp.com/biz/hanchon-san-francisco,Hanchon,5.0,1,True,,1.7,88,Korean
-https://www.yelp.com/biz/good-subs-market-colma-2,Good Subs Market,4.9,108,True,$$,1.0,4,"Grocery, Halal, Sandwiches"
-https://www.yelp.com/biz/laowai-noodles-daly-city,Laowai Noodles,4.9,34,True,,1.6,2,"Pop-Up Restaurants, Noodles, Chinese"
-https://www.yelp.com/biz/shampas-pies-san-francisco,Shampa's Pies,4.9,31,True,$$,1.9,3,"Desserts, Food Stands"
-https://www.yelp.com/biz/willie-s-catering-and-restaurant-daly-city,Willie’s Catering & Restaurant,4.9,18,True,,1.0,5,Filipino
-https://www.yelp.com/biz/the-m-stop-halal-deli-san-francisco,The M Stop Halal Deli,4.8,181,True,$$,2.6,9,"Sandwiches, Delis, Halal"
-https://www.yelp.com/biz/rosis-alfajores-daly-city,Rosi's Alfajores,4.8,89,True,$$,1.2,8,"Desserts, Empanadas, Peruvian"
-https://www.yelp.com/biz/loma-linda-taco-truck-daly-city,Loma Linda Taco Truck,4.8,48,True,$$,0.5,6,"Tacos, Food Trucks"
-https://www.yelp.com/biz/pares-sa-daly-city-daly-city,Pares Sa Daly City,4.8,11,True,,1.6,7,"Food Trucks, Desserts, Sushi Bars"
-https://www.yelp.com/biz/tiny-sushi-oh-baby-daly-city,Tiny Sushi - Oh Baby,4.7,710,True,,0.8,11,"Sushi Bars, Japanese"
-https://www.yelp.com/biz/the-salad-place-and-breakfast-latin-food-san-francisco,The Salad Place & Breakfast Latin Food,4.7,129,True,$$,2.7,10,"Sandwiches, Salad, Breakfast & Brunch"
-https://www.yelp.com/biz/kunugi-noodle-daly-city,Kunugi Noodle,4.7,3,True,,1.2,58,"Japanese, Noodles"
-https://www.yelp.com/biz/tacos-el-charrito-colma,Tacos El Charrito,4.6,53,True,$,0.9,12,"Mexican, Food Trucks"
-https://www.yelp.com/biz/cafe-xiloa-daly-city,Cafe Xiloa,4.6,23,True,,0.9,15,"Breakfast & Brunch, Nicaraguan, Cafes"
-https://www.yelp.com/biz/mimino-daly-city-3,Mimino,4.6,10,True,,1.6,13,"Georgian, Food Delivery Services"
-https://www.yelp.com/biz/kapwa-kultural-center-daly-city-3,Kapwa Kultural Center,4.6,7,True,,0.8,14,"Cafes, Community Centers"
-https://www.yelp.com/biz/jagalchi-daly-city-5,Jagalchi,4.5,1929,True,$$,1.4,24,"Seafood Markets, International Grocery, Korean"
-https://www.yelp.com/biz/marufuku-ramen-serramonte-daly-city-3,Marufuku Ramen - Serramonte,4.5,277,True,$$,,23,"Ramen, Noodles"
-https://www.yelp.com/biz/fog-city-cafe-daly-city,Fog City Cafe,4.5,246,True,$$,1.8,20,"Coffee & Tea, Breakfast & Brunch, Sandwiches"
-https://www.yelp.com/biz/blue-house-caf%C3%A9-san-francisco,Blue House Café,4.5,163,True,$,2.0,16,"Coffee & Tea, Cafes"
-https://www.yelp.com/biz/burma-silver-star-daly-city,Burma Silver Star,4.5,127,True,,1.6,19,Burmese
-https://www.yelp.com/biz/happy-donut-daly-city,Happy Donut,4.5,81,True,$,1.1,22,"Bagels, Donuts, Sandwiches"
-https://www.yelp.com/biz/la-cafeteria-daly-city,La Cafeteria,4.5,45,True,,0.5,18,"Coffee & Tea, Sandwiches, Breakfast & Brunch"
-https://www.yelp.com/biz/penelopes-coffee-and-tea-daly-city,Penelope's Coffee & Tea,4.5,37,True,$$,1.7,21,"Coffee & Tea, Breakfast & Brunch, Sandwiches"
-https://www.yelp.com/biz/pizza-and-pasta-house-daly-city,Pizza & Pasta House,4.5,32,True,,1.2,17,"Pizza, Pasta Shops"
-https://www.yelp.com/biz/fiesta-chapina-restaurant-daly-city,Fiesta Chapina Restaurant,4.5,4,True,,0.9,48,"Mexican, Latin American"
-https://www.yelp.com/biz/roli-roti-gourmet-rotisserie-daly-city,Roli Roti Gourmet Rotisserie,4.5,2,True,,1.6,111,"Chicken Shop, Sandwiches, Food Trucks"
-https://www.yelp.com/biz/bart-grocery-and-bbq-daly-city,Bart Grocery & BBQ,4.4,1158,True,$$,1.5,32,"Grocery, Korean, Barbeque"
-https://www.yelp.com/biz/keith-s-chicken-n-waffles-daly-city,Keith’s Chicken N Waffles,4.4,1052,True,$$,0.7,27,"Southern, Soul Food, Waffles"
-https://www.yelp.com/biz/city-kebabs-and-gyros-daly-city,City Kebabs And Gyros,4.4,521,True,$$,0.7,38,"Mediterranean, Kebab, Wraps"
-https://www.yelp.com/biz/spicy-house-daly-city-2,Spicy House,4.4,339,True,$$,1.2,37,Chinese
-https://www.yelp.com/biz/russ-fam-kitchen-daly-city-2,Russ Fam Kitchen,4.4,194,True,$$,1.2,36,"Mexican, Filipino, Asian Fusion"
-https://www.yelp.com/biz/new-daly-city-market-daly-city-2,New Daly City Market,4.4,188,True,$$,2.0,28,"Beer, Wine & Spirits, Sandwiches, Ice Cream & Frozen Yogurt"
-https://www.yelp.com/biz/kings-west-coast-pizzeria-daly-city,Kings West Coast Pizzeria,4.4,182,True,$$,1.5,26,"Pizza, Italian, Pasta Shops"
-https://www.yelp.com/biz/the-cheese-steak-shop-pacifica-2,The Cheese Steak Shop,4.4,175,True,$$,1.9,30,"Sandwiches, Cheesesteaks"
-https://www.yelp.com/biz/big-baba-eats-san-francisco,Big Baba Eats,4.4,102,True,,2.1,33,"Mediterranean, Burgers, Chicken Wings"
-https://www.yelp.com/biz/zon-zon-milk-tea-and-b%C3%A1nh-m%C3%AC-daly-city,Zon Zon Milk Tea & Bánh Mì,4.4,64,True,,1.2,34,"Sandwiches, Vietnamese, Bubble Tea"
-https://www.yelp.com/biz/lava-lounge-and-grill-daly-city-6,Lava Lounge and Grill,4.4,61,True,,1.8,25,"Hookah Bars, Lounges, Mediterranean"
-https://www.yelp.com/biz/dduk-dabang-san-francisco,Dduk Dabang,4.4,43,True,,1.7,31,"Korean, Hot Dogs"
-https://www.yelp.com/biz/shwe-yankin-daly-city-2,Shwe Yankin,4.4,30,True,,1.0,35,Burmese
-https://www.yelp.com/biz/akshar-home-made-food-colma,Akshar Home Made Food,4.4,5,True,,0.7,29,"Food Delivery Services, Indian, Vegetarian"
-https://www.yelp.com/biz/gateway-kitchen-daly-city,Gateway Kitchen,4.3,517,True,$,1.8,40,"Filipino, Chinese, Breakfast & Brunch"
-https://www.yelp.com/biz/wongs-cafe-daly-city,Wong's Cafe,4.3,415,True,$$,1.2,44,"Chinese, Noodles"
-https://www.yelp.com/biz/daeho-kalbijjim-and-beef-soup-san-francisco-10,Daeho Kalbijjim & Beef Soup,4.3,239,True,$$,1.7,46,Korean
-https://www.yelp.com/biz/munch-india-bay-area,Munch India,4.3,71,True,$$,1.9,39,"Food Trucks, Indian"
-https://www.yelp.com/biz/mountain-mikes-pizza-south-san-francisco-3,Mountain Mike's Pizza,4.3,51,True,,2.3,41,"Chicken Wings, Pizza"
-https://www.yelp.com/biz/los-trinos-san-francisco,Los Trinos,4.3,47,True,$,2.4,43,Salvadoran
-https://www.yelp.com/biz/onigilly-japanese-kitchen-daly-city,Onigilly Japanese Kitchen,4.3,28,True,,1.3,45,Japanese
-https://www.yelp.com/biz/taco-nmadre-san-francisco,Taco N'Madre,4.3,10,True,,2.3,42,"Food Trucks, Tacos"
-https://www.yelp.com/biz/fil-am-cuisine-daly-city,Fil-Am Cuisine,4.2,1539,True,$$,1.0,55,"Filipino, Barbeque"
-https://www.yelp.com/biz/pogu-daly-city-2,POGU,4.2,1352,True,$$$,1.4,51,Korean
-https://www.yelp.com/biz/chick-and-jajang-daly-city,Chick & Jajang,4.2,387,True,$$,0.8,56,"Korean, Noodles, Chicken Shop"
-https://www.yelp.com/biz/brochette-dumpling-san-francisco-2,Brochette Dumpling,4.2,378,True,$$,2.1,53,"Dim Sum, Noodles, Desserts"
-https://www.yelp.com/biz/taqueria-los-cuernos-daly-city,Taqueria Los Cuernos,4.2,188,True,$$,1.6,49,"Tacos, Seafood, Breakfast & Brunch"
-https://www.yelp.com/biz/los-cuates-taqueria-daly-city-daly-city,Los Cuates Taqueria - Daly City,4.2,124,True,$,1.1,50,Mexican
-https://www.yelp.com/biz/sourdough-and-co-daly-city-5,Sourdough & Co.,4.2,74,True,,0.7,59,"Salad, Soup, Sandwiches"
-https://www.yelp.com/biz/the-sub-stop-daly-city,The Sub Stop,4.2,33,True,$$,1.8,57,"Delis, Breakfast & Brunch, Sandwiches"
-https://www.yelp.com/biz/the-pupuseria-daly-city-4,The Pupuseria,4.2,27,True,,1.9,52,Salvadoran
-https://www.yelp.com/biz/miche-locas-colma,Miche Locas,4.2,10,True,,1.7,54,"Mexican, Food Delivery Services"
-https://www.yelp.com/biz/in-n-out-burger-daly-city,In-N-Out Burger,4.1,1428,True,$$,0.6,65,"Fast Food, Burgers, American"
-https://www.yelp.com/biz/seapot-hot-pot-and-kbbq-daly-city,Seapot Hot Pot & KBBQ,4.1,1314,True,$$$,,74,"Hot Pot, Korean, Taiwanese"
-https://www.yelp.com/biz/fresh-elements-daly-city,Fresh Elements,4.1,666,True,$$$,0.5,70,"Seafood, Hot Pot, Chinese"
-https://www.yelp.com/biz/hall-of-flame-burgers-san-francisco,Hall Of Flame Burgers,4.1,654,True,$$,2.0,69,"Burgers, Sports Bars, American"
-https://www.yelp.com/biz/miss-tomato-daly-city-2,Miss Tomato,4.1,387,True,$$,0.6,64,"Sandwiches, Convenience Stores, Desserts"
-https://www.yelp.com/biz/nick-the-greek-daly-city,Nick the Greek,4.1,315,True,$$,0.7,75,"Greek, Salad, Falafel"
-https://www.yelp.com/biz/mountain-mikes-pizza-daly-city-2,Mountain Mike's Pizza,4.1,200,True,$$,0.5,62,"Pizza, Chicken Wings"
-https://www.yelp.com/biz/yokohama-iekei-ramen-daly-city,Yokohama Iekei Ramen,4.1,191,True,$$,1.1,68,Ramen
-https://www.yelp.com/biz/j-and-a-restaurant-san-francisco,J & A Restaurant,4.1,146,True,$,2.3,66,Chinese
-https://www.yelp.com/biz/pok%C3%A9-house-daly-city-daly-city-3,Poké House - Daly City,4.1,126,True,$$,1.3,63,"Poke, Seafood, Hawaiian"
-https://www.yelp.com/biz/house-of-fusion-daly-city,House of Fusion,4.1,93,True,$$,1.6,72,"Chinese, Asian Fusion, Japanese"
-https://www.yelp.com/biz/mekeni-restaurant-daly-city,Mekeni Restaurant,4.1,86,True,$,1.6,67,Filipino
-https://www.yelp.com/biz/mi-guadalajara-daly-city,Mi Guadalajara,4.1,72,True,$,1.3,61,Mexican
-https://www.yelp.com/biz/china-delights-san-francisco-2,China Delights,4.1,67,True,$$,2.0,60,Chinese
-https://www.yelp.com/biz/xiao-xiao-buns-daly-city,Xiao Xiao Buns,4.1,14,True,,1.5,73,"Dim Sum, Food Stands"
-https://www.yelp.com/biz/k-town-food-hall-san-francisco,K-Town Food Hall,4.1,12,True,,1.7,71,"Food Court, Korean"
-https://www.yelp.com/biz/original-joes-westlake-daly-city-5,Original Joe's Westlake,4.0,2728,True,$$$,0.9,90,"American, Italian, Cocktail Bars"
-https://www.yelp.com/biz/california-fish-grill-daly-city,California Fish Grill,4.0,1269,True,$$,1.5,95,"Fish & Chips, Seafood, Tacos"
-https://www.yelp.com/biz/kan-kiin-brunch-and-thai-eatery-daly-city,Kan Kiin Brunch & Thai Eatery,4.0,997,True,$$,0.6,81,"Thai, Breakfast & Brunch"
-https://www.yelp.com/biz/tselogs-daly-city-14,Tselogs,4.0,632,True,$$,1.2,76,Filipino
-https://www.yelp.com/biz/tom-san-ramen-daly-city,Tom San Ramen,4.0,480,True,$$,0.6,77,"Ramen, Sushi Bars, Salad"
-https://www.yelp.com/biz/in-n-out-burger-daly-city-4,In-N-Out Burger,4.0,417,True,$$,1.7,91,"Burgers, Fast Food"
-https://www.yelp.com/biz/noodle-station-daly-city,Noodle Station,4.0,362,True,$$,1.9,93,"Asian Fusion, Noodles"
-https://www.yelp.com/biz/suilys-cafe-daly-city,Suily's Cafe,4.0,346,True,$,0.8,80,Chinese
-https://www.yelp.com/biz/super-duper-burgers-daly-city-3,Super Duper Burgers,4.0,279,True,$$,1.4,82,"Burgers, American"
-https://www.yelp.com/biz/the-original-kadoks-daly-city-2,The Original Kadok's,4.0,220,True,$$,1.2,79,Filipino
-https://www.yelp.com/biz/bolare-trattoria-and-pizzeria-pacifica,Bolare Trattoria & Pizzeria,4.0,81,True,,1.9,92,"Pizza, Italian, Bars"
-https://www.yelp.com/biz/mong-q-mongolian-bbq-kitchen-daly-city,Mong Q Mongolian BBQ Kitchen,4.0,50,True,,1.3,84,"Mongolian, Barbeque, Noodles"
-https://www.yelp.com/biz/las-pencas-de-maguey-daly-city,Las Pencas de Maguey,4.0,34,True,$$,1.3,78,"Mexican, Seafood, Salad"
-https://www.yelp.com/biz/bhc-chicken-san-francisco,BHC Chicken,4.0,34,True,,1.7,94,Chicken Wings
-https://www.yelp.com/biz/little-roses-kitchen-daly-city,Little Rose's Kitchen,4.0,32,True,$$,0.6,89,"Food Trucks, Tacos"
-https://www.yelp.com/biz/sake-cuisine-south-san-francisco,Sake Cuisine,4.0,1,True,,1.9,175,Japanese
-https://www.yelp.com/biz/chevys-fresh-mex-south-san-francisco-3,Chevys Fresh Mex,3.9,1833,True,$$,2.3,101,"Mexican, Bars, Breakfast & Brunch"
-https://www.yelp.com/biz/momiji-colma,Momiji,3.9,1162,True,$$,1.4,104,"Ramen, Asian Fusion"
-https://www.yelp.com/biz/mod-pizza-daly-city,MOD Pizza,3.9,536,True,$$,1.4,107,"Fast Food, Pizza"
-https://www.yelp.com/biz/los-metates-daly-city,Los Metates,3.9,379,True,$,0.7,102,Tacos
-https://www.yelp.com/biz/fung-wah-restaurant-daly-city,Fung Wah Restaurant,3.9,262,True,$$,1.1,105,Chinese
-https://www.yelp.com/biz/little-hunan-restaurant-daly-city,Little Hunan Restaurant,3.9,179,True,$,1.9,99,Chinese
-https://www.yelp.com/biz/nick-the-greek-daly-city-2,Nick the Greek,3.9,176,True,$$,1.6,96,"Greek, Mediterranean, Fast Food"
-https://www.yelp.com/biz/maple-sf-restaurant-san-francisco-2,Maple SF Restaurant,3.9,163,True,$$,2.2,106,Chinese
-https://www.yelp.com/biz/the-mochi-donut-shop-daly-city-8,The Mochi Donut Shop,3.9,150,True,$$,0.8,103,"Donuts, Asian Fusion, Filipino"
-https://www.yelp.com/biz/hibachi-truck-daly-city,Hibachi Truck,3.9,67,True,,0.9,100,"Japanese, Food Trucks, Steakhouses"
-https://www.yelp.com/biz/taqueria-los-agaves-daly-city-2,Taqueria Los Agaves,3.9,50,True,$$,0.7,97,Mexican
-https://www.yelp.com/biz/north-beach-pizza-daly-city,North Beach Pizza,3.9,48,True,$$,0.7,98,"Pizza, Italian, Sandwiches"
-https://www.yelp.com/biz/naan-n-curry-daly-city,Naan -N- Curry,3.8,542,True,$,1.3,108,"Pakistani, Indian, Halal"
-https://www.yelp.com/biz/wok-station-daly-city-2,Wok Station,3.8,372,True,$$,1.9,109,Chinese
-https://www.yelp.com/biz/el-tacotote-south-san-francisco,El Tacotote,3.8,38,True,$,2.6,110,Mexican
-https://www.yelp.com/biz/boulevard-cafe-daly-city,Boulevard Cafe,3.7,2250,True,$$,1.1,115,"New American, Breakfast & Brunch, Cocktail Bars"
-https://www.yelp.com/biz/izumi-revolving-sushi-daly-city-2,Izumi Revolving Sushi,3.7,412,True,$$,1.3,119,"Sushi Bars, Conveyor Belt Sushi"
-https://www.yelp.com/biz/l-and-l-hawaiian-barbecue-daly-city,L&L Hawaiian Barbecue,3.7,349,True,$$,1.2,113,"Hawaiian, Barbeque"
-https://www.yelp.com/biz/westlake-coffee-shop-daly-city-2,Westlake Coffee Shop,3.7,193,True,$$,1.1,114,"American, Breakfast & Brunch, Cafes"
-https://www.yelp.com/biz/chick-n-coop-daly-city,Chick N Coop,3.7,144,True,$$,0.9,118,"Sandwiches, American, Chicken Shop"
-https://www.yelp.com/biz/kellys-deli-colma-2,Kellys Deli,3.7,73,True,$,1.2,112,Delis
-https://www.yelp.com/biz/claires-pastries-and-restaurant-daly-city,Claire's Pastries and Restaurant,3.7,20,True,$,1.7,117,Filipino
-https://www.yelp.com/biz/hot-dog-bills-san-francisco,Hot Dog Bills,3.7,17,True,$,1.7,116,"Hot Dogs, Food Stands"
-https://www.yelp.com/biz/hong-kong-ban-jeom-san-francisco,Hong Kong Ban Jeom,3.7,3,True,,1.7,163,Korean
-https://www.yelp.com/biz/dae-jang-geum-tofu-house-daly-city,Dae Jang Geum Tofu House,3.6,715,True,$$,0.6,123,Korean
-https://www.yelp.com/biz/thai-original-bbq-pacifica,Thai Original BBQ,3.6,685,True,$$,2.0,121,Thai
-https://www.yelp.com/biz/taqueria-dos-charros-san-francisco-2,Taqueria Dos Charros,3.6,349,True,$,2.1,122,Mexican
-https://www.yelp.com/biz/hawaiian-drive-inn-daly-city,Hawaiian Drive Inn,3.6,225,True,$,0.8,124,"Hawaiian, Barbeque"
-https://www.yelp.com/biz/ohana-hawaiian-bbq-daly-city-2,Ohana Hawaiian BBQ,3.6,145,True,,0.8,125,"Hawaiian, Barbeque"
-https://www.yelp.com/biz/mr-pollo-daly-city-4,Mr. Pollo,3.6,121,True,$$,1.9,120,"Colombian, Mexican, Juice Bars & Smoothies"
-https://www.yelp.com/biz/banana-island-daly-city,Banana Island,3.5,1839,True,$$,0.7,127,"Thai, Singaporean, Malaysian"
-https://www.yelp.com/biz/dim-sum-king-daly-city,Dim Sum King,3.5,1583,True,$$,0.6,132,Dim Sum
-https://www.yelp.com/biz/tomo-sushi-and-teriyaki-daly-city,Tomo Sushi & Teriyaki,3.5,670,True,$$,1.1,128,"Japanese, Sushi Bars"
-https://www.yelp.com/biz/tasty-pot-daly-city,Tasty Pot,3.5,505,True,$$,0.8,131,"Taiwanese, Bubble Tea, Hot Pot"
-https://www.yelp.com/biz/guerreros-taqueria-2-pacifica,Guerrero's Taqueria 2,3.5,303,True,$$,2.0,130,Mexican
-https://www.yelp.com/biz/royal-donuts-daly-city,Royal Donuts,3.5,144,True,$,0.9,133,"Donuts, Coffee & Tea, Sandwiches"
-https://www.yelp.com/biz/ygf-malatang-daly-city-2,YGF Malatang,3.5,79,True,,1.3,126,"Hot Pot, Chinese, Soup"
-https://www.yelp.com/biz/costco-food-court-south-san-francisco-3,Costco Food Court,3.5,33,True,$,2.5,129,Food Court
-https://www.yelp.com/biz/koi-palace-daly-city,Koi Palace,3.4,3971,True,$$$,1.8,143,"Dim Sum, Seafood, Cantonese"
-https://www.yelp.com/biz/habit-burger-and-grill-daly-city,Habit Burger & Grill,3.4,802,True,$$,1.6,146,"Burgers, Sandwiches, Salad"
-https://www.yelp.com/biz/ikes-love-and-sandwiches-daly-city-5,Ike's Love & Sandwiches,3.4,642,True,$$,1.4,145,Sandwiches
-https://www.yelp.com/biz/cafe-colma-colma,Cafe Colma,3.4,569,True,$$,1.7,136,"Filipino, Chinese, American"
-https://www.yelp.com/biz/pho-huynh-hiep-4-daly-city-3,Pho Huynh Hiep 4,3.4,535,True,$$,0.6,134,"Vietnamese, Noodles, Seafood"
-https://www.yelp.com/biz/canton-dim-sum-and-seafood-restaurant-daly-city,Canton Dim Sum & Seafood Restaurant,3.4,256,True,$$,0.6,137,"Dim Sum, Cantonese, Seafood"
-https://www.yelp.com/biz/manila-eatery-colma,Manila Eatery,3.4,150,True,$,1.1,135,Filipino
-https://www.yelp.com/biz/taqueria-dos-charros-daly-city,Taqueria Dos Charros,3.4,140,True,$$,0.5,138,Mexican
-https://www.yelp.com/biz/woohao-chinese-restaurant-daly-city,WooHao Chinese Restaurant,3.4,126,True,$$,1.9,142,Chinese
-https://www.yelp.com/biz/burnin-mouth-nashville-hot-chicken-daly-city,Burnin' Mouth Nashville Hot Chicken,3.4,95,True,,1.5,140,"Burgers, Chicken Shop, American"
-https://www.yelp.com/biz/las-pencas-food-truck-south-san-francisco-2,Las Pencas Food Truck,3.4,89,True,,2.1,144,"Food Trucks, Tacos, Seafood"
-https://www.yelp.com/biz/ks-premium-chicken-daly-city,KS Premium Chicken,3.4,24,True,$$,0.7,139,Chicken Shop
-https://www.yelp.com/biz/kan-woo-shun-vietnames-daly-city,Kan Woo Shun Vietnames,3.4,5,True,,1.9,141,"Chinese, Sandwiches, Vietnamese"
-https://www.yelp.com/biz/nations-giant-hamburgers-daly-city-4,Nation's Giant Hamburgers,3.3,1104,True,$$,0.9,155,"Desserts, Burgers, Breakfast & Brunch"
-https://www.yelp.com/biz/mr-pickles-sandwich-shop-daly-city,Mr. Pickles Sandwich Shop,3.3,390,True,$,0.6,154,Sandwiches
-https://www.yelp.com/biz/ono-hawaiian-bbq-colma,Ono Hawaiian BBQ,3.3,376,True,$$,1.5,151,"Hawaiian, Barbeque, Seafood"
-https://www.yelp.com/biz/ming-yuan-restaurant-daly-city,Ming Yuan Restaurant,3.3,284,True,$$,0.6,150,"Dim Sum, Seafood"
-https://www.yelp.com/biz/reinas-restaurant-san-francisco,Reinas Restaurant,3.3,161,True,$,2.7,153,"Salvadoran, Mexican, Desserts"
-https://www.yelp.com/biz/pacific-restaurant-daly-city-2,Pacific Restaurant,3.3,150,True,$,1.6,147,"Chinese, Noodles"
-https://www.yelp.com/biz/mr-pizza-man-daly-city,Mr. Pizza Man,3.3,116,True,$$,0.5,148,"Pizza, Italian, Brazilian"
-https://www.yelp.com/biz/kusina-ni-javen-jesel-daly-city-2,Kusina Ni Javen Jesel,3.3,12,True,,1.6,149,"Food Delivery Services, Filipino"
-https://www.yelp.com/biz/saucy-dumplings-san-francisco-3,Saucy Dumplings,3.3,11,True,$,1.9,156,"Food Stands, Chinese"
-https://www.yelp.com/biz/renes-fine-dining-colma,Rene's Fine Dining,3.3,11,True,$$,1.7,157,"Asian Fusion, Diners"
-https://www.yelp.com/biz/shish-ke-baba-daly-city,Shish Ke Baba,3.3,7,True,,1.8,152,"Salad, Chicken Wings, Wraps"
-https://www.yelp.com/biz/cooking-n-style-san-francisco-2,Cooking N Style,3.3,3,True,,1.2,190,"Food Trucks, Cheesesteaks, Mexican"
-https://www.yelp.com/biz/hkr-andys-restaurant-south-san-francisco-2,HKR Andy's Restaurant,3.2,504,True,$$,2.3,161,Chinese
-https://www.yelp.com/biz/extreme-pizza-alemany-san-francisco,Extreme Pizza - Alemany,3.2,304,True,$$,1.7,162,"Pizza, Salad, Desserts"
-https://www.yelp.com/biz/al-fin-daly-city-2,Al Fin,3.2,245,True,$$,0.9,158,"Latin American, Nicaraguan"
-https://www.yelp.com/biz/park-plaza-fine-foods-san-francisco,Park Plaza Fine Foods,3.2,137,True,$$$$,2.0,164,"Grocery, Delis"
-https://www.yelp.com/biz/international-tofu-house-daly-city,International Tofu House,3.2,110,True,$$,0.7,159,Korean
-https://www.yelp.com/biz/la-perla-de-oriente-daly-city,La Perla de Oriente,3.2,15,True,,2.0,160,"Mexican, Seafood"
-https://www.yelp.com/biz/pho-huynh-hiep-kevin-s-noodle-house-daly-city,Pho Huynh Hiep - Kevin’s Noodle House,3.1,1479,True,$$,0.6,167,"Vietnamese, Noodles, Seafood"
-https://www.yelp.com/biz/shaking-crab-daly-city,Shaking Crab,3.1,729,True,$$$,0.6,171,"Cajun/Creole, Seafood"
-https://www.yelp.com/biz/majikku-ramen-daly-city,Majikku Ramen,3.1,625,True,$$,0.6,165,Japanese
-https://www.yelp.com/biz/yoshi-ramen-and-sushi-daly-city-5,Yoshi Ramen and Sushi,3.1,537,True,$$,1.4,166,"Ramen, Sushi Bars"
-https://www.yelp.com/biz/primo-pizza-daly-city,Primo Pizza,3.1,456,True,$,1.1,169,"Pizza, Sandwiches, Salad"
-https://www.yelp.com/biz/daly-buffet-daly-city,Daly Buffet,3.1,321,True,$$$,1.1,172,"Buffets, Sushi Bars, Seafood"
-https://www.yelp.com/biz/jollibee-daly-city-4,Jollibee,3.1,138,True,$$,1.3,170,"Chicken Shop, Fast Food"
-https://www.yelp.com/biz/grill-city-daly-city,Grill City,3.1,13,True,,1.0,168,Filipino
-https://www.yelp.com/biz/dave-and-busters-daly-city-11,Dave & Buster's Daly City,3.0,1205,True,$$,1.4,177,"American, Arcades, Sports Bars"
-https://www.yelp.com/biz/spiral-japanese-cuisine-daly-city,Spiral Japanese Cuisine,3.0,822,True,$$,0.7,179,"Sushi Bars, Ramen, Noodles"
-https://www.yelp.com/biz/red-bowl-noodles-daly-city,Red Bowl Noodles,3.0,388,True,$$,1.2,174,"Chinese, Noodles"
-https://www.yelp.com/biz/kukje-market-restaurant-daly-city,Kukje Market Restaurant,3.0,363,True,$$,0.7,180,"Korean, Chicken Wings"
-https://www.yelp.com/biz/raising-canes-chicken-fingers-colma-2,Raising Cane's Chicken Fingers,3.0,250,True,$$,1.2,178,"Southern, Chicken Wings, Fast Food"
-https://www.yelp.com/biz/popeyes-louisiana-kitchen-daly-city,Popeyes Louisiana Kitchen,3.0,83,True,$$,1.1,181,"Fast Food, Chicken Wings"
-https://www.yelp.com/biz/taqueria-la-iguana-azul-daly-city-daly-city,Taqueria La Iguana Azul - Daly City,3.0,70,True,,1.2,176,Mexican
-https://www.yelp.com/biz/taqueria-el-gran-amigo-daly-city,Taqueria El Gran Amigo,3.0,47,True,,1.5,173,Mexican
-https://www.yelp.com/biz/pizza-hut-express-colma,Pizza Hut Express,3.0,1,True,,1.4,230,"Chicken Wings, Fast Food, Pizza"
-https://www.yelp.com/biz/koi-palace-daly-city-3,Koi Palace,3.0,1,True,,1.3,231,Chinese
-https://www.yelp.com/biz/black-bear-diner-colma-6,Black Bear Diner,2.9,1057,True,$$,1.4,186,"Diners, Breakfast & Brunch, American"
-https://www.yelp.com/biz/outback-steakhouse-daly-city,Outback Steakhouse,2.9,982,True,$$,1.8,185,Steakhouses
-https://www.yelp.com/biz/sky-cafe-daly-city,Sky Cafe,2.9,554,True,$$,0.6,184,"Chinese, Breakfast & Brunch, Hong Kong Style Cafe"
-https://www.yelp.com/biz/subway-san-francisco-134,Subway,2.9,73,True,$,1.7,182,"Fast Food, Sandwiches"
-https://www.yelp.com/biz/carls-jr-south-san-francisco-3,Carl's Jr,2.9,38,True,$,2.3,183,"Fast Food, Burgers"
-https://www.yelp.com/biz/da-s-f-c-san-francisco,Da S.F.C,2.9,15,True,,1.7,187,Korean
-https://www.yelp.com/biz/jollibee-daly-city,Jollibee,2.8,858,True,$$,1.2,188,"Fast Food, Chicken Shop"
-https://www.yelp.com/biz/el-zocalo-restaurant-south-san-francisco,El Zocalo Restaurant,2.8,495,True,$$,2.3,192,Salvadoran
-https://www.yelp.com/biz/papa-johns-pizza-san-francisco-4,Papa Johns Pizza,2.8,218,True,$$,2.0,194,"Pizza, Chicken Wings, Fast Food"
-https://www.yelp.com/biz/panda-express-colma-2,Panda Express,2.8,121,True,$$,1.5,189,"Chinese, Fast Food"
-https://www.yelp.com/biz/panda-express-daly-city-6,Panda Express,2.8,91,True,$$,1.5,191,"Chinese, Fast Food"
-https://www.yelp.com/biz/seafood-city-supermarket-daly-city-2,Seafood City Supermarket,2.8,89,True,,1.0,193,"Seafood Markets, Filipino, International Grocery"
-https://www.yelp.com/biz/wings-out-daly-city,Wings Out,2.8,4,True,,1.4,212,"Food Delivery Services, Chicken Wings"
-https://www.yelp.com/biz/celias-mexican-restaurant-daly-city,Celia's Mexican Restaurant,2.7,687,True,$$,1.9,196,"Mexican, Bars"
-https://www.yelp.com/biz/panera-bread-daly-city,Panera Bread,2.7,482,True,$$,1.6,195,"Salad, Soup, Sandwiches"
-https://www.yelp.com/biz/tokyo-grill-daly-city,Tokyo Grill,2.7,145,True,$,1.3,197,"Chinese, Japanese"
-https://www.yelp.com/biz/porridge-king-daly-city,Porridge King,2.6,729,True,$$,0.5,199,"Cantonese, Seafood, Noodles"
-https://www.yelp.com/biz/sizzler-colma,Sizzler,2.6,479,True,$$,1.5,201,"Seafood, Steakhouses, American"
-https://www.yelp.com/biz/chick-fil-a-daly-city-2,Chick-fil-A,2.6,425,True,$$,1.2,202,"Fast Food, Chicken Shop, Salad"
-https://www.yelp.com/biz/round-table-pizza-colma-3,Round Table Pizza,2.6,237,True,$$,1.4,206,"Pizza, Chicken Wings, Sandwiches"
-https://www.yelp.com/biz/carls-jr-daly-city,Carl's Jr,2.6,226,True,$$,0.6,200,"Burgers, Fast Food"
-https://www.yelp.com/biz/the-honey-baked-ham-company-colma,The Honey Baked Ham Company,2.6,219,True,$$,1.0,198,"Meat Shops, Delis, American"
-https://www.yelp.com/biz/ledu-restaurant-pacifica,Ledu Restaurant,2.6,121,True,$,1.9,205,"Burmese, Chinese, Buffets"
-https://www.yelp.com/biz/great-steak-daly-city,Great Steak,2.6,81,True,$,1.3,203,"Sandwiches, Cheesesteaks"
-https://www.yelp.com/biz/club-maharlika-daly-city,Club Maharlika,2.6,39,True,$$,0.9,204,"Filipino, Imported Food, Wine Bars"
-https://www.yelp.com/biz/chipotle-mexican-grill-daly-city-2,Chipotle Mexican Grill,2.5,575,True,$$,0.9,210,"Mexican, Fast Food"
-https://www.yelp.com/biz/ihop-daly-city,IHOP,2.5,447,True,$$,0.7,209,"Breakfast & Brunch, American, Burgers"
-https://www.yelp.com/biz/golden-wok-san-francisco,Golden Wok,2.5,309,True,$,2.0,214,Chinese
-https://www.yelp.com/biz/popeyes-louisiana-kitchen-colma,Popeyes Louisiana Kitchen,2.5,300,True,$$,1.6,207,"Fast Food, Chicken Wings"
-https://www.yelp.com/biz/wendys-daly-city,Wendy's,2.5,242,True,$,0.9,213,"Burgers, Fast Food"
-https://www.yelp.com/biz/wingstop-colma,Wingstop,2.5,134,True,,1.5,208,Chicken Wings
-https://www.yelp.com/biz/quickly-daly-city-6,Quickly,2.5,8,True,,0.6,211,"Bubble Tea, Chicken Shop"
-https://www.yelp.com/biz/sizzle-daly-city,Sizzle,2.5,4,True,,1.0,220,"Filipino, Seafood"
-https://www.yelp.com/biz/panda-express-daly-city-2,Panda Express,2.4,222,True,$$,0.7,215,"Chinese, Fast Food"
-https://www.yelp.com/biz/jack-in-the-box-south-san-francisco-2,Jack in the Box,2.4,137,True,$,2.3,217,"Burgers, Fast Food, Tacos"
-https://www.yelp.com/biz/pampangas-cuisine-daly-city,Pampanga's Cuisine,2.4,84,True,$,0.8,216,"Filipino, Barbeque"
-https://www.yelp.com/biz/little-joes-pizza-daly-city,Little Joe's Pizza,2.4,5,True,,1.6,218,Pizza
-https://www.yelp.com/biz/subway-daly-city-17,Subway,2.3,61,True,$,0.5,219,"Sandwiches, Fast Food"
-https://www.yelp.com/biz/mountain-mikes-pizza-coming-soon-daly-city,Mountain Mike's Pizza - Coming Soon,2.3,3,True,,2.0,237,"Chicken Wings, Pizza"
-https://www.yelp.com/biz/round-table-pizza-daly-city-2,Round Table Pizza,2.2,144,True,$$,1.7,222,Pizza
-https://www.yelp.com/biz/la-torta-ahogada-daly-city,La Torta Ahogada,2.2,5,True,$$,1.1,221,Mexican
-https://www.yelp.com/biz/wingstop-daly-city,Wingstop,2.1,863,True,$$,0.7,223,Chicken Wings
-https://www.yelp.com/biz/chipotle-mexican-grill-colma-3,Chipotle Mexican Grill,2.1,526,True,$,1.6,227,"Mexican, Fast Food"
-https://www.yelp.com/biz/quickly-daly-city-5,Quickly,2.1,422,True,$,0.6,226,"Asian Fusion, Bubble Tea, Chicken Shop"
-https://www.yelp.com/biz/manila-bay-cuisine-2-daly-city,Manila Bay Cuisine 2,2.1,131,True,$,1.3,225,Filipino
-https://www.yelp.com/biz/jack-in-the-box-daly-city,Jack in the Box,2.1,125,True,$,1.0,228,"Fast Food, Burgers, Tacos"
-https://www.yelp.com/biz/villa-italian-kitchen-daly-city,Villa Fresh Italian Kitchen,2.1,57,True,$,1.3,224,"Pizza, Italian"
-https://www.yelp.com/biz/taco-bell-daly-city-4,Taco Bell,2.0,219,True,$$,1.0,233,"Fast Food, Tacos"
-https://www.yelp.com/biz/kfc-daly-city-4,KFC,2.0,129,True,$,0.5,229,"Fast Food, Chicken Wings, Chicken Shop"
-https://www.yelp.com/biz/taco-bell-daly-city-8,Taco Bell,2.0,110,True,$,0.5,235,"Fast Food, Tacos"
-https://www.yelp.com/biz/subway-colma-4,Subway,2.0,60,True,$,1.0,232,"Sandwiches, Fast Food"
-https://www.yelp.com/biz/thai-power-daly-city-2,Thai Power,2.0,47,True,$,1.9,234,"Thai, Bars, Karaoke"
-https://www.yelp.com/biz/round-table-pizza-daly-city,Round Table Pizza,1.9,156,True,$$,1.1,236,Pizza
-https://www.yelp.com/biz/burger-king-colma,Burger King,1.8,215,True,$$,1.1,240,"Fast Food, Burgers"
-https://www.yelp.com/biz/mcdonalds-san-francisco,McDonald's,1.8,119,True,$,2.6,238,"Fast Food, Burgers, Coffee & Tea"
-https://www.yelp.com/biz/auntie-annes-daly-city-3,Auntie Anne's,1.8,5,True,,1.5,239,"Pretzels, Desserts, Fast Food"
+https://www.yelp.com/biz/sunset29-bbq-san-francisco-2,Sunset29 BBQ,5.0,81,True,,,7,"Barbeque, Caterers, Pop-Up Restaurants"
+https://www.yelp.com/biz/the-check-in-lounge-san-francisco,The Check-In Lounge,5.0,46,True,,,12,"Wine Bars, Tapas/Small Plates, Cocktail Bars"
+https://www.yelp.com/biz/binu-bonu-san-francisco,Binu Bonu,5.0,28,True,,,13,"Wine Bars, Tapas/Small Plates, Italian"
+https://www.yelp.com/biz/dannys-cafe-san-francisco,Danny's Cafe,5.0,25,True,,,14,"Cafes, Breakfast & Brunch, Bagels"
+https://www.yelp.com/biz/casita-vegana-sf-san-bruno-3,Casita Vegana SF,5.0,18,True,,,5,"Vegan, Food Trucks, Sandwiches"
+https://www.yelp.com/biz/habibi-crepes-south-san-francisco,Habibi Crepes,5.0,14,True,,,2,"Juice Bars & Smoothies, Food Trucks, Creperies"
+https://www.yelp.com/biz/tacos-king-maya-san-francisco-2,Tacos King Maya,5.0,13,True,,,6,"Tacos, Street Vendors"
+https://www.yelp.com/biz/york-street-collective-san-francisco,York Street Collective,5.0,10,True,,,9,"Coffee & Tea, Arts & Crafts, Cafes"
+https://www.yelp.com/biz/aroma-buena-kitchen-san-francisco,Aroma Buena Kitchen,5.0,10,True,,,10,"Breakfast & Brunch, Cafes, Salvadoran"
+https://www.yelp.com/biz/latitude-15-pop-up-san-francisco,Latitude 15 Pop-Up,5.0,7,True,$$,,8,"Pop-Up Restaurants, Caterers"
+https://www.yelp.com/biz/el-corazon-cafe-san-francisco,El Corazon Cafe,5.0,6,True,,,1,"Coffee & Tea, Breakfast & Brunch, Sandwiches"
+https://www.yelp.com/biz/the-aloha-stop-south-san-francisco,The Aloha Stop,5.0,6,True,,,4,"Food Trucks, Hawaiian"
+https://www.yelp.com/biz/gold-tooth-taco-san-francisco,Gold Tooth Taco,5.0,5,True,,,3,"Food Trucks, Tacos"
+https://www.yelp.com/biz/taqueria-el-pollo-south-san-francisco,Taqueria El Pollo,5.0,5,True,,,11,"Food Trucks, Tacos"
+https://www.yelp.com/biz/mmm-butter-san-francisco,"Mmm, Butter!",5.0,4,True,$$,,27,"Food Stands, Specialty Food"
+https://www.yelp.com/biz/antojitos-mexicanos-san-francisco,Antojitos Mexicanos,5.0,3,True,,,65,Mexican
+https://www.yelp.com/biz/don-jose-s-churros-san-francisco,Don Jose’s Churros,5.0,3,True,,,66,"Desserts, Food Stands"
+https://www.yelp.com/biz/cafe-de-la-mission-san-francisco,Cafe De La Mission,5.0,3,True,,,68,Cafes
+https://www.yelp.com/biz/el-rubens-tamales-san-francisco,El Rubens Tamales,5.0,3,True,,,69,"Street Vendors, Mexican"
+https://www.yelp.com/biz/corazon-mexicano-san-francisco-3,Corazon Mexicano,5.0,3,True,,,70,"Food Trucks, Mexican"
+https://www.yelp.com/biz/mi-lindo-consuelo-san-francisco,Mi Lindo Consuelo,5.0,3,True,,,74,"Mexican, Food Trucks"
+https://www.yelp.com/biz/mario-hot-dogs-san-francisco,Mario Hot Dogs,5.0,3,True,,,76,"Hot Dogs, Street Vendors"
+https://www.yelp.com/biz/alfredos-gourmet-tacos-san-francisco,Alfredo's Gourmet Tacos,5.0,2,True,,,128,"Mexican, Coffee & Tea, Food Stands"
+https://www.yelp.com/biz/cocina-guirnalda-san-francisco,Cocina Guirnalda,5.0,2,True,,,129,Pop-Up Restaurants
+https://www.yelp.com/biz/amelias-mexipino-brisbane,Amelia's Mexipino,5.0,2,True,,,130,"Mexican, Food Trucks"
+https://www.yelp.com/biz/what-s-up-coco-san-francisco,What’s Up Coco,5.0,2,True,,,131,"Ice Cream & Frozen Yogurt, Fast Food"
+https://www.yelp.com/biz/flor-de-chile-san-francisco,Flor de Chile,5.0,2,True,,,132,"Food Stands, Herbs & Spices"
+https://www.yelp.com/biz/la-ventana-south-san-francisco,La Ventana,5.0,2,True,,,133,"Cafes, Mexican"
+https://www.yelp.com/biz/garden-deli-daly-city,Garden Deli,5.0,2,True,,,134,"Sandwiches, Soup, Delis"
+https://www.yelp.com/biz/capp-st-papusas-san-francisco,Capp St Papusas,5.0,2,True,$,,135,Salvadoran
+https://www.yelp.com/biz/upwest-kitchens-san-francisco,Upwest Kitchens,5.0,2,True,,,136,New American
+https://www.yelp.com/biz/jds-catering-and-mobile-dj-san-francisco,JD's Catering & Mobile DJ,5.0,2,True,,,137,"Buffets, Street Vendors"
+https://www.yelp.com/biz/two-fish-san-francisco,Two Fish,5.0,2,True,,,139,"Japanese, Poke, Seafood"
+https://www.yelp.com/biz/oro-restaurant-pop-up-san-francisco,Oro Restaurant Pop Up,5.0,2,True,,,141,New American
+https://www.yelp.com/biz/dux-san-francisco,Dux,5.0,1,True,,,206,Pop-Up Restaurants
+https://www.yelp.com/biz/hellaxbomb-daly-city-2,HELLAxBOMB,5.0,1,True,,,208,"Filipino, Guamanian"
+https://www.yelp.com/biz/panderiaa-hernandez-south-san-francisco,Panderiaa Hernandez,5.0,1,True,,,209,Restaurants
+https://www.yelp.com/biz/mariscos-el-pariente-south-san-francisco-5,Mariscos El Pariente,5.0,1,True,,,210,"Food Trucks, Seafood"
+https://www.yelp.com/biz/el-cameron-rwc-san-bruno,El Cameron RWC,5.0,1,True,,,211,"Mexican, Food Trucks, Seafood"
+https://www.yelp.com/biz/ozzies-san-francisco,Ozzie's,5.0,1,True,,,212,Breakfast & Brunch
+https://www.yelp.com/biz/asu-mare-peruvian-restaurant-san-francisco,Asu Mare Peruvian Restaurant,5.0,1,True,,,214,Peruvian
+https://www.yelp.com/biz/euroamerican-import-food-san-francisco,Euroamerican Import Food,5.0,1,True,,,215,Delis
+https://www.yelp.com/biz/holloway-mikes-deli-san-francisco-2,Holloway Mikes Deli,5.0,1,True,,,216,"Delis, Ice Cream & Frozen Yogurt, Sandwiches"
+https://www.yelp.com/biz/blaze-pizza-san-francisco-3,Blaze Pizza,5.0,1,True,,,217,"Pizza, Salad, Fast Food"
+https://www.yelp.com/biz/the-king-brisbane,The King,5.0,1,True,,,218,"Kosher, Sandwiches, Bagels"
+https://www.yelp.com/biz/fun-in-a-bun-south-san-francisco,Fun In A Bun,5.0,1,True,,,219,"Hot Dogs, Food Stands"
+https://www.yelp.com/biz/island-huli-south-san-francisco,Island Huli,5.0,1,True,,,220,"Hawaiian, Seafood, Sandwiches"
+https://www.yelp.com/biz/milkmold-blogspot-com-san-francisco,Milkmold.blogspot.com,5.0,1,True,,,223,Cheesesteaks
+https://www.yelp.com/biz/tin-wah-noodle-company-san-francisco,Tin Wah Noodle Company,5.0,1,True,,,224,"Noodles, Ramen"
+https://www.yelp.com/biz/the-good-stuff-san-francisco,The Good Stuff,5.0,1,True,,,225,Restaurants
+https://www.yelp.com/biz/frisco-fresh-tacos-san-francisco,Frisco Fresh Tacos,5.0,1,True,,,226,"Tacos, Caterers"
+https://www.yelp.com/biz/city-cafe-daly-city,City Cafe,5.0,1,True,,,227,"Cafes, Coffee & Tea"
+https://www.yelp.com/biz/kunugi-noodle-brisbane,Kunugi Noodle,5.0,1,True,,,228,"Noodles, Japanese, Food Stands"
+https://www.yelp.com/biz/savage-smokehouse-bbq-daly-city,SAVAGE SMOKEHOUSE BBQ,5.0,1,True,,,229,"Caterers, Barbeque"
+https://www.yelp.com/biz/taste-of-india-san-francisco,Taste of India,4.9,69,True,,,16,"Indian, Himalayan/Nepalese"
+https://www.yelp.com/biz/la-joya-caf%C3%A9-san-francisco,La Joya Café,4.9,41,True,,,18,"Cafes, Breakfast & Brunch, Mexican"
+https://www.yelp.com/biz/shampas-pies-san-francisco,Shampa's Pies,4.9,31,True,$$,,15,"Desserts, Food Stands"
+https://www.yelp.com/biz/bocadito-san-francisco,Bocadito,4.9,15,True,,,17,"Pop-Up Restaurants, Colombian"
+https://www.yelp.com/biz/cheese-boutique-san-francisco-2,Cheese Boutique,4.8,234,True,$,,20,"Cheese Shops, Sandwiches, Delis"
+https://www.yelp.com/biz/ichido-san-francisco-6,Ichido,4.8,133,True,$$$$,,25,"Seafood, Japanese, Pop-Up Restaurants"
+https://www.yelp.com/biz/lunas-coffee-house-san-francisco-3,Luna's Coffee House,4.8,105,True,$,,24,"Coffee & Tea, Sandwiches"
+https://www.yelp.com/biz/ap-s-cafe-san-francisco,Ap’s Cafe,4.8,59,True,,,19,"Cafes, Empanadas"
+https://www.yelp.com/biz/loma-linda-taco-truck-daly-city,Loma Linda Taco Truck,4.8,48,True,$$,,21,"Tacos, Food Trucks"
+https://www.yelp.com/biz/mission-groceteria-san-francisco,Mission Groceteria,4.8,31,True,$$,,22,"Grocery, Delis, Convenience Stores"
+https://www.yelp.com/biz/the-hidden-bistro-san-francisco,The Hidden Bistro,4.8,29,True,,,26,"Vietnamese, Thai, Burmese"
+https://www.yelp.com/biz/reform-club-san-francisco,Reform Club,4.8,5,True,$$$$,,23,New American
+https://www.yelp.com/biz/d-maize-cafe-san-francisco-4,D’maize Cafe,4.8,4,True,,,67,Salvadoran
+https://www.yelp.com/biz/chic-n-time-san-francisco,Chic n' Time,4.7,352,True,$$,,39,"Noodles, Vietnamese, Sandwiches"
+https://www.yelp.com/biz/luisas-restaurant-san-francisco-6,Luisa's Restaurant,4.7,184,True,,,32,"Italian, Wine Bars, Pizza"
+https://www.yelp.com/biz/tio-chilos-grill-san-francisco,Tio Chilo's Grill,4.7,152,True,$$,,33,Mexican
+https://www.yelp.com/biz/san-panchos-tacos-san-francisco-3,San Pancho's Tacos,4.7,85,True,$,,31,"Food Trucks, Tacos"
+https://www.yelp.com/biz/sams-food-market-san-bruno,Sam's Food Market,4.7,67,True,$,,30,"Grocery, Sandwiches"
+https://www.yelp.com/biz/apr%C3%A8s-vous-san-francisco,Après Vous,4.7,63,True,,,28,"Specialty Food, Italian, French"
+https://www.yelp.com/biz/hop-oast-pub-and-brewery-san-francisco,Hop Oast Pub & Brewery,4.7,45,True,,,35,"Breweries, Pubs, Sandwiches"
+https://www.yelp.com/biz/cafe-gonzalez-san-francisco,Cafe Gonzalez,4.7,42,True,$,,29,"Breakfast & Brunch, Cafes, Coffee & Tea"
+https://www.yelp.com/biz/la-copa-loca-san-francisco-6,La Copa Loca,4.7,29,True,,,34,"Gelato, Coffee & Tea, Creperies"
+https://www.yelp.com/biz/taqueria-gonzalez-ocean-sf-san-francisco,Taqueria Gonzalez Ocean SF,4.7,19,True,,,37,Mexican
+https://www.yelp.com/biz/super-crown-catering-south-san-francisco,Super Crown Catering,4.7,16,True,$$,,36,"Food Trucks, Sandwiches, Food Delivery Services"
+https://www.yelp.com/biz/d-maize-san-francisco-5,D'maize,4.7,12,True,,,38,"Breakfast & Brunch, Mexican, Salvadoran"
+https://www.yelp.com/biz/poke-to-the-max-san-francisco,Poke to the Max,4.7,3,True,,,164,"Hawaiian, Poke, Breakfast & Brunch"
+https://www.yelp.com/biz/the-fold-san-francisco,The Fold,4.7,3,True,,,165,"Venues & Event Spaces, Cafes"
+https://www.yelp.com/biz/kunugi-noodle-daly-city,Kunugi Noodle,4.7,3,True,,,167,"Japanese, Noodles"
+https://www.yelp.com/biz/kittea-san-francisco-6,KitTea,4.6,1090,True,$$,,59,"Pet Adoption, Themed Cafes"
+https://www.yelp.com/biz/soul-rice-pacifica,Soul Rice,4.6,293,True,$$,,44,Chinese
+https://www.yelp.com/biz/donaji-san-francisco-2,Donaji,4.6,222,True,$$,,53,"Mexican, Cocktail Bars, Desserts"
+https://www.yelp.com/biz/chacho-sushi-san-francisco,Chacho Sushi,4.6,118,True,$$,,40,Sushi Bars
+https://www.yelp.com/biz/chiotras-grocery-san-francisco,Chiotras Grocery,4.6,107,True,$,,43,"Grocery, Delis, Beer, Wine & Spirits"
+https://www.yelp.com/biz/white-palace-liquor-store-san-francisco-5,White Palace Liquor Store,4.6,103,True,$,,51,"Beer, Wine & Spirits, Convenience Stores, Delis"
+https://www.yelp.com/biz/espostos-catering-south-san-francisco-2,Esposto's Catering,4.6,61,True,$$,,48,"Caterers, Italian"
+https://www.yelp.com/biz/komaaj-pila-bazzar-san-francisco,Komaaj Pila Bazzar,4.6,55,True,,,41,"Persian/Iranian, Coffee & Tea, Herbs & Spices"
+https://www.yelp.com/biz/little-nepal-indian-cuisine-san-francisco,Little Nepal Indian Cuisine,4.6,52,True,,,57,"Indian, Himalayan/Nepalese"
+https://www.yelp.com/biz/brazuca-grill-san-francisco-2,Brazuca Grill,4.6,48,True,$$,,54,"Brazilian, Food Trucks, Acai Bowls"
+https://www.yelp.com/biz/mi-comedor-san-francisco,Mi Comedor,4.6,27,True,,,58,"Tacos, Street Vendors"
+https://www.yelp.com/biz/ccsf-chef-s-table-san-francisco,CCSF Chef’s Table,4.6,26,True,$,,47,"Sandwiches, Salad, American"
+https://www.yelp.com/biz/cafe-xiloa-daly-city,Cafe Xiloa,4.6,23,True,,,56,"Breakfast & Brunch, Nicaraguan, Cafes"
+https://www.yelp.com/biz/bettys-taqueria-south-san-francisco,Betty's Taqueria,4.6,22,True,,,52,"Food Trucks, Mexican"
+https://www.yelp.com/biz/tacos-santo-toribio-san-francisco-2,Tacos Santo Toribio,4.6,11,True,,,42,"Food Trucks, Tacos"
+https://www.yelp.com/biz/mimino-daly-city-3,Mimino,4.6,10,True,,,49,"Georgian, Food Delivery Services"
+https://www.yelp.com/biz/tainos-puerto-rican-food-san-francisco,Tainos Puerto Rican Food,4.6,10,True,$$,,50,"Puerto Rican, Caterers"
+https://www.yelp.com/biz/wise-sons-jewish-delicatessen-san-francisco-21,Wise Sons Jewish Delicatessen,4.6,8,True,,,45,"Bagels, Sandwiches, Breakfast & Brunch"
+https://www.yelp.com/biz/adelitas-antojitos-san-francisco,Adelita's Antojitos,4.6,8,True,,,46,"Salvadoran, Pop-Up Restaurants, Mexican"
+https://www.yelp.com/biz/kapwa-kultural-center-daly-city-3,Kapwa Kultural Center,4.6,7,True,,,55,"Cafes, Community Centers"
+https://www.yelp.com/biz/higher-grounds-coffee-house-san-francisco,Higher Grounds Coffee House,4.5,534,True,$$,,82,"Coffee & Tea, Creperies, Breakfast & Brunch"
+https://www.yelp.com/biz/mike-and-kens-deli-south-san-francisco-2,Mike & Ken's Deli,4.5,262,True,$,,62,"Bagels, Sandwiches, Breakfast & Brunch"
+https://www.yelp.com/biz/healthyish-republic-san-francisco,Healthyish Republic,4.5,201,True,$$,,81,"Mediterranean, Breakfast & Brunch, Desserts"
+https://www.yelp.com/biz/blue-house-caf%C3%A9-san-francisco,Blue House Café,4.5,163,True,$,,64,"Coffee & Tea, Cafes"
+https://www.yelp.com/biz/au-sushi-san-francisco,Au Sushi,4.5,163,True,,,80,"Sushi Bars, Seafood, Ramen"
+https://www.yelp.com/biz/mr-liquor-san-francisco,Mr. Liquor,4.5,84,True,$,,61,"Beer, Wine & Spirits, Delis, Sandwiches"
+https://www.yelp.com/biz/grand-seven-food-liquor-and-deli-san-francisco,Grand Seven Food Liquor & Deli,4.5,82,True,$,,60,"Delis, Sandwiches"
+https://www.yelp.com/biz/lolt%C3%BAn-restaurant-san-francisco,Loltún Restaurant,4.5,40,True,,,73,Mexican
+https://www.yelp.com/biz/butchertown-coffee-san-francisco-2,Butchertown Coffee,4.5,26,True,,,63,"Coffee & Tea, Desserts, Sandwiches"
+https://www.yelp.com/biz/tortas-and-tacos-la-cruzazuleada-south-san-francisco,Tortas & Tacos La Cruzazuleada,4.5,20,True,,,78,"Tacos, Food Trucks"
+https://www.yelp.com/biz/leos-hot-dogs-san-francisco,Leo's Hot Dogs,4.5,18,True,$,,79,"Hot Dogs, Street Vendors"
+https://www.yelp.com/biz/boil-tea-san-francisco,Boil Tea,4.5,14,True,,,77,"Shaved Ice, Creperies, Bubble Tea"
+https://www.yelp.com/biz/mama-mari-s-taqueria-san-francisco,Mama Mari’s Taqueria,4.5,13,True,,,83,Tacos
+https://www.yelp.com/biz/the-parlour-house-brisbane,The Parlour House,4.5,10,True,,,72,American
+https://www.yelp.com/biz/garcias-salvadorean-kitchen-south-san-francisco,Garcia's Salvadorean Kitchen,4.5,6,True,,,71,"Food Trucks, Comfort Food, Salvadoran"
+https://www.yelp.com/biz/san-marcos-restaurant-san-francisco,San Marcos Restaurant,4.5,6,True,,,75,Mexican
+https://www.yelp.com/biz/tart-mama-san-francisco,Tart Mama,4.5,4,True,,,138,"Food Stands, Bakeries"
+https://www.yelp.com/biz/bacon-dog-cart-san-francisco,Bacon Dog Cart,4.4,446,True,$,,101,"Hot Dogs, Street Vendors"
+https://www.yelp.com/biz/thats-amore-woodfire-pizza-san-francisco,That's Amore Woodfire Pizza,4.4,367,True,$$,,84,"Pizza, Beer, Wine & Spirits, Italian"
+https://www.yelp.com/biz/philz-coffee-san-francisco-49,Philz Coffee,4.4,356,True,$,,103,"Coffee & Tea, Breakfast & Brunch"
+https://www.yelp.com/biz/dumpling-specialist-san-francisco-2,Dumpling Specialist,4.4,342,True,$$,,107,"Dim Sum, Shanghainese, Taiwanese"
+https://www.yelp.com/biz/lost-resort-san-francisco,Lost Resort,4.4,281,True,$$,,89,"American, Cocktail Bars, Breakfast & Brunch"
+https://www.yelp.com/biz/zaatar-san-francisco,Za'atar,4.4,205,True,,,85,"Mediterranean, Wraps, Salad"
+https://www.yelp.com/biz/kings-west-coast-pizzeria-daly-city,Kings West Coast Pizzeria,4.4,182,True,$$,,90,"Pizza, Italian, Pasta Shops"
+https://www.yelp.com/biz/tadka-indian-restaurant-san-francisco,Tadka Indian Restaurant,4.4,150,True,$$,,97,"Indian, Pizza, Sports Bars"
+https://www.yelp.com/biz/buddy-san-francisco,Buddy,4.4,149,True,,,91,"Wine Bars, Pizza, Cocktail Bars"
+https://www.yelp.com/biz/the-brazilian-spot-san-francisco,The Brazilian Spot,4.4,128,True,$$,,106,"Cafes, Brazilian, Acai Bowls"
+https://www.yelp.com/biz/charlie-s-cafe-san-francisco,Charlie’s Cafe,4.4,118,True,$$,,104,"Delis, Cafes"
+https://www.yelp.com/biz/belmar-la-gallinita-meat-market-san-francisco,BelmarLagallinita Meat Market,4.4,100,True,$,,100,"Mexican, Meat Shops, Caterers"
+https://www.yelp.com/biz/lava-lounge-and-grill-daly-city-6,Lava Lounge and Grill,4.4,61,True,,,88,"Hookah Bars, Lounges, Mediterranean"
+https://www.yelp.com/biz/bluegrain-sandwich-market-south-san-francisco,Bluegrain Sandwich Market,4.4,57,True,$$,,94,"Sandwiches, Breakfast & Brunch"
+https://www.yelp.com/biz/italian-american-social-club-of-san-francisco-san-francisco-2,Italian-American Social Club of San Francisco,4.4,49,True,$$,,98,"Venues & Event Spaces, Italian, Social Clubs"
+https://www.yelp.com/biz/espostos-delicatezza-south-san-francisco,Esposto's Delicatezza,4.4,34,True,,,105,"Delis, Sandwiches, Caterers"
+https://www.yelp.com/biz/aroi-thai-san-francisco,Aroi Thai,4.4,32,True,,,93,Thai
+https://www.yelp.com/biz/spanglers-market-san-francisco,Spangler's Market,4.4,29,True,$$,,92,"Grocery, Butcher, Delis"
+https://www.yelp.com/biz/shaska-deli-cafe-san-francisco,Shaska Deli Cafe,4.4,22,True,,,102,"Latin American, Delis, Sandwiches"
+https://www.yelp.com/biz/guero-s-taqueria-south-san-francisco,Guero’s Taqueria,4.4,21,True,$,,99,"Food Trucks, Tacos"
+https://www.yelp.com/biz/falafelia-mediterranean-san-francisco-3,Falafelia Mediterranean,4.4,7,True,,,86,Mediterranean
+https://www.yelp.com/biz/cazuela-comida-mexicana-san-francisco,Cazuela Comida Mexicana,4.4,7,True,,,87,"Breakfast & Brunch, Tacos"
+https://www.yelp.com/biz/original-crazy-greek-san-bruno,Original Crazy Greek,4.4,5,True,,,95,"Greek, Food Trucks"
+https://www.yelp.com/biz/akshar-home-made-food-colma,Akshar Home Made Food,4.4,5,True,,,96,"Food Delivery Services, Indian, Vegetarian"
+https://www.yelp.com/biz/house-of-pancakes-san-francisco,House Of Pancakes,4.3,1341,True,$$,,126,"Noodles, Taiwanese, Pancakes"
+https://www.yelp.com/biz/bursa-san-francisco,Bursa,4.3,1054,True,$$,,120,"Middle Eastern, Turkish, Mediterranean"
+https://www.yelp.com/biz/guerra-quality-meats-san-francisco,Guerra Quality Meats,4.3,577,True,$$,,108,"Meat Shops, Delis"
+https://www.yelp.com/biz/noeteca-cafe-wine-bar-san-francisco,Noeteca Wine Bar,4.3,540,True,$$,,115,"Wine Bars, Cafes, Brazilian"
+https://www.yelp.com/biz/a-one-kitchen-and-bar-san-bruno,A One Kitchen & Bar,4.3,222,True,$$,,112,"Bars, Seafood, Asian Fusion"
+https://www.yelp.com/biz/jim-georgies-donuts-san-francisco,Jim Georgie's Donuts,4.3,198,True,$,,116,"Donuts, American"
+https://www.yelp.com/biz/monterey-pizza-and-asian-zap-san-francisco-2,Monterey Pizza & Asian Zap,4.3,190,True,$$,,125,"Pizza, Salad, Sandwiches"
+https://www.yelp.com/biz/shufat-market-san-francisco,Shufat Market,4.3,78,True,$,,127,"Delis, Sandwiches"
+https://www.yelp.com/biz/montecristo-restaurant-2-san-francisco-5,Montecristo Restaurant 2,4.3,69,True,$$,,122,Salvadoran
+https://www.yelp.com/biz/el-rinc%C3%B3n-de-jorgito-san-francisco,El Rincón De Jorgito,4.3,62,True,,,109,"Peruvian, Seafood"
+https://www.yelp.com/biz/red-rooster-tacos-san-francisco,Red Rooster Tacos,4.3,43,True,$,,121,"Mexican, Food Trucks"
+https://www.yelp.com/biz/cool-guys-market-san-francisco,Cool Guys Market,4.3,37,True,$,,114,"Grocery, Ice Cream & Frozen Yogurt, Delis"
+https://www.yelp.com/biz/onigilly-japanese-kitchen-daly-city,Onigilly Japanese Kitchen,4.3,28,True,,,119,Japanese
+https://www.yelp.com/biz/universal-breakfast-and-lunch-san-francisco,Universal Breakfast & Lunch,4.3,24,True,$$,,140,"Breakfast & Brunch, Coffee & Tea"
+https://www.yelp.com/biz/marthitas-restaurant-san-francisco,Marthita's Restaurant,4.3,21,True,$,,113,Mexican
+https://www.yelp.com/biz/la-cruza-zuleada-south-san-francisco-2,La Cruza Zuleada,4.3,15,True,,,124,Tacos
+https://www.yelp.com/biz/antojitos-salvadorenos-aminta-san-francisco-2,Antojitos Salvadorenos Aminta,4.3,11,True,,,123,Salvadoran
+https://www.yelp.com/biz/monte-alban-mexican-food-south-san-francisco,Monte Alban Mexican Food,4.3,7,True,$$,,117,"Mexican, Food Trucks, Caterers"
+https://www.yelp.com/biz/chave-tacos-san-francisco,Chave Tacos,4.3,7,True,,,118,"Tacos, Food Trucks"
+https://www.yelp.com/biz/wyss-taco-truck-san-francisco,Wyss Taco Truck,4.3,6,True,,,110,"Tacos, Food Trucks"
+https://www.yelp.com/biz/martita-s-tacos-south-san-francisco,Martita’s Tacos,4.3,6,True,,,111,"Mexican, Food Trucks"
+https://www.yelp.com/biz/lol%C3%B3-san-francisco-4,Loló,4.2,2598,True,$$,,149,"Mexican, Tapas/Small Plates"
+https://www.yelp.com/biz/la-traviata-san-francisco,La Traviata,4.2,704,True,$$,,156,Italian
+https://www.yelp.com/biz/big-joes-san-francisco,Big Joe's,4.2,603,True,$$,,153,"Breakfast & Brunch, American, Mexican"
+https://www.yelp.com/biz/henrys-hunan-restaurant-san-francisco-9,Henry's Hunan Restaurant,4.2,557,True,$$,,159,Chinese
+https://www.yelp.com/biz/cafe-bunn-mi-south-san-francisco,Cafe Bunn Mi,4.2,515,True,$$,,170,"Vietnamese, Sandwiches, Asian Fusion"
+https://www.yelp.com/biz/united-dumplings-san-francisco,United Dumplings,4.2,512,True,$$,,154,"Chinese, Asian Fusion, Noodles"
+https://www.yelp.com/biz/house-of-silvanas-daly-city,House of Silvanas,4.2,511,True,$,,155,"Bakeries, Filipino, Desserts"
+https://www.yelp.com/biz/mexico-tipico-san-francisco-2,Mexico Tipico,4.2,345,True,$$,,143,Mexican
+https://www.yelp.com/biz/turo-cafe-and-grill-san-francisco,Turo Cafe and Grill,4.2,326,True,$$,,163,"Filipino, Fast Food, Caterers"
+https://www.yelp.com/biz/thai-cottage-restaurant-san-francisco,Thai Cottage Restaurant,4.2,297,True,$$,,150,Thai
+https://www.yelp.com/biz/manzoni-san-francisco-2,Manzoni,4.2,295,True,$$,,161,Italian
+https://www.yelp.com/biz/java-supreme-san-francisco,Java Supreme,4.2,225,True,$,,145,"Breakfast & Brunch, Cafes"
+https://www.yelp.com/biz/tortas-boos-voni-san-francisco,Tortas Boos Voni,4.2,217,True,$,,162,"Mexican, Breakfast & Brunch"
+https://www.yelp.com/biz/dagwood-and-scoops-san-francisco-5,Dagwood & Scoops,4.2,205,True,$$,,144,"Sandwiches, Ice Cream & Frozen Yogurt, Delis"
+https://www.yelp.com/biz/taqueria-los-cuernos-daly-city,Taqueria Los Cuernos,4.2,188,True,$$,,142,"Tacos, Seafood, Breakfast & Brunch"
+https://www.yelp.com/biz/monza-pizzeria-san-francisco,Monza Pizzeria,4.2,177,True,,,168,"Pizza, American, Salad"
+https://www.yelp.com/biz/sourdough-and-co-daly-city-5,Sourdough & Co.,4.2,74,True,,,169,"Salad, Soup, Sandwiches"
+https://www.yelp.com/biz/el-paraiso-cafe-san-francisco,El Paraiso Cafe,4.2,65,True,$,,146,"Sandwiches, Latin American"
+https://www.yelp.com/biz/healthyish-bakery-san-francisco,Healthyish Bakery,4.2,40,True,,,160,"Bakeries, Desserts, Vegan"
+https://www.yelp.com/biz/culinary-cafeteria-san-francisco-3,Culinary Cafeteria,4.2,33,True,$,,151,"New American, American"
+https://www.yelp.com/biz/the-sub-stop-daly-city,The Sub Stop,4.2,33,True,$$,,157,"Delis, Breakfast & Brunch, Sandwiches"
+https://www.yelp.com/biz/vana-maria-bbq-san-francisco,Vana Maria BBQ,4.2,33,True,,,158,"Barbeque, Pop-Up Restaurants, Caterers"
+https://www.yelp.com/biz/gobba-gobba-hey-san-francisco,Gobba Gobba Hey,4.2,30,True,$,,166,"Desserts, Food Stands"
+https://www.yelp.com/biz/pupuseria-metapan-2-san-francisco-2,Pupuseria Metapan 2,4.2,23,True,,,148,Salvadoran
+https://www.yelp.com/biz/foam-tea-house-san-francisco-4,Foam Tea House,4.2,20,True,,,172,"Bubble Tea, Taiwanese, Coffee & Tea"
+https://www.yelp.com/biz/ay-caray-taqueria-san-francisco,Ay caray taqueria,4.2,20,True,,,173,Mexican
+https://www.yelp.com/biz/frisco-flavor-san-francisco-2,Frisco Flavor,4.2,13,True,,,171,"Mexican, Salvadoran, Breakfast & Brunch"
+https://www.yelp.com/biz/miche-locas-colma,Miche Locas,4.2,10,True,,,152,"Mexican, Food Delivery Services"
+https://www.yelp.com/biz/el-gran-taco-loco-san-francisco-3,El Gran Taco Loco,4.2,9,True,,,147,"Food Trucks, Tacos, Caterers"
+https://www.yelp.com/biz/mi-lindo-per%C3%BA-san-francisco-6,Mi Lindo Perú,4.1,841,True,$$,,182,Peruvian
+https://www.yelp.com/biz/hall-of-flame-burgers-san-francisco,Hall Of Flame Burgers,4.1,654,True,$$,,189,"Burgers, Sports Bars, American"
+https://www.yelp.com/biz/la-santaneca-de-la-mission-san-francisco,La Santaneca De La Mission,4.1,465,True,$$,,183,"Mexican, Salvadoran, Desserts"
+https://www.yelp.com/biz/stix-san-francisco-5,STIX,4.1,417,True,$,,188,"Hot Dogs, Bubble Tea, Korean"
+https://www.yelp.com/biz/miss-tomato-daly-city-2,Miss Tomato,4.1,387,True,$$,,179,"Sandwiches, Convenience Stores, Desserts"
+https://www.yelp.com/biz/genes-liquor-san-francisco,Gene's Liquor,4.1,308,True,$,,174,"Beer, Wine & Spirits, Sandwiches"
+https://www.yelp.com/biz/mountain-mikes-pizza-daly-city-2,Mountain Mike's Pizza,4.1,200,True,$$,,178,"Pizza, Chicken Wings"
+https://www.yelp.com/biz/los-planes-de-renderos-pupuseria-san-francisco,Los Planes De Renderos Pupuseria,4.1,180,True,$,,191,Salvadoran
+https://www.yelp.com/biz/j-and-a-restaurant-san-francisco,J & A Restaurant,4.1,146,True,$,,181,Chinese
+https://www.yelp.com/biz/glaze-donuts-san-francisco,Glaze Donuts,4.1,123,True,$,,192,"Donuts, Breakfast & Brunch, Bagels"
+https://www.yelp.com/biz/flour-and-water-pasta-shop-san-francisco,Flour & Water Pasta Shop,4.1,121,True,$$,,190,"Wine Bars, Pasta Shops, Sandwiches"
+https://www.yelp.com/biz/respectable-bird-food-truck-san-francisco,Respectable Bird Food Truck,4.1,103,True,$$,,177,"Chicken Shop, American, Food Trucks"
+https://www.yelp.com/biz/house-of-fusion-daly-city,House of Fusion,4.1,93,True,$$,,195,"Chinese, Asian Fusion, Japanese"
+https://www.yelp.com/biz/fiorella-noe-san-francisco,Fiorella Noe,4.1,90,True,,,187,Italian
+https://www.yelp.com/biz/mekeni-restaurant-daly-city,Mekeni Restaurant,4.1,86,True,$,,186,Filipino
+https://www.yelp.com/biz/mi-guadalajara-daly-city,Mi Guadalajara,4.1,72,True,$,,175,Mexican
+https://www.yelp.com/biz/universal-bakery-daly-city,Universal Bakery,4.1,67,True,$,,180,"Bakeries, Empanadas, Breakfast & Brunch"
+https://www.yelp.com/biz/tapas-and-taps-san-francisco,Tapas & Taps,4.1,65,True,$$,,176,"Cocktail Bars, Tapas Bars"
+https://www.yelp.com/biz/sunshine-wheat-field-dim-sum-san-francisco,Sunshine Wheat Field Dim Sum,4.1,53,True,$,,194,"Dim Sum, Bakeries"
+https://www.yelp.com/biz/powered-by-pork-san-francisco-2,Powered By Pork,4.1,39,True,$,,193,"Caterers, Food Trucks, Tacos"
+https://www.yelp.com/biz/ac-waterfront-lounge-restaurant-south-san-francisco,AC Waterfront Lounge Restaurant,4.1,33,True,,,185,"New American, Breakfast & Brunch, Cocktail Bars"
+https://www.yelp.com/biz/tokachi-musubi-san-francisco,Tokachi Musubi,4.1,32,True,$$,,184,"Japanese, Food Trucks"
+https://www.yelp.com/biz/xiao-xiao-buns-daly-city,Xiao Xiao Buns,4.1,14,True,,,196,"Dim Sum, Food Stands"
+https://www.yelp.com/biz/udupi-palace-san-francisco,Udupi Palace,4.0,1611,True,$$,,234,"Indian, Vegetarian, Desserts"
+https://www.yelp.com/biz/st-francis-fountain-san-francisco,St. Francis Fountain,4.0,1308,True,$$,,233,"Breakfast & Brunch, Sandwiches, Burgers"
+https://www.yelp.com/biz/el-metate-restaurant-san-francisco,El Metate Restaurant,4.0,1297,True,$$,,202,Mexican
+https://www.yelp.com/biz/dinosaurs-vietnamese-sandwiches-san-francisco-3,Dinosaurs Vietnamese Sandwiches,4.0,939,True,$$,,205,"Sandwiches, Vietnamese"
+https://www.yelp.com/biz/3rd-cousin-san-francisco-2,3rd Cousin,4.0,569,True,$$$$,,200,"New American, French, Japanese"
+https://www.yelp.com/biz/diamond-head-general-store-san-bruno-2,Diamond Head General Store,4.0,493,True,$$,,230,"Hawaiian, Specialty Food"
+https://www.yelp.com/biz/in-n-out-burger-daly-city-4,In-N-Out Burger,4.0,417,True,$$,,231,"Burgers, Fast Food"
+https://www.yelp.com/biz/taqueria-san-francisco-san-francisco,Taqueria San Francisco,4.0,282,True,$,,232,Mexican
+https://www.yelp.com/biz/bb-q-chicken-san-bruno-san-bruno-2,bb.q Chicken San Bruno,4.0,245,True,$$,,203,"Chicken Shop, Korean, Chicken Wings"
+https://www.yelp.com/biz/noe-bagel-san-francisco,Noe Bagel,4.0,142,True,$,,204,"Bagels, Breakfast & Brunch"
+https://www.yelp.com/biz/double-shot-coffee-san-francisco,Double Shot Coffee,4.0,122,True,$,,197,"Coffee & Tea, Sandwiches"
+https://www.yelp.com/biz/g-and-l-bakery-and-restaurant-san-francisco,G & L Bakery & Restaurant,4.0,72,True,$,,207,"Bakeries, Chinese"
+https://www.yelp.com/biz/mong-q-mongolian-bbq-kitchen-daly-city,Mong Q Mongolian BBQ Kitchen,4.0,50,True,,,213,"Mongolian, Barbeque, Noodles"
+https://www.yelp.com/biz/nashville-hot-chicken-south-san-francisco-2,Nashville Hot Chicken,4.0,45,True,$$,,199,Chicken Shop
+https://www.yelp.com/biz/silver-cafe-san-francisco,Silver Cafe,4.0,43,True,$,,198,"Burgers, Donuts, Coffee & Tea"
+https://www.yelp.com/biz/marinas-cafe-san-francisco-2,Marina's Cafe,4.0,25,True,$,,201,"Cafes, Coffee & Tea"
+https://www.yelp.com/biz/5-star-food-and-liquor-south-san-francisco,5 Star Food & Liquor,4.0,8,True,,,222,"American, Beer, Wine & Spirits, Convenience Stores"
+https://www.yelp.com/biz/um-ma-san-francisco-7,UM MA,4.0,5,True,,,221,Korean
+https://www.yelp.com/biz/red-cafe-san-francisco,Red Cafe,3.9,534,True,$$,,239,Diners
+https://www.yelp.com/biz/martha-and-bros-coffee-company-san-francisco-7,Martha & Bros Coffee Company,3.9,282,True,$,,238,"Coffee & Tea, Sandwiches, Coffee Roasteries"
+https://www.yelp.com/biz/vinorosso-san-francisco,VinoRosso,3.9,234,True,$$,,240,"Italian, Wine Bars, Specialty Food"
+https://www.yelp.com/biz/wang-wah-san-francisco-2,Wang Wah,3.9,197,True,$$,,236,Chinese
+https://www.yelp.com/biz/izzys-cheesesteaks-south-san-francisco-2,Izzy's Cheesesteaks,3.9,91,True,$$,,235,"Food Trucks, Cheesesteaks"
+https://www.yelp.com/biz/ming-hui-dim-sum-san-francisco,Ming Hui Dim Sum,3.9,76,True,$,,237,"Dim Sum, Bakeries"

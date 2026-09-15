@@ -1,57 +1,42 @@
 {
  "location": "Santa Barbara, CA",
  "what": "Restaurants",
- "search_url": "https://www.yelp.com/search?find_desc=Restaurants&find_loc=Santa+Barbara%2C+CA&sortby=rating&start=0",
+ "radius_miles": 5,
+ "bounds": "g:-119.798315,34.353662,-119.622614,34.498590",
+ "search_url": "https://www.yelp.com/search?find_desc=Restaurants&find_loc=Santa+Barbara%2C+CA&sortby=rating&start=0&l=g%3A-119.798315%2C34.353662%2C-119.622614%2C34.498590",
  "page_title": "Restaurants Santa Barbara, CA - Last Updated September 2026 - Yelp",
- "fetched_at": "2026-09-15T05:41:12+00:00",
+ "fetched_at": "2026-09-15T06:01:35+00:00",
  "pages": [
   {
    "start": 0,
    "total": 240,
    "cards": [
     {
-     "name": "Denny’s",
-     "href": "/adredir?ad_business_id=icGg8xgDJVufg-xptMrDGw&campaign_id=217968734&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fdennys-santa-barbara-2&request_id=6fdc9c829ae500ec&signature=82cbefcbde2c94ea683b0b228f4df5c2e660cbb96b8a6f0dd77e1b4d14b6ece4&slot=0",
-     "rating": 2.8,
-     "review_count_raw": "235",
+     "name": "The Brewhouse",
+     "href": "/adredir?ad_business_id=FTFaEinJgzqY0ZHQMUSpQQ&campaign_id=221886615&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fthe-brewhouse-santa-barbara&request_id=5cf27c2f87eee02f&signature=70499d09a1e8ccb2b553c1d78ef05a39f7da2abbb91f87d87dc69a71ac1f2945&slot=0",
+     "rating": 3.8,
+     "review_count_raw": "775",
      "price": "$$",
      "distance_miles": null,
      "rank": null,
      "sponsored": true,
      "categories": [
-      "Diners",
-      "Breakfast & Brunch",
-      "American"
+      "American",
+      "Seafood",
+      "Brewpubs"
      ]
     },
     {
-     "name": "Buena Onda",
-     "href": "/adredir?ad_business_id=vyOVT4bcW227LRwJGHTeSw&campaign_id=178666328&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fbuena-onda-santa-barbara-4&request_id=6fdc9c829ae500ec&signature=d53065472bacfcacee2d62cdf322da6ffb4fd2877ebcfb0cb736a619ab61dfe5&slot=1",
-     "rating": 4.7,
-     "review_count_raw": "815",
+     "name": "Wabi Sabi",
+     "href": "/adredir?ad_business_id=yM7eA2uuH3Ch7OYVj3PKSw&campaign_id=223792335&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fwabi-sabi-santa-barbara&request_id=5cf27c2f87eee02f&signature=900d46f11ce1278725e4b5ab24271c132442afd8faf892a2a57d1c2834d9bcbf&slot=1",
+     "rating": 3.9,
+     "review_count_raw": "149",
      "price": "$$",
      "distance_miles": null,
      "rank": null,
      "sponsored": true,
      "categories": [
-      "Argentine",
-      "Empanadas",
-      "Pizza"
-     ]
-    },
-    {
-     "name": "AMA Sushi",
-     "href": "/adredir?ad_business_id=7KcHOCWb67qDHwZKIAHsGA&campaign_id=164549472&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fama-sushi-montecito&request_id=6fdc9c829ae500ec&signature=42ebf02db3b338d189ec26616e470ddb88da8676ae86c55fafba70ae867b9a33&slot=2",
-     "rating": 4.3,
-     "review_count_raw": "61",
-     "price": "",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Sushi Bars",
-      "Japanese",
-      "Seafood"
+      "Sushi Bars"
      ]
     },
     {
@@ -184,18 +169,17 @@
      ]
     },
     {
-     "name": "Santa Barbara Woodfire Catering",
-     "href": "/biz/santa-barbara-woodfire-catering-goleta-2?osq=Restaurants",
-     "rating": 5,
-     "review_count_raw": "35",
+     "name": "Menchaca Chocolates",
+     "href": "/biz/menchaca-chocolates-santa-barbara?osq=Restaurants",
+     "rating": 4.9,
+     "review_count_raw": "64",
      "price": "",
      "distance_miles": null,
      "rank": 10,
      "sponsored": false,
      "categories": [
-      "Pizza",
-      "Caterers",
-      "Pop-Up Restaurants"
+      "Chocolatiers & Shops",
+      "Vegan"
      ]
     }
    ]
@@ -205,17 +189,31 @@
    "total": 240,
    "cards": [
     {
-     "name": "Menchaca Chocolates",
-     "href": "/biz/menchaca-chocolates-santa-barbara?osq=Restaurants",
-     "rating": 4.9,
-     "review_count_raw": "64",
-     "price": "",
+     "name": "On The Alley",
+     "href": "/adredir?ad_business_id=y4x_wAQvUxvTR8iV-JP4Jg&campaign_id=150058346&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fon-the-alley-santa-barbara-2&request_id=4fa055db146e718e&signature=d7cc015fc2c134d85dbb339c87cee2be72d1599ca73f1a67c5afb1420e0d3be0&slot=0",
+     "rating": 4.1,
+     "review_count_raw": "659",
+     "price": "$$",
      "distance_miles": null,
-     "rank": 11,
-     "sponsored": false,
+     "rank": null,
+     "sponsored": true,
      "categories": [
-      "Chocolatiers & Shops",
-      "Vegan"
+      "Breakfast & Brunch",
+      "American"
+     ]
+    },
+    {
+     "name": "Kanaloa Seafood",
+     "href": "/adredir?ad_business_id=k1XGvBoPAXdPoGC2W-f2aA&campaign_id=103470234&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fkanaloa-seafood-santa-barbara-2&request_id=4fa055db146e718e&signature=9a2a7ee2136965840efd287f89d44212468b0591a11475e3f7601a88ebd65c5e&slot=1",
+     "rating": 4.2,
+     "review_count_raw": "366",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Seafood",
+      "Seafood Markets"
      ]
     },
     {
@@ -225,7 +223,7 @@
      "review_count_raw": "101",
      "price": "$$",
      "distance_miles": null,
-     "rank": 12,
+     "rank": 11,
      "sponsored": false,
      "categories": [
       "Wine Bars",
@@ -240,7 +238,7 @@
      "review_count_raw": "171",
      "price": "$$",
      "distance_miles": null,
-     "rank": 13,
+     "rank": 12,
      "sponsored": false,
      "categories": [
       "Vietnamese",
@@ -255,7 +253,7 @@
      "review_count_raw": "30",
      "price": "$$",
      "distance_miles": null,
-     "rank": 14,
+     "rank": 13,
      "sponsored": false,
      "categories": [
       "Distilleries",
@@ -270,7 +268,7 @@
      "review_count_raw": "40",
      "price": "",
      "distance_miles": null,
-     "rank": 15,
+     "rank": 14,
      "sponsored": false,
      "categories": [
       "Delis",
@@ -285,7 +283,7 @@
      "review_count_raw": "84",
      "price": "",
      "distance_miles": null,
-     "rank": 16,
+     "rank": 15,
      "sponsored": false,
      "categories": [
       "Burgers",
@@ -300,7 +298,7 @@
      "review_count_raw": "103",
      "price": "",
      "distance_miles": null,
-     "rank": 17,
+     "rank": 16,
      "sponsored": false,
      "categories": [
       "Mediterranean"
@@ -313,7 +311,7 @@
      "review_count_raw": "10",
      "price": "",
      "distance_miles": null,
-     "rank": 18,
+     "rank": 17,
      "sponsored": false,
      "categories": [
       "Tacos",
@@ -327,7 +325,7 @@
      "review_count_raw": "167",
      "price": "",
      "distance_miles": null,
-     "rank": 19,
+     "rank": 18,
      "sponsored": false,
      "categories": [
       "Wine Bars",
@@ -342,12 +340,27 @@
      "review_count_raw": "46",
      "price": "",
      "distance_miles": null,
-     "rank": 20,
+     "rank": 19,
      "sponsored": false,
      "categories": [
       "Tea Rooms",
       "Salad",
       "Soup"
+     ]
+    },
+    {
+     "name": "Onigiri & Sushi",
+     "href": "/biz/onigiri-and-sushi-santa-barbara?osq=Restaurants",
+     "rating": 4.8,
+     "review_count_raw": "30",
+     "price": "",
+     "distance_miles": null,
+     "rank": 20,
+     "sponsored": false,
+     "categories": [
+      "Japanese",
+      "Sushi Bars",
+      "Noodles"
      ]
     }
    ]
@@ -357,8 +370,38 @@
    "total": 240,
    "cards": [
     {
+     "name": "AMA Sushi",
+     "href": "/adredir?ad_business_id=7KcHOCWb67qDHwZKIAHsGA&campaign_id=164549472&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fama-sushi-montecito&request_id=ab913b2e0637954d&signature=1e3fb4033bb47567edb1f80d1cccef755ae54836ba2540af695d710efc5cc428&slot=0",
+     "rating": 4.3,
+     "review_count_raw": "61",
+     "price": "",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Sushi Bars",
+      "Japanese",
+      "Seafood"
+     ]
+    },
+    {
+     "name": "The Harbor Restaurant",
+     "href": "/adredir?ad_business_id=5bSxVRMiX4-EkLcLNQEAmA&campaign_id=223309868&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fthe-harbor-restaurant-santa-barbara-2&request_id=ab913b2e0637954d&signature=e43d4ff868ae8c7c949adbc869c89d3fb92b1175291d4ec41fc93fdaab30fcb1&slot=1",
+     "rating": 3.8,
+     "review_count_raw": "212",
+     "price": "",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Seafood",
+      "Soup",
+      "Wine Bars"
+     ]
+    },
+    {
      "name": "Eureka!",
-     "href": "/adredir?ad_business_id=NIQWO-Q_F598XlAvZnFVCA&campaign_id=217568883&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Feureka-santa-barbara-4&request_id=fc034cfd99932255&signature=67ba58059bc1efff569242b82cb92d4954961e22d0e8908b08de26f60f494ba1&slot=0",
+     "href": "/adredir?ad_business_id=NIQWO-Q_F598XlAvZnFVCA&campaign_id=224194498&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Feureka-santa-barbara-4&request_id=ab913b2e0637954d&signature=9a95293e3418313fa8c96fe6fdd8c1046e363c63fe9055a348161337871e1c33&slot=2",
      "rating": 3.8,
      "review_count_raw": "1.3k",
      "price": "$$",
@@ -370,101 +413,13 @@
      ]
     },
     {
-     "name": "Paloma",
-     "href": "/adredir?ad_business_id=4FdsX3MbkcdBRAr1aymF6A&campaign_id=212893069&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fpaloma-santa-barbara&request_id=fc034cfd99932255&signature=9fa09fa691c06a17d4945c71d6db4e6df0de313e4fe5c015f609d3b5b41c975a&slot=1",
-     "rating": 4.4,
-     "review_count_raw": "336",
-     "price": "$$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Cocktail Bars",
-      "Breakfast & Brunch",
-      "American"
-     ]
-    },
-    {
-     "name": "Sun Sushi",
-     "href": "/adredir?ad_business_id=jR3sTUWCPuOCWpdm8Pn-wQ&campaign_id=103476118&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fsun-sushi-santa-barbara&request_id=fc034cfd99932255&signature=49cc38fe882c33957ad2e6b8defb401c343ecbe74b0502f5637bcc81cf02ef98&slot=2",
-     "rating": 4.3,
-     "review_count_raw": "506",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Japanese",
-      "Sushi Bars"
-     ]
-    },
-    {
-     "name": "Zocalo",
-     "href": "/biz/zocalo-isla-vista?osq=Restaurants",
-     "rating": 4.8,
-     "review_count_raw": "179",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": 21,
-     "sponsored": false,
-     "categories": [
-      "Mexican",
-      "Coffee & Tea",
-      "Breakfast & Brunch"
-     ]
-    },
-    {
-     "name": "Lucca Truck",
-     "href": "/biz/lucca-truck-santa-barbara-3?osq=Restaurants",
-     "rating": 4.8,
-     "review_count_raw": "57",
-     "price": "",
-     "distance_miles": null,
-     "rank": 22,
-     "sponsored": false,
-     "categories": [
-      "Food Trucks",
-      "Pizza"
-     ]
-    },
-    {
-     "name": "Elubia's Kitchen",
-     "href": "/biz/elubias-kitchen-isla-vista-6?osq=Restaurants",
-     "rating": 4.8,
-     "review_count_raw": "35",
-     "price": "",
-     "distance_miles": null,
-     "rank": 23,
-     "sponsored": false,
-     "categories": [
-      "Latin American",
-      "Gluten-Free",
-      "Mexican"
-     ]
-    },
-    {
-     "name": "Onigiri & Sushi",
-     "href": "/biz/onigiri-and-sushi-santa-barbara?osq=Restaurants",
-     "rating": 4.8,
-     "review_count_raw": "30",
-     "price": "",
-     "distance_miles": null,
-     "rank": 24,
-     "sponsored": false,
-     "categories": [
-      "Japanese",
-      "Sushi Bars",
-      "Noodles"
-     ]
-    },
-    {
      "name": "Indian Tandoori Kingdom",
      "href": "/biz/indian-tandoori-kingdom-santa-barbara?osq=Restaurants",
      "rating": 4.8,
      "review_count_raw": "431",
      "price": "$$",
      "distance_miles": null,
-     "rank": 25,
+     "rank": 21,
      "sponsored": false,
      "categories": [
       "Indian"
@@ -477,7 +432,7 @@
      "review_count_raw": "4",
      "price": "",
      "distance_miles": null,
-     "rank": 26,
+     "rank": 22,
      "sponsored": false,
      "categories": [
       "Cabaret",
@@ -492,7 +447,7 @@
      "review_count_raw": "4",
      "price": "",
      "distance_miles": null,
-     "rank": 27,
+     "rank": 23,
      "sponsored": false,
      "categories": [
       "Food Trucks",
@@ -507,7 +462,7 @@
      "review_count_raw": "4",
      "price": "",
      "distance_miles": null,
-     "rank": 28,
+     "rank": 24,
      "sponsored": false,
      "categories": [
       "Tacos",
@@ -521,73 +476,12 @@
      "review_count_raw": "4",
      "price": "",
      "distance_miles": null,
-     "rank": 29,
+     "rank": 25,
      "sponsored": false,
      "categories": [
       "Wine Bars",
       "Breakfast & Brunch",
       "Cocktail Bars"
-     ]
-    },
-    {
-     "name": "Subway",
-     "href": "/biz/subway-santa-barbara-17?osq=Restaurants",
-     "rating": 5,
-     "review_count_raw": "4",
-     "price": "$",
-     "distance_miles": null,
-     "rank": 30,
-     "sponsored": false,
-     "categories": [
-      "Sandwiches"
-     ]
-    }
-   ]
-  },
-  {
-   "start": 30,
-   "total": 240,
-   "cards": [
-    {
-     "name": "ExtraMile",
-     "href": "/adredir?ad_business_id=J3h3fKlOd__qqLU0LNIV0Q&campaign_id=223683961&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fextramile-santa-barbara&request_id=2f12ed082155de31&signature=0a366d5c9ccdfb2369b91938f42de4c801c1f4cb5c5ead3bebe941d983bfe73b&slot=0",
-     "rating": 5,
-     "review_count_raw": "2",
-     "price": "",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Convenience Stores"
-     ]
-    },
-    {
-     "name": "Empty Bowl Gourmet Noodle Bar",
-     "href": "/adredir?ad_business_id=bPVPZeqMuYtU_yGCb4P-jg&campaign_id=223792335&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fempty-bowl-gourmet-noodle-bar-santa-barbara&request_id=2f12ed082155de31&signature=64eb11bfcd37ec75ca403f9dd3eff830cb10f2313b37ed8d239792acbb68dadc&slot=1",
-     "rating": 4.3,
-     "review_count_raw": "956",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Thai",
-      "Noodles"
-     ]
-    },
-    {
-     "name": "Taqueria 805",
-     "href": "/adredir?ad_business_id=WjHEYXmPEk7WK6q_9UaCiw&campaign_id=195865159&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Ftaqueria-805-carpinteria&request_id=2f12ed082155de31&signature=6dbea5e91a3aebc231b2d27b2f84e6e7d2b67f788b2a6823bec0a22e2c812baf&slot=2",
-     "rating": 5,
-     "review_count_raw": "3",
-     "price": "",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Food Trucks",
-      "Caterers",
-      "Tacos"
      ]
     },
     {
@@ -597,7 +491,7 @@
      "review_count_raw": "4",
      "price": "",
      "distance_miles": null,
-     "rank": 31,
+     "rank": 26,
      "sponsored": false,
      "categories": [
       "American"
@@ -610,7 +504,7 @@
      "review_count_raw": "38",
      "price": "$",
      "distance_miles": null,
-     "rank": 32,
+     "rank": 27,
      "sponsored": false,
      "categories": [
       "Delis"
@@ -623,7 +517,7 @@
      "review_count_raw": "85",
      "price": "",
      "distance_miles": null,
-     "rank": 33,
+     "rank": 28,
      "sponsored": false,
      "categories": [
       "Pizza"
@@ -636,7 +530,7 @@
      "review_count_raw": "11",
      "price": "$$",
      "distance_miles": null,
-     "rank": 34,
+     "rank": 29,
      "sponsored": false,
      "categories": [
       "Bakeries",
@@ -650,27 +544,48 @@
      "review_count_raw": "51",
      "price": "",
      "distance_miles": null,
-     "rank": 35,
+     "rank": 30,
      "sponsored": false,
      "categories": [
       "Cafes",
       "Italian",
       "Breakfast & Brunch"
      ]
+    }
+   ]
+  },
+  {
+   "start": 30,
+   "total": 240,
+   "cards": [
+    {
+     "name": "Local",
+     "href": "/adredir?ad_business_id=ok-mNrMW15l0RIQ4ZvslpA&campaign_id=208066703&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Flocal-santa-barbara&request_id=a98c0bad35fdae92&signature=ebdc6978faf48ae2d8536ccee965886626d8b148c57ace4541cb0397b353a599&slot=0",
+     "rating": 4.2,
+     "review_count_raw": "185",
+     "price": "",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "New American",
+      "Cocktail Bars",
+      "Gluten-Free"
+     ]
     },
     {
-     "name": "Cristino's Bakery",
-     "href": "/biz/cristinos-bakery-goleta-2?osq=Restaurants",
+     "name": "‘Que",
+     "href": "/adredir?ad_business_id=Wq3SQiXhyvy1JH2ZE6gLSQ&campaign_id=223193045&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fque-by-whiskey-n-rye-santa-barbara-2&request_id=a98c0bad35fdae92&signature=2f4f5ab19d6d3b43c4bda04431e49f455ae7efdaef601b476eda00aa1d6ffb63&slot=1",
      "rating": 4.7,
-     "review_count_raw": "369",
-     "price": "$$",
+     "review_count_raw": "56",
+     "price": "",
      "distance_miles": null,
-     "rank": 36,
-     "sponsored": false,
+     "rank": null,
+     "sponsored": true,
      "categories": [
-      "Bakeries",
-      "Coffee & Tea",
-      "Sandwiches"
+      "Barbeque",
+      "Burgers",
+      "Salad"
      ]
     },
     {
@@ -680,7 +595,7 @@
      "review_count_raw": "282",
      "price": "$$",
      "distance_miles": null,
-     "rank": 37,
+     "rank": 31,
      "sponsored": false,
      "categories": [
       "Farmers Market",
@@ -694,7 +609,7 @@
      "review_count_raw": "56",
      "price": "",
      "distance_miles": null,
-     "rank": 38,
+     "rank": 32,
      "sponsored": false,
      "categories": [
       "Barbeque",
@@ -709,7 +624,7 @@
      "review_count_raw": "327",
      "price": "$$",
      "distance_miles": null,
-     "rank": 39,
+     "rank": 33,
      "sponsored": false,
      "categories": [
       "Tacos"
@@ -722,45 +637,12 @@
      "review_count_raw": "815",
      "price": "$$",
      "distance_miles": null,
-     "rank": 40,
+     "rank": 34,
      "sponsored": false,
      "categories": [
       "Argentine",
       "Empanadas",
       "Pizza"
-     ]
-    }
-   ]
-  },
-  {
-   "start": 40,
-   "total": 240,
-   "cards": [
-    {
-     "name": "Subway",
-     "href": "/adredir?ad_business_id=QfXEdQpBojorGinfCnrKTA&campaign_id=223702774&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fsubway-santa-barbara-15&request_id=e9c33cb2b5cc49bb&signature=25bb6c374b7e82c018bdcdf8bfadc5d18446b2705f5a5af2bcb5b2e751a7b414&slot=0",
-     "rating": null,
-     "review_count_raw": null,
-     "price": "$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Sandwiches",
-      "Fast Food"
-     ]
-    },
-    {
-     "name": "Eureka!",
-     "href": "/adredir?ad_business_id=NIQWO-Q_F598XlAvZnFVCA&campaign_id=217568883&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Feureka-santa-barbara-4&request_id=e9c33cb2b5cc49bb&signature=d23d520fbfe20ffe6375990da921fb8e5a434d7e90181ca5b7e3d30bf8efcc08&slot=1",
-     "rating": 3.8,
-     "review_count_raw": "1.3k",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "American"
      ]
     },
     {
@@ -770,7 +652,7 @@
      "review_count_raw": "51",
      "price": "",
      "distance_miles": null,
-     "rank": 41,
+     "rank": 35,
      "sponsored": false,
      "categories": [
       "Mediterranean",
@@ -785,7 +667,7 @@
      "review_count_raw": "54",
      "price": "",
      "distance_miles": null,
-     "rank": 42,
+     "rank": 36,
      "sponsored": false,
      "categories": [
       "Japanese"
@@ -798,25 +680,12 @@
      "review_count_raw": "38",
      "price": "",
      "distance_miles": null,
-     "rank": 43,
+     "rank": 37,
      "sponsored": false,
      "categories": [
       "Italian",
       "Pizza",
       "Cocktail Bars"
-     ]
-    },
-    {
-     "name": "Teddy Rice",
-     "href": "/biz/teddy-rice-isla-vista?osq=Restaurants",
-     "rating": 4.7,
-     "review_count_raw": "49",
-     "price": "",
-     "distance_miles": null,
-     "rank": 44,
-     "sponsored": false,
-     "categories": [
-      "Comfort Food"
      ]
     },
     {
@@ -826,7 +695,7 @@
      "review_count_raw": "6",
      "price": "$",
      "distance_miles": null,
-     "rank": 45,
+     "rank": 38,
      "sponsored": false,
      "categories": [
       "Hot Dogs"
@@ -839,7 +708,7 @@
      "review_count_raw": "6",
      "price": "",
      "distance_miles": null,
-     "rank": 46,
+     "rank": 39,
      "sponsored": false,
      "categories": [
       "Mexican",
@@ -853,79 +722,21 @@
      "review_count_raw": "248",
      "price": "$$$$",
      "distance_miles": null,
-     "rank": 47,
+     "rank": 40,
      "sponsored": false,
      "categories": [
       "Japanese"
-     ]
-    },
-    {
-     "name": "Tacos Pipeye",
-     "href": "/biz/tacos-pipeye-santa-barbara-2?osq=Restaurants",
-     "rating": 4.7,
-     "review_count_raw": "306",
-     "price": "$",
-     "distance_miles": null,
-     "rank": 48,
-     "sponsored": false,
-     "categories": [
-      "Tacos",
-      "Food Trucks"
-     ]
-    },
-    {
-     "name": "The Waterline",
-     "href": "/biz/the-waterline-santa-barbara?osq=Restaurants",
-     "rating": 4.6,
-     "review_count_raw": "14",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": 49,
-     "sponsored": false,
-     "categories": [
-      "Beer, Wine & Spirits",
-      "American"
-     ]
-    },
-    {
-     "name": "Alessia Patisserie & Cafe",
-     "href": "/biz/alessia-patisserie-and-cafe-santa-barbara-2?osq=Restaurants",
-     "rating": 4.6,
-     "review_count_raw": "549",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": 50,
-     "sponsored": false,
-     "categories": [
-      "Patisserie/Cake Shop",
-      "Cafes",
-      "Bakeries"
      ]
     }
    ]
   },
   {
-   "start": 50,
+   "start": 40,
    "total": 240,
    "cards": [
     {
-     "name": "AMA Sushi",
-     "href": "/adredir?ad_business_id=7KcHOCWb67qDHwZKIAHsGA&campaign_id=164549472&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fama-sushi-montecito&request_id=67ddd6b5d8530035&signature=4296c7f85cfccf8c2cc7486869fca8738be8b561640ab56cfd6790c0da5696c1&slot=0",
-     "rating": 4.3,
-     "review_count_raw": "61",
-     "price": "",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Sushi Bars",
-      "Japanese",
-      "Seafood"
-     ]
-    },
-    {
      "name": "The Knock",
-     "href": "/adredir?ad_business_id=xRapA2lG7mjJ6eOqHmxe-A&campaign_id=221852227&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fthe-knock-santa-barbara&request_id=67ddd6b5d8530035&signature=483650d9feab48c3b5c5d4a81b9f496bd5c1132617f1ffee14fff0d7b49d7623&slot=1",
+     "href": "/adredir?ad_business_id=xRapA2lG7mjJ6eOqHmxe-A&campaign_id=221852223&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fthe-knock-santa-barbara&request_id=1fd323bb660175f7&signature=4d2c0487f8fc2554023ac06dd9aa155619cdd68900ee9ef2a2f8607c4b160c8a&slot=0",
      "rating": 3.9,
      "review_count_raw": "244",
      "price": "$$$",
@@ -939,16 +750,76 @@
      ]
     },
     {
-     "name": "Eureka!",
-     "href": "/adredir?ad_business_id=NIQWO-Q_F598XlAvZnFVCA&campaign_id=224194498&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Feureka-santa-barbara-4&request_id=67ddd6b5d8530035&signature=462d5c0aed5d76b9b51ee1b3aacbcf90b0324e5d7a2d0f7d581e94c5ff66528e&slot=2",
-     "rating": 3.8,
-     "review_count_raw": "1.3k",
+     "name": "Benchmark Eatery",
+     "href": "/adredir?ad_business_id=-TjT3y-Glfnbt6LbKETAYg&campaign_id=150047033&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fbenchmark-eatery-santa-barbara&request_id=1fd323bb660175f7&signature=7f6ee087a656e31bf09cb0336c02d8692402f78f100f62e788d8f96708e62c54&slot=1",
+     "rating": 3.9,
+     "review_count_raw": "721",
      "price": "$$",
      "distance_miles": null,
      "rank": null,
      "sponsored": true,
      "categories": [
+      "New American",
+      "Seafood",
+      "Cocktail Bars"
+     ]
+    },
+    {
+     "name": "Denny’s",
+     "href": "/adredir?ad_business_id=icGg8xgDJVufg-xptMrDGw&campaign_id=223720860&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fdennys-santa-barbara-2&request_id=1fd323bb660175f7&signature=52282a2d4c0da4e228e43c13427f197ba66903a4db9e831216112df177223a21&slot=2",
+     "rating": 2.8,
+     "review_count_raw": "235",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Diners",
+      "Breakfast & Brunch",
       "American"
+     ]
+    },
+    {
+     "name": "Tacos Pipeye",
+     "href": "/biz/tacos-pipeye-santa-barbara-2?osq=Restaurants",
+     "rating": 4.7,
+     "review_count_raw": "306",
+     "price": "$",
+     "distance_miles": null,
+     "rank": 41,
+     "sponsored": false,
+     "categories": [
+      "Tacos",
+      "Food Trucks"
+     ]
+    },
+    {
+     "name": "The Waterline",
+     "href": "/biz/the-waterline-santa-barbara?osq=Restaurants",
+     "rating": 4.6,
+     "review_count_raw": "14",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": 42,
+     "sponsored": false,
+     "categories": [
+      "Beer, Wine & Spirits",
+      "American"
+     ]
+    },
+    {
+     "name": "Alessia Patisserie & Cafe",
+     "href": "/biz/alessia-patisserie-and-cafe-santa-barbara-2?osq=Restaurants",
+     "rating": 4.6,
+     "review_count_raw": "549",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": 43,
+     "sponsored": false,
+     "categories": [
+      "Patisserie/Cake Shop",
+      "Cafes",
+      "Bakeries"
      ]
     },
     {
@@ -958,7 +829,7 @@
      "review_count_raw": "242",
      "price": "$$",
      "distance_miles": null,
-     "rank": 51,
+     "rank": 44,
      "sponsored": false,
      "categories": [
       "Vegan",
@@ -973,7 +844,7 @@
      "review_count_raw": "217",
      "price": "",
      "distance_miles": null,
-     "rank": 52,
+     "rank": 45,
      "sponsored": false,
      "categories": [
       "Pizza",
@@ -987,7 +858,7 @@
      "review_count_raw": "8",
      "price": "",
      "distance_miles": null,
-     "rank": 53,
+     "rank": 46,
      "sponsored": false,
      "categories": [
       "Sandwiches",
@@ -1002,7 +873,7 @@
      "review_count_raw": "973",
      "price": "$$",
      "distance_miles": null,
-     "rank": 54,
+     "rank": 47,
      "sponsored": false,
      "categories": [
       "Mexican",
@@ -1016,7 +887,7 @@
      "review_count_raw": "75",
      "price": "",
      "distance_miles": null,
-     "rank": 55,
+     "rank": 48,
      "sponsored": false,
      "categories": [
       "Poke",
@@ -1031,7 +902,7 @@
      "review_count_raw": "31",
      "price": "",
      "distance_miles": null,
-     "rank": 56,
+     "rank": 49,
      "sponsored": false,
      "categories": [
       "Breweries",
@@ -1046,12 +917,61 @@
      "review_count_raw": "481",
      "price": "$$",
      "distance_miles": null,
-     "rank": 57,
+     "rank": 50,
      "sponsored": false,
      "categories": [
       "Coffee Roasteries",
       "Coffee & Tea",
       "Sandwiches"
+     ]
+    }
+   ]
+  },
+  {
+   "start": 50,
+   "total": 240,
+   "cards": [
+    {
+     "name": "Drippin Chicken",
+     "href": "/adredir?ad_business_id=5ApABe2jLvVjWWsKqSgd9A&campaign_id=214317272&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fdrippin-chicken-santa-barbara&request_id=d059cd4cc4e27b97&signature=30cb0391b44c74789f7e1b9250f06997d3098526b94dfe2865d6cd7fa3cad3d0&slot=0",
+     "rating": 3.5,
+     "review_count_raw": "54",
+     "price": "",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Chicken Shop"
+     ]
+    },
+    {
+     "name": "Paloma",
+     "href": "/adredir?ad_business_id=4FdsX3MbkcdBRAr1aymF6A&campaign_id=212893069&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fpaloma-santa-barbara&request_id=d059cd4cc4e27b97&signature=0b75593b3a151e668a460a345d9d53f66c8c7e0ecf5e417c9dd2696501e5ec00&slot=1",
+     "rating": 4.4,
+     "review_count_raw": "336",
+     "price": "$$$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Cocktail Bars",
+      "Breakfast & Brunch",
+      "American"
+     ]
+    },
+    {
+     "name": "The Harbor Restaurant",
+     "href": "/adredir?ad_business_id=5bSxVRMiX4-EkLcLNQEAmA&campaign_id=223309868&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fthe-harbor-restaurant-santa-barbara-2&request_id=d059cd4cc4e27b97&signature=0142b683549f01eb806d216eae948668fc6baec0449be4048ce19a841f3b206d&slot=2",
+     "rating": 3.8,
+     "review_count_raw": "212",
+     "price": "",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Seafood",
+      "Soup",
+      "Wine Bars"
      ]
     },
     {
@@ -1061,7 +981,7 @@
      "review_count_raw": "51",
      "price": "",
      "distance_miles": null,
-     "rank": 58,
+     "rank": 51,
      "sponsored": false,
      "categories": [
       "American"
@@ -1074,7 +994,7 @@
      "review_count_raw": "38",
      "price": "$$",
      "distance_miles": null,
-     "rank": 59,
+     "rank": 52,
      "sponsored": false,
      "categories": [
       "Coffee & Tea",
@@ -1089,60 +1009,10 @@
      "review_count_raw": "48",
      "price": "",
      "distance_miles": null,
-     "rank": 60,
+     "rank": 53,
      "sponsored": false,
      "categories": [
       "New American"
-     ]
-    }
-   ]
-  },
-  {
-   "start": 60,
-   "total": 240,
-   "cards": [
-    {
-     "name": "Benchmark Eatery",
-     "href": "/adredir?ad_business_id=-TjT3y-Glfnbt6LbKETAYg&campaign_id=150047033&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fbenchmark-eatery-santa-barbara&request_id=13a40f2c53a8a295&signature=695a0b2d162543f69b860e994d86a0fe13930dd7c8c81ad8ce93e8fdd2428284&slot=0",
-     "rating": 3.9,
-     "review_count_raw": "721",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "New American",
-      "Seafood",
-      "Cocktail Bars"
-     ]
-    },
-    {
-     "name": "Sun Sushi",
-     "href": "/adredir?ad_business_id=jR3sTUWCPuOCWpdm8Pn-wQ&campaign_id=103476118&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fsun-sushi-santa-barbara&request_id=13a40f2c53a8a295&signature=c88211f6d3c2e13f5a0699d0211f65c6fdcf6fa8b73ba28413537d52cbffbbc1&slot=1",
-     "rating": 4.3,
-     "review_count_raw": "506",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Japanese",
-      "Sushi Bars"
-     ]
-    },
-    {
-     "name": "Buena Onda",
-     "href": "/adredir?ad_business_id=vyOVT4bcW227LRwJGHTeSw&campaign_id=178666328&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fbuena-onda-santa-barbara-4&request_id=13a40f2c53a8a295&signature=8d2eb736e4ea00aba0d132eddab465d09a33e179a7d61a6626dd9582f7eb06ba&slot=2",
-     "rating": 4.7,
-     "review_count_raw": "815",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Argentine",
-      "Empanadas",
-      "Pizza"
      ]
     },
     {
@@ -1152,7 +1022,7 @@
      "review_count_raw": "5",
      "price": "",
      "distance_miles": null,
-     "rank": 61,
+     "rank": 54,
      "sponsored": false,
      "categories": [
       "Food Tours",
@@ -1167,7 +1037,7 @@
      "review_count_raw": "165",
      "price": "$$",
      "distance_miles": null,
-     "rank": 62,
+     "rank": 55,
      "sponsored": false,
      "categories": [
       "Lounges",
@@ -1182,7 +1052,7 @@
      "review_count_raw": "559",
      "price": "$$",
      "distance_miles": null,
-     "rank": 63,
+     "rank": 56,
      "sponsored": false,
      "categories": [
       "Indian",
@@ -1197,7 +1067,7 @@
      "review_count_raw": "201",
      "price": "$$",
      "distance_miles": null,
-     "rank": 64,
+     "rank": 57,
      "sponsored": false,
      "categories": [
       "Breweries",
@@ -1212,7 +1082,7 @@
      "review_count_raw": "17",
      "price": "",
      "distance_miles": null,
-     "rank": 65,
+     "rank": 58,
      "sponsored": false,
      "categories": [
       "Cocktail Bars",
@@ -1226,7 +1096,7 @@
      "review_count_raw": "53",
      "price": "",
      "distance_miles": null,
-     "rank": 66,
+     "rank": 59,
      "sponsored": false,
      "categories": [
       "Mexican",
@@ -1240,10 +1110,59 @@
      "review_count_raw": "84",
      "price": "",
      "distance_miles": null,
-     "rank": 67,
+     "rank": 60,
      "sponsored": false,
      "categories": [
       "New Mexican Cuisine"
+     ]
+    }
+   ]
+  },
+  {
+   "start": 60,
+   "total": 240,
+   "cards": [
+    {
+     "name": "Drippin Chicken",
+     "href": "/adredir?ad_business_id=5ApABe2jLvVjWWsKqSgd9A&campaign_id=214317272&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fdrippin-chicken-santa-barbara&request_id=9bd375a8fd6a3030&signature=682736461c5a32a5aa4efffbc9b578f71eb9d049499e0f15bf256f637cb8d5d3&slot=0",
+     "rating": 3.5,
+     "review_count_raw": "54",
+     "price": "",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Chicken Shop"
+     ]
+    },
+    {
+     "name": "Local",
+     "href": "/adredir?ad_business_id=ok-mNrMW15l0RIQ4ZvslpA&campaign_id=208066703&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Flocal-santa-barbara&request_id=9bd375a8fd6a3030&signature=3999a153880f7355a2b13a806072ec97887d50ae63c7ea5198b84a1f40eea9c0&slot=1",
+     "rating": 4.2,
+     "review_count_raw": "185",
+     "price": "",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "New American",
+      "Cocktail Bars",
+      "Gluten-Free"
+     ]
+    },
+    {
+     "name": "Chick-fil-A",
+     "href": "/adredir?ad_business_id=NuMR1xJu6Ewxaicc4yLOFw&campaign_id=219616792&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fchick-fil-a-santa-barbara&request_id=9bd375a8fd6a3030&signature=350a7e33ca89dcaccccbd91a8ba0ac2d0a3a7a6e3a3b26e9dc8c47a5c287f4d1&slot=2",
+     "rating": 3.6,
+     "review_count_raw": "316",
+     "price": "$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Fast Food",
+      "Chicken Shop",
+      "Salad"
      ]
     },
     {
@@ -1253,7 +1172,7 @@
      "review_count_raw": "256",
      "price": "$$",
      "distance_miles": null,
-     "rank": 68,
+     "rank": 61,
      "sponsored": false,
      "categories": [
       "Wine Bars",
@@ -1268,7 +1187,7 @@
      "review_count_raw": "42",
      "price": "",
      "distance_miles": null,
-     "rank": 69,
+     "rank": 62,
      "sponsored": false,
      "categories": [
       "Caterers",
@@ -1283,61 +1202,12 @@
      "review_count_raw": "88",
      "price": "",
      "distance_miles": null,
-     "rank": 70,
+     "rank": 63,
      "sponsored": false,
      "categories": [
       "Waffles",
       "Sandwiches",
       "Coffee & Tea"
-     ]
-    }
-   ]
-  },
-  {
-   "start": 70,
-   "total": 240,
-   "cards": [
-    {
-     "name": "Drippin Chicken",
-     "href": "/adredir?ad_business_id=5ApABe2jLvVjWWsKqSgd9A&campaign_id=214317272&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fdrippin-chicken-santa-barbara&request_id=87dc8bd7daea3be7&signature=6fc1ef1570af745ab64e9c646b76127681199794806154cb8b99810f5fdfa309&slot=0",
-     "rating": 3.5,
-     "review_count_raw": "54",
-     "price": "",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Chicken Shop"
-     ]
-    },
-    {
-     "name": "Denny’s",
-     "href": "/adredir?ad_business_id=icGg8xgDJVufg-xptMrDGw&campaign_id=223720808&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fdennys-santa-barbara-2&request_id=87dc8bd7daea3be7&signature=c79c218a4a782a620e7049501df0196c09c146e92b992a62dab18dcf37db71da&slot=1",
-     "rating": 2.8,
-     "review_count_raw": "235",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Diners",
-      "Breakfast & Brunch",
-      "American"
-     ]
-    },
-    {
-     "name": "Lilac Pâtisserie",
-     "href": "/adredir?ad_business_id=hPzPpfSjgQkpWCD7YjcY-A&campaign_id=221675840&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Flilac-p%25C3%25A2tisserie-santa-barbara&request_id=87dc8bd7daea3be7&signature=0d3022c6fbf1f61e781e815fe2e9e186c77906c4b3d461d9b4bf5f08077863b9&slot=2",
-     "rating": 4.4,
-     "review_count_raw": "917",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Coffee & Tea",
-      "Desserts",
-      "Breakfast & Brunch"
      ]
     },
     {
@@ -1347,24 +1217,10 @@
      "review_count_raw": "189",
      "price": "$$$$",
      "distance_miles": null,
-     "rank": 71,
+     "rank": 64,
      "sponsored": false,
      "categories": [
       "Sushi Bars"
-     ]
-    },
-    {
-     "name": "Choi's Oriental Market",
-     "href": "/biz/chois-oriental-market-santa-barbara?osq=Restaurants",
-     "rating": 4.6,
-     "review_count_raw": "278",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": 72,
-     "sponsored": false,
-     "categories": [
-      "Korean",
-      "International Grocery"
      ]
     },
     {
@@ -1374,7 +1230,7 @@
      "review_count_raw": "179",
      "price": "$$",
      "distance_miles": null,
-     "rank": 73,
+     "rank": 65,
      "sponsored": false,
      "categories": [
       "Burgers",
@@ -1389,7 +1245,7 @@
      "review_count_raw": "1.3k",
      "price": "$$",
      "distance_miles": null,
-     "rank": 74,
+     "rank": 66,
      "sponsored": false,
      "categories": [
       "Tacos"
@@ -1402,7 +1258,7 @@
      "review_count_raw": "74",
      "price": "",
      "distance_miles": null,
-     "rank": 75,
+     "rank": 67,
      "sponsored": false,
      "categories": [
       "Thai",
@@ -1417,7 +1273,7 @@
      "review_count_raw": "51",
      "price": "",
      "distance_miles": null,
-     "rank": 76,
+     "rank": 68,
      "sponsored": false,
      "categories": [
       "Italian",
@@ -1432,26 +1288,12 @@
      "review_count_raw": "104",
      "price": "$",
      "distance_miles": null,
-     "rank": 77,
+     "rank": 69,
      "sponsored": false,
      "categories": [
       "Delis",
       "Coffee & Tea",
       "Wine Bars"
-     ]
-    },
-    {
-     "name": "Country  Meat Market & Catering",
-     "href": "/biz/country-meat-market-and-catering-goleta?osq=Restaurants",
-     "rating": 4.5,
-     "review_count_raw": "191",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": 78,
-     "sponsored": false,
-     "categories": [
-      "Delis",
-      "Meat Shops"
      ]
     },
     {
@@ -1461,11 +1303,59 @@
      "review_count_raw": "124",
      "price": "",
      "distance_miles": null,
-     "rank": 79,
+     "rank": 70,
      "sponsored": false,
      "categories": [
       "Salad",
       "Sandwiches"
+     ]
+    }
+   ]
+  },
+  {
+   "start": 70,
+   "total": 240,
+   "cards": [
+    {
+     "name": "Drippin Chicken",
+     "href": "/adredir?ad_business_id=5ApABe2jLvVjWWsKqSgd9A&campaign_id=214317272&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fdrippin-chicken-santa-barbara&request_id=085276ce7a834c88&signature=2371f04f1042a45b9424bd5613d555996b00815f6979702278eb3012267a50d0&slot=0",
+     "rating": 3.5,
+     "review_count_raw": "54",
+     "price": "",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Chicken Shop"
+     ]
+    },
+    {
+     "name": "Lilac Pâtisserie",
+     "href": "/adredir?ad_business_id=hPzPpfSjgQkpWCD7YjcY-A&campaign_id=221675259&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Flilac-p%25C3%25A2tisserie-santa-barbara&request_id=085276ce7a834c88&signature=d58a9ef65265a5bfa537d632cb50ac6281a358c51e7edc446d0613056728848b&slot=1",
+     "rating": 4.4,
+     "review_count_raw": "917",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Coffee & Tea",
+      "Desserts",
+      "Breakfast & Brunch"
+     ]
+    },
+    {
+     "name": "On The Alley",
+     "href": "/adredir?ad_business_id=y4x_wAQvUxvTR8iV-JP4Jg&campaign_id=150058346&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fon-the-alley-santa-barbara-2&request_id=085276ce7a834c88&signature=2bb3aca3e78dfd30ca5f91f1a198b2d49417adbda62a3bcf0c6c9b242beab4b3&slot=2",
+     "rating": 4.1,
+     "review_count_raw": "659",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Breakfast & Brunch",
+      "American"
      ]
     },
     {
@@ -1475,33 +1365,12 @@
      "review_count_raw": "103",
      "price": "$$",
      "distance_miles": null,
-     "rank": 80,
+     "rank": 71,
      "sponsored": false,
      "categories": [
       "Pizza",
       "Sandwiches",
       "Salad"
-     ]
-    }
-   ]
-  },
-  {
-   "start": 80,
-   "total": 240,
-   "cards": [
-    {
-     "name": "The Shop Brunch",
-     "href": "/adredir?ad_business_id=SYHDOHRNAH-2xsw3XB5qbg&campaign_id=223321877&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fthe-shop-brunch-santa-barbara&request_id=91c2bc989d23b771&signature=3f49d6c383b5bbc9a10e465549591470d40fc0394b20cac472f650113e4d1dd7&slot=0",
-     "rating": 4.3,
-     "review_count_raw": "1.5k",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "New American",
-      "Coffee & Tea",
-      "Breakfast & Brunch"
      ]
     },
     {
@@ -1511,7 +1380,7 @@
      "review_count_raw": "4",
      "price": "",
      "distance_miles": null,
-     "rank": 81,
+     "rank": 72,
      "sponsored": false,
      "categories": [
       "Caterers",
@@ -1526,27 +1395,12 @@
      "review_count_raw": "3",
      "price": "",
      "distance_miles": null,
-     "rank": 82,
+     "rank": 73,
      "sponsored": false,
      "categories": [
       "Breakfast & Brunch",
       "Coffee & Tea",
       "Sandwiches"
-     ]
-    },
-    {
-     "name": "Die Bretzel",
-     "href": "/biz/die-bretzel-santa-barbara?osq=Restaurants",
-     "rating": 5,
-     "review_count_raw": "3",
-     "price": "$",
-     "distance_miles": null,
-     "rank": 83,
-     "sponsored": false,
-     "categories": [
-      "Hot Dogs",
-      "Food Stands",
-      "Pretzels"
      ]
     },
     {
@@ -1556,23 +1410,10 @@
      "review_count_raw": "6",
      "price": "",
      "distance_miles": null,
-     "rank": 84,
+     "rank": 74,
      "sponsored": false,
      "categories": [
       "Dinner Theater"
-     ]
-    },
-    {
-     "name": "Antojitos La Paloma",
-     "href": "/biz/antojitos-la-paloma-isla-vista?osq=Restaurants",
-     "rating": 5,
-     "review_count_raw": "3",
-     "price": "",
-     "distance_miles": null,
-     "rank": 85,
-     "sponsored": false,
-     "categories": [
-      "Mexican"
      ]
     },
     {
@@ -1582,7 +1423,7 @@
      "review_count_raw": "3",
      "price": "",
      "distance_miles": null,
-     "rank": 86,
+     "rank": 75,
      "sponsored": false,
      "categories": [
       "Food Delivery Services",
@@ -1597,24 +1438,11 @@
      "review_count_raw": "40",
      "price": "$",
      "distance_miles": null,
-     "rank": 87,
+     "rank": 76,
      "sponsored": false,
      "categories": [
       "Bakeries",
       "Mexican"
-     ]
-    },
-    {
-     "name": "Maria’s Tacos",
-     "href": "/biz/maria-s-tacos-isla-vista?osq=Restaurants",
-     "rating": 4.5,
-     "review_count_raw": "30",
-     "price": "",
-     "distance_miles": null,
-     "rank": 88,
-     "sponsored": false,
-     "categories": [
-      "Tacos"
      ]
     },
     {
@@ -1624,7 +1452,7 @@
      "review_count_raw": "4.6k",
      "price": "$$",
      "distance_miles": null,
-     "rank": 89,
+     "rank": 77,
      "sponsored": false,
      "categories": [
       "Tacos",
@@ -1638,46 +1466,12 @@
      "review_count_raw": "167",
      "price": "",
      "distance_miles": null,
-     "rank": 90,
+     "rank": 78,
      "sponsored": false,
      "categories": [
       "Salad",
       "Falafel",
       "Greek"
-     ]
-    }
-   ]
-  },
-  {
-   "start": 90,
-   "total": 240,
-   "cards": [
-    {
-     "name": "Denny’s",
-     "href": "/adredir?ad_business_id=icGg8xgDJVufg-xptMrDGw&campaign_id=217968734&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fdennys-santa-barbara-2&request_id=2ffa0504230aa0c1&signature=16cec32ef7fb57025d83d82f73835207a10d08069b23733539fe27edb7eb6640&slot=0",
-     "rating": 2.8,
-     "review_count_raw": "235",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Diners",
-      "Breakfast & Brunch",
-      "American"
-     ]
-    },
-    {
-     "name": "Lalos Mexican Restaurant",
-     "href": "/adredir?ad_business_id=ZrR7GQEJNV7Z_xAE2cJdBQ&campaign_id=219482221&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Flalos-mexican-restaurant-ventura&request_id=2ffa0504230aa0c1&signature=fcc60662cbe54e810e7125bc6f50b425154187c1160504e72acabb7766c77793&slot=1",
-     "rating": 3.4,
-     "review_count_raw": "169",
-     "price": "",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Mexican"
      ]
     },
     {
@@ -1687,24 +1481,10 @@
      "review_count_raw": "528",
      "price": "$$",
      "distance_miles": null,
-     "rank": 91,
+     "rank": 79,
      "sponsored": false,
      "categories": [
       "Hot Dogs"
-     ]
-    },
-    {
-     "name": "Oat Bakery Goleta",
-     "href": "/biz/oat-bakery-goleta-goleta?osq=Restaurants",
-     "rating": 4.5,
-     "review_count_raw": "51",
-     "price": "",
-     "distance_miles": null,
-     "rank": 92,
-     "sponsored": false,
-     "categories": [
-      "Bakeries",
-      "Breakfast & Brunch"
      ]
     },
     {
@@ -1714,25 +1494,46 @@
      "review_count_raw": "647",
      "price": "$$",
      "distance_miles": null,
-     "rank": 93,
+     "rank": 80,
      "sponsored": false,
      "categories": [
       "Coffee & Tea",
       "Breakfast & Brunch",
       "Bakeries"
      ]
+    }
+   ]
+  },
+  {
+   "start": 80,
+   "total": 240,
+   "cards": [
+    {
+     "name": "Brophy Bros",
+     "href": "/adredir?ad_business_id=U3grYFIeu6RgAAQgdriHww&campaign_id=150134475&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fbrophy-bros-santa-barbara-7&request_id=891d79a6a22fe388&signature=a4300da5a9ba678fb0da50a60b834cf0f046c0c3fd5f1dedf1c4f37cfb72175c&slot=0",
+     "rating": 4.1,
+     "review_count_raw": "4.2k",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Seafood"
+     ]
     },
     {
-     "name": "Yummy Thai Restaurant",
-     "href": "/biz/yummy-thai-restaurant-goleta?osq=Restaurants",
-     "rating": 4.5,
-     "review_count_raw": "86",
-     "price": "",
+     "name": "The Shop Brunch",
+     "href": "/adredir?ad_business_id=SYHDOHRNAH-2xsw3XB5qbg&campaign_id=223321877&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fthe-shop-brunch-santa-barbara&request_id=891d79a6a22fe388&signature=efc0d05faea0b7a29ffdb40d9b37845f783a4da7d9ac2168ec45d19663ce094e&slot=1",
+     "rating": 4.3,
+     "review_count_raw": "1.5k",
+     "price": "$$",
      "distance_miles": null,
-     "rank": 94,
-     "sponsored": false,
+     "rank": null,
+     "sponsored": true,
      "categories": [
-      "Thai"
+      "New American",
+      "Coffee & Tea",
+      "Breakfast & Brunch"
      ]
     },
     {
@@ -1742,7 +1543,7 @@
      "review_count_raw": "489",
      "price": "$$",
      "distance_miles": null,
-     "rank": 95,
+     "rank": 81,
      "sponsored": false,
      "categories": [
       "Mexican"
@@ -1755,7 +1556,7 @@
      "review_count_raw": "36",
      "price": "$$",
      "distance_miles": null,
-     "rank": 96,
+     "rank": 82,
      "sponsored": false,
      "categories": [
       "Coffee & Tea",
@@ -1770,7 +1571,7 @@
      "review_count_raw": "1.5k",
      "price": "$$$",
      "distance_miles": null,
-     "rank": 97,
+     "rank": 83,
      "sponsored": false,
      "categories": [
       "Bars",
@@ -1784,7 +1585,7 @@
      "review_count_raw": "119",
      "price": "$$$",
      "distance_miles": null,
-     "rank": 98,
+     "rank": 84,
      "sponsored": false,
      "categories": [
       "Basque",
@@ -1799,7 +1600,7 @@
      "review_count_raw": "746",
      "price": "$$",
      "distance_miles": null,
-     "rank": 99,
+     "rank": 85,
      "sponsored": false,
      "categories": [
       "Asian Fusion"
@@ -1812,60 +1613,10 @@
      "review_count_raw": "1.2k",
      "price": "$$",
      "distance_miles": null,
-     "rank": 100,
+     "rank": 86,
      "sponsored": false,
      "categories": [
       "Mexican"
-     ]
-    }
-   ]
-  },
-  {
-   "start": 100,
-   "total": 240,
-   "cards": [
-    {
-     "name": "Subway",
-     "href": "/adredir?ad_business_id=QfXEdQpBojorGinfCnrKTA&campaign_id=224178384&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fsubway-santa-barbara-15&request_id=34ca53917b211e34&signature=3531291b8473fe39a337779cef10c1ea6c5cd6b388c6c3c2dcb35881f88e395c&slot=0",
-     "rating": null,
-     "review_count_raw": null,
-     "price": "$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Sandwiches",
-      "Fast Food"
-     ]
-    },
-    {
-     "name": "Local",
-     "href": "/adredir?ad_business_id=ok-mNrMW15l0RIQ4ZvslpA&campaign_id=208066703&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Flocal-santa-barbara&request_id=34ca53917b211e34&signature=deb70c53c23241f631ad3578a58d78f3228f4dfd75642beb2e7cd524f8fcd6c1&slot=1",
-     "rating": 4.2,
-     "review_count_raw": "185",
-     "price": "",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "New American",
-      "Cocktail Bars",
-      "Gluten-Free"
-     ]
-    },
-    {
-     "name": "‘Que",
-     "href": "/adredir?ad_business_id=Wq3SQiXhyvy1JH2ZE6gLSQ&campaign_id=223193045&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fque-by-whiskey-n-rye-santa-barbara-2&request_id=34ca53917b211e34&signature=39ca52acebf9d99d8a46445b8b1d865c08daf149e05e04267f7fbd1f5ee84415&slot=2",
-     "rating": 4.7,
-     "review_count_raw": "56",
-     "price": "",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Barbeque",
-      "Burgers",
-      "Salad"
      ]
     },
     {
@@ -1875,25 +1626,12 @@
      "review_count_raw": "157",
      "price": "$$",
      "distance_miles": null,
-     "rank": 101,
+     "rank": 87,
      "sponsored": false,
      "categories": [
       "Middle Eastern",
       "Vegan",
       "Vegetarian"
-     ]
-    },
-    {
-     "name": "SB Sunshine Cafe",
-     "href": "/biz/sb-sunshine-cafe-goleta?osq=Restaurants",
-     "rating": 4.5,
-     "review_count_raw": "451",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": 102,
-     "sponsored": false,
-     "categories": [
-      "Breakfast & Brunch"
      ]
     },
     {
@@ -1903,7 +1641,7 @@
      "review_count_raw": "592",
      "price": "$$",
      "distance_miles": null,
-     "rank": 103,
+     "rank": 88,
      "sponsored": false,
      "categories": [
       "Coffee & Tea",
@@ -1918,7 +1656,7 @@
      "review_count_raw": "26",
      "price": "",
      "distance_miles": null,
-     "rank": 104,
+     "rank": 89,
      "sponsored": false,
      "categories": [
       "New American"
@@ -1931,10 +1669,61 @@
      "review_count_raw": "211",
      "price": "$$",
      "distance_miles": null,
-     "rank": 105,
+     "rank": 90,
      "sponsored": false,
      "categories": [
       "Pizza"
+     ]
+    }
+   ]
+  },
+  {
+   "start": 90,
+   "total": 240,
+   "cards": [
+    {
+     "name": "Benchmark Eatery",
+     "href": "/adredir?ad_business_id=-TjT3y-Glfnbt6LbKETAYg&campaign_id=150047033&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fbenchmark-eatery-santa-barbara&request_id=36cf16283cf86cef&signature=73c051e3f88a3c422c068530eb4eb24bf4122f18fcad1bf72ba0f58c3ef462dd&slot=0",
+     "rating": 3.9,
+     "review_count_raw": "721",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "New American",
+      "Seafood",
+      "Cocktail Bars"
+     ]
+    },
+    {
+     "name": "The Harbor Restaurant",
+     "href": "/adredir?ad_business_id=5bSxVRMiX4-EkLcLNQEAmA&campaign_id=223309868&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fthe-harbor-restaurant-santa-barbara-2&request_id=36cf16283cf86cef&signature=4995a29302fc19f69f81cf57637f91d721c4fb8624d0f4630748495dce6345a3&slot=1",
+     "rating": 3.8,
+     "review_count_raw": "212",
+     "price": "",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Seafood",
+      "Soup",
+      "Wine Bars"
+     ]
+    },
+    {
+     "name": "Lilac Pâtisserie",
+     "href": "/adredir?ad_business_id=hPzPpfSjgQkpWCD7YjcY-A&campaign_id=221675840&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Flilac-p%25C3%25A2tisserie-santa-barbara&request_id=36cf16283cf86cef&signature=2397d784792f6bccb8d590be945750943160c0a90f5c3ce859da250afc539b94&slot=2",
+     "rating": 4.4,
+     "review_count_raw": "917",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Coffee & Tea",
+      "Desserts",
+      "Breakfast & Brunch"
      ]
     },
     {
@@ -1944,7 +1733,7 @@
      "review_count_raw": "316",
      "price": "$$",
      "distance_miles": null,
-     "rank": 106,
+     "rank": 91,
      "sponsored": false,
      "categories": [
       "Chinese",
@@ -1959,41 +1748,11 @@
      "review_count_raw": "134",
      "price": "$",
      "distance_miles": null,
-     "rank": 107,
+     "rank": 92,
      "sponsored": false,
      "categories": [
       "Sandwiches",
       "New American"
-     ]
-    },
-    {
-     "name": "Yetz's Bagels",
-     "href": "/biz/yetzs-bagels-isla-vista?osq=Restaurants",
-     "rating": 4.4,
-     "review_count_raw": "96",
-     "price": "",
-     "distance_miles": null,
-     "rank": 108,
-     "sponsored": false,
-     "categories": [
-      "Bagels",
-      "Coffee & Tea",
-      "Sandwiches"
-     ]
-    },
-    {
-     "name": "Elubia's Kitchen Food Truck Goleta",
-     "href": "/biz/elubias-kitchen-food-truck-goleta-goleta?osq=Restaurants",
-     "rating": 4.4,
-     "review_count_raw": "119",
-     "price": "",
-     "distance_miles": null,
-     "rank": 109,
-     "sponsored": false,
-     "categories": [
-      "Latin American",
-      "Gluten-Free",
-      "Mexican"
      ]
     },
     {
@@ -2003,74 +1762,12 @@
      "review_count_raw": "187",
      "price": "",
      "distance_miles": null,
-     "rank": 110,
+     "rank": 93,
      "sponsored": false,
      "categories": [
       "Cocktail Bars",
       "Seafood",
       "Breakfast & Brunch"
-     ]
-    }
-   ]
-  },
-  {
-   "start": 110,
-   "total": 240,
-   "cards": [
-    {
-     "name": "Benchmark Eatery",
-     "href": "/adredir?ad_business_id=-TjT3y-Glfnbt6LbKETAYg&campaign_id=150047033&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fbenchmark-eatery-santa-barbara&request_id=d1782909942bc89c&signature=fe0e728be5c900f503cb25be674aa5c38f587d3e75c1cb135c8ea21b2ef70a73&slot=0",
-     "rating": 3.9,
-     "review_count_raw": "721",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "New American",
-      "Seafood",
-      "Cocktail Bars"
-     ]
-    },
-    {
-     "name": "Arnoldi’s Cafe",
-     "href": "/adredir?ad_business_id=HOXbILWYZJkNUYYzYK_tZA&campaign_id=207923806&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Farnoldi-s-cafe-santa-barbara&request_id=d1782909942bc89c&signature=fee3bf276d4a0569a8ab30c7c07c3c66d664ea9ac90787239a0af1673035cace&slot=1",
-     "rating": 4.1,
-     "review_count_raw": "551",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Italian",
-      "Seafood",
-      "Cocktail Bars"
-     ]
-    },
-    {
-     "name": "Eureka!",
-     "href": "/adredir?ad_business_id=NIQWO-Q_F598XlAvZnFVCA&campaign_id=224194815&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Feureka-santa-barbara-4&request_id=d1782909942bc89c&signature=bb454c45f7f25230661e86e248e9ad5d23a77437a2613af298adf8e2a864b6f4&slot=2",
-     "rating": 3.8,
-     "review_count_raw": "1.3k",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "American"
-     ]
-    },
-    {
-     "name": "Mesa Pizza",
-     "href": "/biz/mesa-pizza-isla-vista?osq=Restaurants",
-     "rating": 4.4,
-     "review_count_raw": "16",
-     "price": "",
-     "distance_miles": null,
-     "rank": 111,
-     "sponsored": false,
-     "categories": [
-      "Pizza"
      ]
     },
     {
@@ -2080,7 +1777,7 @@
      "review_count_raw": "1.5k",
      "price": "$$",
      "distance_miles": null,
-     "rank": 112,
+     "rank": 94,
      "sponsored": false,
      "categories": [
       "Mexican"
@@ -2093,7 +1790,7 @@
      "review_count_raw": "62",
      "price": "",
      "distance_miles": null,
-     "rank": 113,
+     "rank": 95,
      "sponsored": false,
      "categories": [
       "Tacos"
@@ -2106,7 +1803,7 @@
      "review_count_raw": "288",
      "price": "$$",
      "distance_miles": null,
-     "rank": 114,
+     "rank": 96,
      "sponsored": false,
      "categories": [
       "Mexican",
@@ -2121,7 +1818,7 @@
      "review_count_raw": "35",
      "price": "",
      "distance_miles": null,
-     "rank": 115,
+     "rank": 97,
      "sponsored": false,
      "categories": [
       "Waffles",
@@ -2136,7 +1833,7 @@
      "review_count_raw": "21",
      "price": "",
      "distance_miles": null,
-     "rank": 116,
+     "rank": 98,
      "sponsored": false,
      "categories": [
       "Asian Fusion",
@@ -2150,7 +1847,7 @@
      "review_count_raw": "649",
      "price": "$$$",
      "distance_miles": null,
-     "rank": 117,
+     "rank": 99,
      "sponsored": false,
      "categories": [
       "New American",
@@ -2165,11 +1862,60 @@
      "review_count_raw": "130",
      "price": "",
      "distance_miles": null,
-     "rank": 118,
+     "rank": 100,
      "sponsored": false,
      "categories": [
       "Sushi Bars",
       "Japanese"
+     ]
+    }
+   ]
+  },
+  {
+   "start": 100,
+   "total": 240,
+   "cards": [
+    {
+     "name": "The Knock",
+     "href": "/adredir?ad_business_id=xRapA2lG7mjJ6eOqHmxe-A&campaign_id=221852223&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fthe-knock-santa-barbara&request_id=6fa9b7c999c89a80&signature=121cbbd0861d1aa6df4f27987e3109a99c3602f7c252597029e46a7b6299e9d2&slot=0",
+     "rating": 3.9,
+     "review_count_raw": "244",
+     "price": "$$$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "New American",
+      "Cocktail Bars",
+      "Tapas/Small Plates"
+     ]
+    },
+    {
+     "name": "The Harbor Restaurant",
+     "href": "/adredir?ad_business_id=5bSxVRMiX4-EkLcLNQEAmA&campaign_id=223309868&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fthe-harbor-restaurant-santa-barbara-2&request_id=6fa9b7c999c89a80&signature=109c19844e9ddcca80f58335dbcbb0ad42c450ef6fb28dc9754ee23fb12eb1c3&slot=1",
+     "rating": 3.8,
+     "review_count_raw": "212",
+     "price": "",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Seafood",
+      "Soup",
+      "Wine Bars"
+     ]
+    },
+    {
+     "name": "Brophy Bros",
+     "href": "/adredir?ad_business_id=U3grYFIeu6RgAAQgdriHww&campaign_id=150134475&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fbrophy-bros-santa-barbara-7&request_id=6fa9b7c999c89a80&signature=ac4ae7ae4318c47bab132058f3c90c4020ee52cb6066b1a4ecca927c43323ee8&slot=2",
+     "rating": 4.1,
+     "review_count_raw": "4.2k",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Seafood"
      ]
     },
     {
@@ -2179,7 +1925,7 @@
      "review_count_raw": "538",
      "price": "$$",
      "distance_miles": null,
-     "rank": 119,
+     "rank": 101,
      "sponsored": false,
      "categories": [
       "Donuts",
@@ -2194,62 +1940,11 @@
      "review_count_raw": "110",
      "price": "$$",
      "distance_miles": null,
-     "rank": 120,
+     "rank": 102,
      "sponsored": false,
      "categories": [
       "Salad",
       "Sandwiches"
-     ]
-    }
-   ]
-  },
-  {
-   "start": 120,
-   "total": 240,
-   "cards": [
-    {
-     "name": "Local",
-     "href": "/adredir?ad_business_id=ok-mNrMW15l0RIQ4ZvslpA&campaign_id=208066703&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Flocal-santa-barbara&request_id=a75aca99327a4346&signature=ede77526b92a315b0d24e17df7b588fd9092ab5e58655ef33df10b30706c80bb&slot=0",
-     "rating": 4.2,
-     "review_count_raw": "185",
-     "price": "",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "New American",
-      "Cocktail Bars",
-      "Gluten-Free"
-     ]
-    },
-    {
-     "name": "‘Que",
-     "href": "/adredir?ad_business_id=Wq3SQiXhyvy1JH2ZE6gLSQ&campaign_id=223193045&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fque-by-whiskey-n-rye-santa-barbara-2&request_id=a75aca99327a4346&signature=99049159f914c29ad91c9b91697bfabb7d4395931a9a364e1316f8386348c8a4&slot=1",
-     "rating": 4.7,
-     "review_count_raw": "56",
-     "price": "",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Barbeque",
-      "Burgers",
-      "Salad"
-     ]
-    },
-    {
-     "name": "CAYA Restaurant",
-     "href": "/adredir?ad_business_id=N9p_K2tK9pVY1ySLIejm4Q&campaign_id=175101496&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fcaya-restaurant-goleta-2&request_id=a75aca99327a4346&signature=e3d7a6a17273e952fd80c63e1913c3e90802a294ef56650dba69c5e7423426fb&slot=2",
-     "rating": 3.8,
-     "review_count_raw": "109",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Breakfast & Brunch",
-      "Cocktail Bars",
-      "Venues & Event Spaces"
      ]
     },
     {
@@ -2259,7 +1954,7 @@
      "review_count_raw": "1.3k",
      "price": "$$$",
      "distance_miles": null,
-     "rank": 121,
+     "rank": 103,
      "sponsored": false,
      "categories": [
       "New American",
@@ -2274,7 +1969,7 @@
      "review_count_raw": "336",
      "price": "$$$",
      "distance_miles": null,
-     "rank": 122,
+     "rank": 104,
      "sponsored": false,
      "categories": [
       "Cocktail Bars",
@@ -2289,7 +1984,7 @@
      "review_count_raw": "1.8k",
      "price": "$$$",
      "distance_miles": null,
-     "rank": 123,
+     "rank": 105,
      "sponsored": false,
      "categories": [
       "French",
@@ -2304,7 +1999,7 @@
      "review_count_raw": "59",
      "price": "$",
      "distance_miles": null,
-     "rank": 124,
+     "rank": 106,
      "sponsored": false,
      "categories": [
       "Bakeries",
@@ -2318,27 +2013,12 @@
      "review_count_raw": "96",
      "price": "",
      "distance_miles": null,
-     "rank": 125,
+     "rank": 107,
      "sponsored": false,
      "categories": [
       "Pizza",
       "Chicken Wings",
       "Fast Food"
-     ]
-    },
-    {
-     "name": "Poke Theory SB",
-     "href": "/biz/poke-theory-sb-goleta-3?osq=Restaurants",
-     "rating": 4.4,
-     "review_count_raw": "89",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": 126,
-     "sponsored": false,
-     "categories": [
-      "Poke",
-      "Seafood",
-      "Coffee & Tea"
      ]
     },
     {
@@ -2348,7 +2028,7 @@
      "review_count_raw": "188",
      "price": "$$",
      "distance_miles": null,
-     "rank": 127,
+     "rank": 108,
      "sponsored": false,
      "categories": [
       "Japanese",
@@ -2363,7 +2043,7 @@
      "review_count_raw": "15",
      "price": "$",
      "distance_miles": null,
-     "rank": 128,
+     "rank": 109,
      "sponsored": false,
      "categories": [
       "Mexican"
@@ -2376,12 +2056,31 @@
      "review_count_raw": "5",
      "price": "",
      "distance_miles": null,
-     "rank": 129,
+     "rank": 110,
      "sponsored": false,
      "categories": [
       "Bakeries",
       "Coffee & Tea",
       "Gluten-Free"
+     ]
+    }
+   ]
+  },
+  {
+   "start": 110,
+   "total": 240,
+   "cards": [
+    {
+     "name": "Brophy Bros",
+     "href": "/adredir?ad_business_id=U3grYFIeu6RgAAQgdriHww&campaign_id=150134475&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fbrophy-bros-santa-barbara-7&request_id=116cdbd6733de3ee&signature=adc5b8872a1c4fc053757ff8fc840e215d31f0660e45476790325eb9c15868ed&slot=0",
+     "rating": 4.1,
+     "review_count_raw": "4.2k",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Seafood"
      ]
     },
     {
@@ -2391,61 +2090,11 @@
      "review_count_raw": "15",
      "price": "",
      "distance_miles": null,
-     "rank": 130,
+     "rank": 111,
      "sponsored": false,
      "categories": [
       "Mexican",
       "New American"
-     ]
-    }
-   ]
-  },
-  {
-   "start": 130,
-   "total": 240,
-   "cards": [
-    {
-     "name": "AMA Sushi",
-     "href": "/adredir?ad_business_id=7KcHOCWb67qDHwZKIAHsGA&campaign_id=164549472&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fama-sushi-montecito&request_id=bba40bdb60b35d1e&signature=79488c30b1dc5391c5a21bcc3ea0463c5d9f9d097826c137afe3453b22386caa&slot=0",
-     "rating": 4.3,
-     "review_count_raw": "61",
-     "price": "",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Sushi Bars",
-      "Japanese",
-      "Seafood"
-     ]
-    },
-    {
-     "name": "Lilac Pâtisserie",
-     "href": "/adredir?ad_business_id=hPzPpfSjgQkpWCD7YjcY-A&campaign_id=221675840&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Flilac-p%25C3%25A2tisserie-santa-barbara&request_id=bba40bdb60b35d1e&signature=22d6fb701dc3c4888374549f3b293acdfc4da69d64063cca20c2216f4280fbbf&slot=1",
-     "rating": 4.4,
-     "review_count_raw": "917",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Coffee & Tea",
-      "Desserts",
-      "Breakfast & Brunch"
-     ]
-    },
-    {
-     "name": "Gyromania",
-     "href": "/adredir?ad_business_id=d6Houy4iuJpVbVQ1w6q0gA&campaign_id=156434944&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fgyromania-oxnard&request_id=bba40bdb60b35d1e&signature=f8c90c5057be70c792b8534f3c9ac49dfb6cefc3d25c98fca38bf019210c302c&slot=2",
-     "rating": 4.4,
-     "review_count_raw": "313",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Greek",
-      "Mediterranean"
      ]
     },
     {
@@ -2455,7 +2104,7 @@
      "review_count_raw": "25",
      "price": "",
      "distance_miles": null,
-     "rank": 131,
+     "rank": 112,
      "sponsored": false,
      "categories": [
       "Burgers",
@@ -2470,7 +2119,7 @@
      "review_count_raw": "112",
      "price": "",
      "distance_miles": null,
-     "rank": 132,
+     "rank": 113,
      "sponsored": false,
      "categories": [
       "Cocktail Bars",
@@ -2485,7 +2134,7 @@
      "review_count_raw": "748",
      "price": "$$",
      "distance_miles": null,
-     "rank": 133,
+     "rank": 114,
      "sponsored": false,
      "categories": [
       "Coffee & Tea",
@@ -2500,7 +2149,7 @@
      "review_count_raw": "1.8k",
      "price": "$$$",
      "distance_miles": null,
-     "rank": 134,
+     "rank": 115,
      "sponsored": false,
      "categories": [
       "Spanish",
@@ -2515,40 +2164,11 @@
      "review_count_raw": "212",
      "price": "$$",
      "distance_miles": null,
-     "rank": 135,
+     "rank": 116,
      "sponsored": false,
      "categories": [
       "New American",
       "Cocktail Bars",
-      "Breakfast & Brunch"
-     ]
-    },
-    {
-     "name": "Nikka Ramen",
-     "href": "/biz/nikka-ramen-goleta-2?osq=Restaurants",
-     "rating": 4.4,
-     "review_count_raw": "899",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": 136,
-     "sponsored": false,
-     "categories": [
-      "Ramen",
-      "Poke"
-     ]
-    },
-    {
-     "name": "IV Pizza Pub",
-     "href": "/biz/iv-pizza-pub-goleta?osq=Restaurants",
-     "rating": 4.4,
-     "review_count_raw": "68",
-     "price": "",
-     "distance_miles": null,
-     "rank": 137,
-     "sponsored": false,
-     "categories": [
-      "Pizza",
-      "Sports Bars",
       "Breakfast & Brunch"
      ]
     },
@@ -2559,7 +2179,7 @@
      "review_count_raw": "670",
      "price": "$$",
      "distance_miles": null,
-     "rank": 138,
+     "rank": 117,
      "sponsored": false,
      "categories": [
       "Gluten-Free",
@@ -2574,7 +2194,7 @@
      "review_count_raw": "16",
      "price": "",
      "distance_miles": null,
-     "rank": 139,
+     "rank": 118,
      "sponsored": false,
      "categories": [
       "Chicken Shop"
@@ -2587,63 +2207,12 @@
      "review_count_raw": "917",
      "price": "$$",
      "distance_miles": null,
-     "rank": 140,
+     "rank": 119,
      "sponsored": false,
      "categories": [
       "Coffee & Tea",
       "Desserts",
       "Breakfast & Brunch"
-     ]
-    }
-   ]
-  },
-  {
-   "start": 140,
-   "total": 240,
-   "cards": [
-    {
-     "name": "Fattes Pizza",
-     "href": "/adredir?ad_business_id=PBXFaKio7FJ-4JehJGh_gg&campaign_id=207012707&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Ffattes-pizza-santa-barbara&request_id=b634018d48bf95e5&signature=55663d01cf5b01f60473f8932d735b60c0aef61d1ceaad9ed83109ab4bca56d6&slot=0",
-     "rating": 4.4,
-     "review_count_raw": "96",
-     "price": "",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Pizza",
-      "Chicken Wings",
-      "Fast Food"
-     ]
-    },
-    {
-     "name": "Chick-fil-A",
-     "href": "/adredir?ad_business_id=NuMR1xJu6Ewxaicc4yLOFw&campaign_id=219616792&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fchick-fil-a-santa-barbara&request_id=b634018d48bf95e5&signature=c7f329cf4654ac7f7cd709a1192792c110064d2cc1326dbedc32aac1740e9970&slot=1",
-     "rating": 3.6,
-     "review_count_raw": "316",
-     "price": "$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Fast Food",
-      "Chicken Shop",
-      "Salad"
-     ]
-    },
-    {
-     "name": "Paloma",
-     "href": "/adredir?ad_business_id=4FdsX3MbkcdBRAr1aymF6A&campaign_id=212893069&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fpaloma-santa-barbara&request_id=b634018d48bf95e5&signature=520fb2b90f258db3dbe5d79b6bab574e8b8a3f2335e168cbffaa5308460551d5&slot=2",
-     "rating": 4.4,
-     "review_count_raw": "336",
-     "price": "$$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Cocktail Bars",
-      "Breakfast & Brunch",
-      "American"
      ]
     },
     {
@@ -2653,12 +2222,33 @@
      "review_count_raw": "35",
      "price": "",
      "distance_miles": null,
-     "rank": 141,
+     "rank": 120,
      "sponsored": false,
      "categories": [
       "Salad",
       "Sandwiches",
       "Wraps"
+     ]
+    }
+   ]
+  },
+  {
+   "start": 120,
+   "total": 240,
+   "cards": [
+    {
+     "name": "Lilac Pâtisserie",
+     "href": "/adredir?ad_business_id=hPzPpfSjgQkpWCD7YjcY-A&campaign_id=221675259&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Flilac-p%25C3%25A2tisserie-santa-barbara&request_id=c4375880c71a70c2&signature=6f95a6c94f6a6789a332402661edab61d97fda6b9c03c6e8a888fb5b8912d97b&slot=0",
+     "rating": 4.4,
+     "review_count_raw": "917",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Coffee & Tea",
+      "Desserts",
+      "Breakfast & Brunch"
      ]
     },
     {
@@ -2668,7 +2258,7 @@
      "review_count_raw": "259",
      "price": "$$$$",
      "distance_miles": null,
-     "rank": 142,
+     "rank": 121,
      "sponsored": false,
      "categories": [
       "New American",
@@ -2682,7 +2272,7 @@
      "review_count_raw": "323",
      "price": "$$",
      "distance_miles": null,
-     "rank": 143,
+     "rank": 122,
      "sponsored": false,
      "categories": [
       "Mexican",
@@ -2696,7 +2286,7 @@
      "review_count_raw": "11",
      "price": "",
      "distance_miles": null,
-     "rank": 144,
+     "rank": 123,
      "sponsored": false,
      "categories": [
       "Mexican"
@@ -2709,27 +2299,12 @@
      "review_count_raw": "108",
      "price": "",
      "distance_miles": null,
-     "rank": 145,
+     "rank": 124,
      "sponsored": false,
      "categories": [
       "Modern European",
       "Desserts",
       "Breakfast & Brunch"
-     ]
-    },
-    {
-     "name": "The Stonehouse Restaurant",
-     "href": "/biz/stonehouse-santa-barbara?osq=Restaurants",
-     "rating": 4.4,
-     "review_count_raw": "530",
-     "price": "$$$$",
-     "distance_miles": null,
-     "rank": 146,
-     "sponsored": false,
-     "categories": [
-      "New American",
-      "Steakhouses",
-      "Cocktail Bars"
      ]
     },
     {
@@ -2739,7 +2314,7 @@
      "review_count_raw": "816",
      "price": "$$",
      "distance_miles": null,
-     "rank": 147,
+     "rank": 125,
      "sponsored": false,
      "categories": [
       "Asian Fusion",
@@ -2754,27 +2329,12 @@
      "review_count_raw": "2.2k",
      "price": "$$",
      "distance_miles": null,
-     "rank": 148,
+     "rank": 126,
      "sponsored": false,
      "categories": [
       "Seafood",
       "Cocktail Bars",
       "Wine Bars"
-     ]
-    },
-    {
-     "name": "South Coast Deli-Goleta",
-     "href": "/biz/south-coast-deli-goleta-goleta?osq=Restaurants",
-     "rating": 4.4,
-     "review_count_raw": "518",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": 149,
-     "sponsored": false,
-     "categories": [
-      "Delis",
-      "Sandwiches",
-      "Salad"
      ]
     },
     {
@@ -2784,48 +2344,12 @@
      "review_count_raw": "51",
      "price": "$",
      "distance_miles": null,
-     "rank": 150,
+     "rank": 127,
      "sponsored": false,
      "categories": [
       "Desserts",
       "Food Trucks",
       "Delis"
-     ]
-    }
-   ]
-  },
-  {
-   "start": 150,
-   "total": 240,
-   "cards": [
-    {
-     "name": "The Knock",
-     "href": "/adredir?ad_business_id=xRapA2lG7mjJ6eOqHmxe-A&campaign_id=221852227&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fthe-knock-santa-barbara&request_id=86aa7b0d19dc75f7&signature=07b3e5de5e11de414c8ace367f035c65cae574c0f249445f1995fa7ae94d4dd5&slot=0",
-     "rating": 3.9,
-     "review_count_raw": "244",
-     "price": "$$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "New American",
-      "Cocktail Bars",
-      "Tapas/Small Plates"
-     ]
-    },
-    {
-     "name": "The Copper",
-     "href": "/adredir?ad_business_id=Cm8GX1hSa_oes7ewAh2MCg&campaign_id=221392307&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fthe-copper-santa-barbara-4&request_id=86aa7b0d19dc75f7&signature=7a9aa2463fd68d94a08dead77a9ee17dd6dcf3067f93851fa5cdff6e6a962aea&slot=1",
-     "rating": 4.7,
-     "review_count_raw": "38",
-     "price": "",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Italian",
-      "Pizza",
-      "Cocktail Bars"
      ]
     },
     {
@@ -2835,7 +2359,7 @@
      "review_count_raw": "100",
      "price": "",
      "distance_miles": null,
-     "rank": 151,
+     "rank": 128,
      "sponsored": false,
      "categories": [
       "New American",
@@ -2850,7 +2374,7 @@
      "review_count_raw": "619",
      "price": "$$",
      "distance_miles": null,
-     "rank": 152,
+     "rank": 129,
      "sponsored": false,
      "categories": [
       "Sandwiches",
@@ -2865,11 +2389,47 @@
      "review_count_raw": "506",
      "price": "$$",
      "distance_miles": null,
-     "rank": 153,
+     "rank": 130,
      "sponsored": false,
      "categories": [
       "Japanese",
       "Sushi Bars"
+     ]
+    }
+   ]
+  },
+  {
+   "start": 130,
+   "total": 240,
+   "cards": [
+    {
+     "name": "Masala Spice Indian Cuisine",
+     "href": "/adredir?ad_business_id=8NsWB-TsB1NmGJoawbhcqg&campaign_id=223482150&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fmasala-spice-indian-cuisine-santa-barbara&request_id=7956415f0a7d7753&signature=4ff6b8627e6caa08ca0a3fccdf3c9fc40f2c9803fbc2debfc90b76d90f7d8e40&slot=0",
+     "rating": 4.3,
+     "review_count_raw": "29",
+     "price": "",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Vegetarian",
+      "Indian",
+      "Halal"
+     ]
+    },
+    {
+     "name": "Arnoldi’s Cafe",
+     "href": "/adredir?ad_business_id=HOXbILWYZJkNUYYzYK_tZA&campaign_id=207923806&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Farnoldi-s-cafe-santa-barbara&request_id=7956415f0a7d7753&signature=5228c920096e25c4b44e04d686d28b92a8e5a0756c8c0099dc5a23db39b537a6&slot=1",
+     "rating": 4.1,
+     "review_count_raw": "551",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Italian",
+      "Seafood",
+      "Cocktail Bars"
      ]
     },
     {
@@ -2879,7 +2439,7 @@
      "review_count_raw": "127",
      "price": "",
      "distance_miles": null,
-     "rank": 154,
+     "rank": 131,
      "sponsored": false,
      "categories": [
       "Spanish",
@@ -2893,7 +2453,7 @@
      "review_count_raw": "832",
      "price": "$$",
      "distance_miles": null,
-     "rank": 155,
+     "rank": 132,
      "sponsored": false,
      "categories": [
       "Bakeries",
@@ -2908,7 +2468,7 @@
      "review_count_raw": "29",
      "price": "",
      "distance_miles": null,
-     "rank": 156,
+     "rank": 133,
      "sponsored": false,
      "categories": [
       "Vegetarian",
@@ -2923,7 +2483,7 @@
      "review_count_raw": "412",
      "price": "$$",
      "distance_miles": null,
-     "rank": 157,
+     "rank": 134,
      "sponsored": false,
      "categories": [
       "Breakfast & Brunch",
@@ -2938,7 +2498,7 @@
      "review_count_raw": "6",
      "price": "",
      "distance_miles": null,
-     "rank": 158,
+     "rank": 135,
      "sponsored": false,
      "categories": [
       "Italian",
@@ -2952,7 +2512,7 @@
      "review_count_raw": "9",
      "price": "",
      "distance_miles": null,
-     "rank": 159,
+     "rank": 136,
      "sponsored": false,
      "categories": [
       "Wine Bars",
@@ -2966,60 +2526,11 @@
      "review_count_raw": "60",
      "price": "",
      "distance_miles": null,
-     "rank": 160,
+     "rank": 137,
      "sponsored": false,
      "categories": [
       "Coffee & Tea",
       "Cafes"
-     ]
-    }
-   ]
-  },
-  {
-   "start": 160,
-   "total": 240,
-   "cards": [
-    {
-     "name": "IV Pizza Pub",
-     "href": "/adredir?ad_business_id=uytK-3Oy-PnmmyuRACep0Q&campaign_id=172897562&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fiv-pizza-pub-goleta&request_id=d46226c51dc5cb73&signature=7692ad08ea24bc527d9d3b010d4a69f8dd84429f2f7f8fb19d22e4ddcb3d2121&slot=0",
-     "rating": 4.4,
-     "review_count_raw": "68",
-     "price": "",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Pizza",
-      "Sports Bars",
-      "Breakfast & Brunch"
-     ]
-    },
-    {
-     "name": "The Knock",
-     "href": "/adredir?ad_business_id=xRapA2lG7mjJ6eOqHmxe-A&campaign_id=221852227&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fthe-knock-santa-barbara&request_id=d46226c51dc5cb73&signature=511b95e369e2c243439870e865e0bb6105660f5b174485f6fa1485db46bc7e5d&slot=1",
-     "rating": 3.9,
-     "review_count_raw": "244",
-     "price": "$$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "New American",
-      "Cocktail Bars",
-      "Tapas/Small Plates"
-     ]
-    },
-    {
-     "name": "Brophy Bros",
-     "href": "/adredir?ad_business_id=U3grYFIeu6RgAAQgdriHww&campaign_id=150134475&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fbrophy-bros-santa-barbara-7&request_id=d46226c51dc5cb73&signature=c6480a74099aefe736865656a66461cdbe255974850382e8f7e494a24693c055&slot=2",
-     "rating": 4.1,
-     "review_count_raw": "4.2k",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Seafood"
      ]
     },
     {
@@ -3029,7 +2540,7 @@
      "review_count_raw": "13",
      "price": "",
      "distance_miles": null,
-     "rank": 161,
+     "rank": 138,
      "sponsored": false,
      "categories": [
       "Soul Food",
@@ -3043,7 +2554,7 @@
      "review_count_raw": "89",
      "price": "$$",
      "distance_miles": null,
-     "rank": 162,
+     "rank": 139,
      "sponsored": false,
      "categories": [
       "Pizza",
@@ -3058,11 +2569,61 @@
      "review_count_raw": "33",
      "price": "$",
      "distance_miles": null,
-     "rank": 163,
+     "rank": 140,
      "sponsored": false,
      "categories": [
       "Seafood",
       "Festivals"
+     ]
+    }
+   ]
+  },
+  {
+   "start": 140,
+   "total": 240,
+   "cards": [
+    {
+     "name": "Subway",
+     "href": "/adredir?ad_business_id=QfXEdQpBojorGinfCnrKTA&campaign_id=224178384&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fsubway-santa-barbara-15&request_id=35880c9724fe208c&signature=e83e74c4e0d74f83de2b6576ef1c112bdd15635705bf661a77a7583d970c3019&slot=0",
+     "rating": null,
+     "review_count_raw": null,
+     "price": "$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Sandwiches",
+      "Fast Food"
+     ]
+    },
+    {
+     "name": "Fattes Pizza",
+     "href": "/adredir?ad_business_id=PBXFaKio7FJ-4JehJGh_gg&campaign_id=207012707&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Ffattes-pizza-santa-barbara&request_id=35880c9724fe208c&signature=6104e4a20a2a16f9f8a8565d6c08634693d99d172324b9fef99d58f364c0ec4e&slot=1",
+     "rating": 4.4,
+     "review_count_raw": "96",
+     "price": "",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Pizza",
+      "Chicken Wings",
+      "Fast Food"
+     ]
+    },
+    {
+     "name": "The Brewhouse",
+     "href": "/adredir?ad_business_id=FTFaEinJgzqY0ZHQMUSpQQ&campaign_id=221886615&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fthe-brewhouse-santa-barbara&request_id=35880c9724fe208c&signature=64fe8c044a2294c9ff9819f7f7314fa8a0bf1cb71dc5b3c470156aef48824b17&slot=2",
+     "rating": 3.8,
+     "review_count_raw": "775",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "American",
+      "Seafood",
+      "Brewpubs"
      ]
     },
     {
@@ -3072,7 +2633,7 @@
      "review_count_raw": "874",
      "price": "$$",
      "distance_miles": null,
-     "rank": 164,
+     "rank": 141,
      "sponsored": false,
      "categories": [
       "Bakeries",
@@ -3087,7 +2648,7 @@
      "review_count_raw": "299",
      "price": "$$",
      "distance_miles": null,
-     "rank": 165,
+     "rank": 142,
      "sponsored": false,
      "categories": [
       "Mexican"
@@ -3100,7 +2661,7 @@
      "review_count_raw": "27",
      "price": "",
      "distance_miles": null,
-     "rank": 166,
+     "rank": 143,
      "sponsored": false,
      "categories": [
       "Mexican",
@@ -3114,7 +2675,7 @@
      "review_count_raw": "61",
      "price": "",
      "distance_miles": null,
-     "rank": 167,
+     "rank": 144,
      "sponsored": false,
      "categories": [
       "Sushi Bars",
@@ -3129,7 +2690,7 @@
      "review_count_raw": "893",
      "price": "$$",
      "distance_miles": null,
-     "rank": 168,
+     "rank": 145,
      "sponsored": false,
      "categories": [
       "Delis",
@@ -3143,7 +2704,7 @@
      "review_count_raw": "2.1k",
      "price": "$$",
      "distance_miles": null,
-     "rank": 169,
+     "rank": 146,
      "sponsored": false,
      "categories": [
       "Mexican",
@@ -3158,76 +2719,12 @@
      "review_count_raw": "331",
      "price": "$$",
      "distance_miles": null,
-     "rank": 170,
+     "rank": 147,
      "sponsored": false,
      "categories": [
       "Delis",
       "Sandwiches",
       "Caterers"
-     ]
-    }
-   ]
-  },
-  {
-   "start": 170,
-   "total": 240,
-   "cards": [
-    {
-     "name": "Masala Spice Indian Cuisine",
-     "href": "/adredir?ad_business_id=8NsWB-TsB1NmGJoawbhcqg&campaign_id=223482150&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fmasala-spice-indian-cuisine-santa-barbara&request_id=ddcb84c2ee87f980&signature=ccd147fec5102848c22a5a08b1963efc4f091dbcb5983fa6e869bba4eb23e44b&slot=0",
-     "rating": 4.3,
-     "review_count_raw": "29",
-     "price": "",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Vegetarian",
-      "Indian",
-      "Halal"
-     ]
-    },
-    {
-     "name": "The Harbor Restaurant",
-     "href": "/adredir?ad_business_id=5bSxVRMiX4-EkLcLNQEAmA&campaign_id=223309868&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fthe-harbor-restaurant-santa-barbara-2&request_id=ddcb84c2ee87f980&signature=0f60fa4cd3ef1dbd5ab4c02eb932e124e92b35044e7c185f3dbc59a1d531ad19&slot=1",
-     "rating": 3.8,
-     "review_count_raw": "212",
-     "price": "",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Seafood",
-      "Soup",
-      "Wine Bars"
-     ]
-    },
-    {
-     "name": "On The Alley",
-     "href": "/adredir?ad_business_id=y4x_wAQvUxvTR8iV-JP4Jg&campaign_id=150058346&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fon-the-alley-santa-barbara-2&request_id=ddcb84c2ee87f980&signature=b927c54daa5a3c20ca423136ddd7321ad2c8445faa088bbb5fbe44689ed82ed7&slot=2",
-     "rating": 4.1,
-     "review_count_raw": "659",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Breakfast & Brunch",
-      "American"
-     ]
-    },
-    {
-     "name": "Feast: The Cafe at Field + Fort",
-     "href": "/biz/feast-the-cafe-at-field-fort-summerland?osq=Restaurants",
-     "rating": 4.3,
-     "review_count_raw": "99",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": 171,
-     "sponsored": false,
-     "categories": [
-      "Cafes",
-      "Coffee & Tea"
      ]
     },
     {
@@ -3237,7 +2734,7 @@
      "review_count_raw": "41",
      "price": "",
      "distance_miles": null,
-     "rank": 172,
+     "rank": 148,
      "sponsored": false,
      "categories": [
       "Cocktail Bars",
@@ -3251,7 +2748,7 @@
      "review_count_raw": "1.5k",
      "price": "$$",
      "distance_miles": null,
-     "rank": 173,
+     "rank": 149,
      "sponsored": false,
      "categories": [
       "New American",
@@ -3266,12 +2763,59 @@
      "review_count_raw": "1.2k",
      "price": "$$$",
      "distance_miles": null,
-     "rank": 174,
+     "rank": 150,
      "sponsored": false,
      "categories": [
       "Seafood",
       "Wine Bars",
       "Latin American"
+     ]
+    }
+   ]
+  },
+  {
+   "start": 150,
+   "total": 240,
+   "cards": [
+    {
+     "name": "The Knock",
+     "href": "/adredir?ad_business_id=xRapA2lG7mjJ6eOqHmxe-A&campaign_id=221852223&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fthe-knock-santa-barbara&request_id=490338a87d36e131&signature=c698cae379118f97a58612ed61828a05fc5df1012039aa5d9519ab40508c4168&slot=0",
+     "rating": 3.9,
+     "review_count_raw": "244",
+     "price": "$$$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "New American",
+      "Cocktail Bars",
+      "Tapas/Small Plates"
+     ]
+    },
+    {
+     "name": "Eureka!",
+     "href": "/adredir?ad_business_id=NIQWO-Q_F598XlAvZnFVCA&campaign_id=224194498&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Feureka-santa-barbara-4&request_id=490338a87d36e131&signature=48f527c651abb2aeff41007a911f5e789edeb9ead06f3419be9b53f9108d77f8&slot=1",
+     "rating": 3.8,
+     "review_count_raw": "1.3k",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "American"
+     ]
+    },
+    {
+     "name": "Wabi Sabi",
+     "href": "/adredir?ad_business_id=yM7eA2uuH3Ch7OYVj3PKSw&campaign_id=223792335&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fwabi-sabi-santa-barbara&request_id=490338a87d36e131&signature=6ac4c4101d2c01260d4832d8cdbf2f4f1753120993d3cf6b1f8eeb00f7e897d2&slot=2",
+     "rating": 3.9,
+     "review_count_raw": "149",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Sushi Bars"
      ]
     },
     {
@@ -3281,7 +2825,7 @@
      "review_count_raw": "31",
      "price": "$$$",
      "distance_miles": null,
-     "rank": 175,
+     "rank": 151,
      "sponsored": false,
      "categories": [
       "Lounges",
@@ -3295,26 +2839,12 @@
      "review_count_raw": "1.1k",
      "price": "$$$",
      "distance_miles": null,
-     "rank": 176,
+     "rank": 152,
      "sponsored": false,
      "categories": [
       "Sushi Bars",
       "Asian Fusion",
       "Cocktail Bars"
-     ]
-    },
-    {
-     "name": "Domingo's Cafe",
-     "href": "/biz/domingos-cafe-goleta?osq=Restaurants",
-     "rating": 4.3,
-     "review_count_raw": "340",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": 177,
-     "sponsored": false,
-     "categories": [
-      "Breakfast & Brunch",
-      "American"
      ]
     },
     {
@@ -3324,7 +2854,7 @@
      "review_count_raw": "1.8k",
      "price": "$$",
      "distance_miles": null,
-     "rank": 178,
+     "rank": 153,
      "sponsored": false,
      "categories": [
       "Cajun/Creole",
@@ -3339,74 +2869,12 @@
      "review_count_raw": "837",
      "price": "$$",
      "distance_miles": null,
-     "rank": 179,
+     "rank": 154,
      "sponsored": false,
      "categories": [
       "Bars",
       "New American",
       "Sandwiches"
-     ]
-    },
-    {
-     "name": "Cold Spring Tavern",
-     "href": "/biz/cold-spring-tavern-santa-barbara?osq=Restaurants",
-     "rating": 4.3,
-     "review_count_raw": "1.5k",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": 180,
-     "sponsored": false,
-     "categories": [
-      "American",
-      "Lounges"
-     ]
-    }
-   ]
-  },
-  {
-   "start": 180,
-   "total": 240,
-   "cards": [
-    {
-     "name": "Subway",
-     "href": "/adredir?ad_business_id=QfXEdQpBojorGinfCnrKTA&campaign_id=223702774&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fsubway-santa-barbara-15&request_id=a51621d4f13fc125&signature=eab3523694a52da7862793f62a0ef4e16299ac1019743b1d4462303ea40a4fcf&slot=0",
-     "rating": null,
-     "review_count_raw": null,
-     "price": "$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Sandwiches",
-      "Fast Food"
-     ]
-    },
-    {
-     "name": "Seven Bar",
-     "href": "/adredir?ad_business_id=y02nlSULxJqnDHkkJiPyEg&campaign_id=223495438&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fseven-bar-santa-barbara&request_id=a51621d4f13fc125&signature=27683b5765aad54a37ccc78fdea9736950cce5639cbd17bc36c39c14e53e50a6&slot=1",
-     "rating": 4.2,
-     "review_count_raw": "17",
-     "price": "",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Bars",
-      "New American",
-      "Music Venues"
-     ]
-    },
-    {
-     "name": "Eureka!",
-     "href": "/adredir?ad_business_id=NIQWO-Q_F598XlAvZnFVCA&campaign_id=224194815&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Feureka-santa-barbara-4&request_id=a51621d4f13fc125&signature=afab60b5a96a5b5b8b45f8a3940cf7f03c8cadb879c0c89323ec764be95c2595&slot=2",
-     "rating": 3.8,
-     "review_count_raw": "1.3k",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "American"
      ]
     },
     {
@@ -3416,7 +2884,7 @@
      "review_count_raw": "18",
      "price": "",
      "distance_miles": null,
-     "rank": 181,
+     "rank": 155,
      "sponsored": false,
      "categories": [
       "Food Trucks",
@@ -3431,7 +2899,7 @@
      "review_count_raw": "123",
      "price": "$$",
      "distance_miles": null,
-     "rank": 182,
+     "rank": 156,
      "sponsored": false,
      "categories": [
       "Chinese",
@@ -3445,7 +2913,7 @@
      "review_count_raw": "956",
      "price": "$$",
      "distance_miles": null,
-     "rank": 183,
+     "rank": 157,
      "sponsored": false,
      "categories": [
       "Thai",
@@ -3459,7 +2927,7 @@
      "review_count_raw": "11",
      "price": "$",
      "distance_miles": null,
-     "rank": 184,
+     "rank": 158,
      "sponsored": false,
      "categories": [
       "Burgers",
@@ -3473,7 +2941,7 @@
      "review_count_raw": "711",
      "price": "$$",
      "distance_miles": null,
-     "rank": 185,
+     "rank": 159,
      "sponsored": false,
      "categories": [
       "Tapas/Small Plates",
@@ -3488,12 +2956,61 @@
      "review_count_raw": "369",
      "price": "$",
      "distance_miles": null,
-     "rank": 186,
+     "rank": 160,
      "sponsored": false,
      "categories": [
       "Mexican",
       "Desserts",
       "Seafood"
+     ]
+    }
+   ]
+  },
+  {
+   "start": 160,
+   "total": 240,
+   "cards": [
+    {
+     "name": "Wingstop",
+     "href": "/adredir?ad_business_id=tlgKByYNa-5Arj7aYUhtaQ&campaign_id=223903554&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fwingstop-santa-barbara-2&request_id=ce058652c1362690&signature=2e099959a06e45e69ed5f70898a4dd65dc81770c23ad8ac2254bc85126545e05&slot=0",
+     "rating": 4.3,
+     "review_count_raw": "3",
+     "price": "",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Chicken Wings"
+     ]
+    },
+    {
+     "name": "‘Que",
+     "href": "/adredir?ad_business_id=Wq3SQiXhyvy1JH2ZE6gLSQ&campaign_id=223193018&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fque-by-whiskey-n-rye-santa-barbara-2&request_id=ce058652c1362690&signature=447b5c5eea048aa2486b7bfdfe67a9bd4702191ae6d2a2ce338753764765825d&slot=1",
+     "rating": 4.7,
+     "review_count_raw": "56",
+     "price": "",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Barbeque",
+      "Burgers",
+      "Salad"
+     ]
+    },
+    {
+     "name": "Buena Onda",
+     "href": "/adredir?ad_business_id=vyOVT4bcW227LRwJGHTeSw&campaign_id=178666328&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fbuena-onda-santa-barbara-4&request_id=ce058652c1362690&signature=cce38165d2414bb5627456107ca1bb0ea2eb226d1103cf5b0c835b9b58e7857e&slot=2",
+     "rating": 4.7,
+     "review_count_raw": "815",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Argentine",
+      "Empanadas",
+      "Pizza"
      ]
     },
     {
@@ -3503,26 +3020,12 @@
      "review_count_raw": "271",
      "price": "",
      "distance_miles": null,
-     "rank": 187,
+     "rank": 161,
      "sponsored": false,
      "categories": [
       "Burgers",
       "Ice Cream & Frozen Yogurt",
       "Sandwiches"
-     ]
-    },
-    {
-     "name": "Isla Vista Food",
-     "href": "/biz/isla-vista-food-goleta?osq=Restaurants",
-     "rating": 4.3,
-     "review_count_raw": "100",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": 188,
-     "sponsored": false,
-     "categories": [
-      "Grocery",
-      "Delis"
      ]
     },
     {
@@ -3532,7 +3035,7 @@
      "review_count_raw": "158",
      "price": "$$",
      "distance_miles": null,
-     "rank": 189,
+     "rank": 162,
      "sponsored": false,
      "categories": [
       "Sandwiches",
@@ -3547,47 +3050,12 @@
      "review_count_raw": "288",
      "price": "$",
      "distance_miles": null,
-     "rank": 190,
+     "rank": 163,
      "sponsored": false,
      "categories": [
       "Delis",
       "Sandwiches",
       "Salad"
-     ]
-    }
-   ]
-  },
-  {
-   "start": 190,
-   "total": 240,
-   "cards": [
-    {
-     "name": "Subway",
-     "href": "/adredir?ad_business_id=QfXEdQpBojorGinfCnrKTA&campaign_id=223702774&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fsubway-santa-barbara-15&request_id=17c9aef3e29b9877&signature=c59bfaeb856bd57b234a6247eab871cddae2be813a3839e3bc19c3118cd5799a&slot=0",
-     "rating": null,
-     "review_count_raw": null,
-     "price": "$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Sandwiches",
-      "Fast Food"
-     ]
-    },
-    {
-     "name": "Taqueria 805",
-     "href": "/adredir?ad_business_id=WjHEYXmPEk7WK6q_9UaCiw&campaign_id=195865159&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Ftaqueria-805-carpinteria&request_id=17c9aef3e29b9877&signature=f416e12e83385973d58e1f041cba7706c9cbbaf63bc4d8f536f767605e99b571&slot=1",
-     "rating": 5,
-     "review_count_raw": "3",
-     "price": "",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Food Trucks",
-      "Caterers",
-      "Tacos"
      ]
     },
     {
@@ -3597,24 +3065,11 @@
      "review_count_raw": "2",
      "price": "",
      "distance_miles": null,
-     "rank": 191,
+     "rank": 164,
      "sponsored": false,
      "categories": [
       "Mexican",
       "Hot Dogs"
-     ]
-    },
-    {
-     "name": "Jesus Burgers",
-     "href": "/biz/jesus-burgers-goleta?osq=Restaurants",
-     "rating": 5,
-     "review_count_raw": "2",
-     "price": "",
-     "distance_miles": null,
-     "rank": 192,
-     "sponsored": false,
-     "categories": [
-      "Burgers"
      ]
     },
     {
@@ -3624,40 +3079,11 @@
      "review_count_raw": "2",
      "price": "",
      "distance_miles": null,
-     "rank": 193,
+     "rank": 165,
      "sponsored": false,
      "categories": [
       "Bars",
       "American"
-     ]
-    },
-    {
-     "name": "The Good Samwich",
-     "href": "/biz/the-good-samwich-goleta?osq=Restaurants",
-     "rating": 5,
-     "review_count_raw": "2",
-     "price": "",
-     "distance_miles": null,
-     "rank": 194,
-     "sponsored": false,
-     "categories": [
-      "Food Trucks",
-      "Sandwiches"
-     ]
-    },
-    {
-     "name": "Sweet Wheel Farms",
-     "href": "/biz/sweet-wheel-farms-summerland?osq=Restaurants",
-     "rating": 5,
-     "review_count_raw": "2",
-     "price": "",
-     "distance_miles": null,
-     "rank": 195,
-     "sponsored": false,
-     "categories": [
-      "Food Stands",
-      "Farmers Market",
-      "Fruits & Veggies"
      ]
     },
     {
@@ -3667,7 +3093,7 @@
      "review_count_raw": "2",
      "price": "",
      "distance_miles": null,
-     "rank": 196,
+     "rank": 166,
      "sponsored": false,
      "categories": [
       "Music Venues",
@@ -3682,7 +3108,7 @@
      "review_count_raw": "1.1k",
      "price": "$$",
      "distance_miles": null,
-     "rank": 197,
+     "rank": 167,
      "sponsored": false,
      "categories": [
       "New American",
@@ -3696,7 +3122,7 @@
      "review_count_raw": "757",
      "price": "$$",
      "distance_miles": null,
-     "rank": 198,
+     "rank": 168,
      "sponsored": false,
      "categories": [
       "Juice Bars & Smoothies",
@@ -3711,7 +3137,7 @@
      "review_count_raw": "196",
      "price": "$$",
      "distance_miles": null,
-     "rank": 199,
+     "rank": 169,
      "sponsored": false,
      "categories": [
       "Tapas Bars"
@@ -3724,7 +3150,7 @@
      "review_count_raw": "17",
      "price": "",
      "distance_miles": null,
-     "rank": 200,
+     "rank": 170,
      "sponsored": false,
      "categories": [
       "Bars",
@@ -3735,64 +3161,21 @@
    ]
   },
   {
-   "start": 200,
+   "start": 170,
    "total": 240,
    "cards": [
     {
-     "name": "ExtraMile",
-     "href": "/adredir?ad_business_id=J3h3fKlOd__qqLU0LNIV0Q&campaign_id=220992712&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fextramile-santa-barbara&request_id=388db0d15fd788b5&signature=08a557d972fdb3d23f144eb927dbb29a300726e170728ce33e2e0a9d8cb57041&slot=0",
-     "rating": 5,
-     "review_count_raw": "2",
-     "price": "",
+     "name": "Sun Sushi",
+     "href": "/adredir?ad_business_id=jR3sTUWCPuOCWpdm8Pn-wQ&campaign_id=103476118&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fsun-sushi-santa-barbara&request_id=b3c3d20134a92dbf&signature=d82bee4ecddedad7d49eac217f2410b0e0175e3eab9e12bebc3c96fd8d8d42e4&slot=0",
+     "rating": 4.3,
+     "review_count_raw": "506",
+     "price": "$$",
      "distance_miles": null,
      "rank": null,
      "sponsored": true,
      "categories": [
-      "Convenience Stores"
-     ]
-    },
-    {
-     "name": "IV Pizza Pub",
-     "href": "/adredir?ad_business_id=uytK-3Oy-PnmmyuRACep0Q&campaign_id=172897562&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fiv-pizza-pub-goleta&request_id=388db0d15fd788b5&signature=ee643feb5acc40f3dce4c7b7b1641d9a880593f5a14196bc49b292ef3f6798e7&slot=1",
-     "rating": 4.4,
-     "review_count_raw": "68",
-     "price": "",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Pizza",
-      "Sports Bars",
-      "Breakfast & Brunch"
-     ]
-    },
-    {
-     "name": "The Knock",
-     "href": "/adredir?ad_business_id=xRapA2lG7mjJ6eOqHmxe-A&campaign_id=221852223&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fthe-knock-santa-barbara&request_id=388db0d15fd788b5&signature=b8ed95834e663fdffccb21e719439c671e8e68cec2b91e496c241ec129da1b22&slot=2",
-     "rating": 3.9,
-     "review_count_raw": "244",
-     "price": "$$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "New American",
-      "Cocktail Bars",
-      "Tapas/Small Plates"
-     ]
-    },
-    {
-     "name": "Kimchi Korean BBQ",
-     "href": "/biz/kimchi-korean-bbq-santa-barbara?osq=Restaurants",
-     "rating": 4.2,
-     "review_count_raw": "622",
-     "price": "$$$",
-     "distance_miles": null,
-     "rank": 201,
-     "sponsored": false,
-     "categories": [
-      "Korean",
-      "Barbeque"
+      "Japanese",
+      "Sushi Bars"
      ]
     },
     {
@@ -3802,11 +3185,25 @@
      "review_count_raw": "162",
      "price": "",
      "distance_miles": null,
-     "rank": 202,
+     "rank": 171,
      "sponsored": false,
      "categories": [
       "Coffee & Tea",
       "Mexican"
+     ]
+    },
+    {
+     "name": "Kimchi Korean BBQ",
+     "href": "/biz/kimchi-korean-bbq-santa-barbara?osq=Restaurants",
+     "rating": 4.2,
+     "review_count_raw": "621",
+     "price": "$$$",
+     "distance_miles": null,
+     "rank": 172,
+     "sponsored": false,
+     "categories": [
+      "Korean",
+      "Barbeque"
      ]
     },
     {
@@ -3816,7 +3213,7 @@
      "review_count_raw": "185",
      "price": "",
      "distance_miles": null,
-     "rank": 203,
+     "rank": 173,
      "sponsored": false,
      "categories": [
       "New American",
@@ -3831,7 +3228,7 @@
      "review_count_raw": "250",
      "price": "$$",
      "distance_miles": null,
-     "rank": 204,
+     "rank": 174,
      "sponsored": false,
      "categories": [
       "Pizza",
@@ -3846,7 +3243,7 @@
      "review_count_raw": "238",
      "price": "$$",
      "distance_miles": null,
-     "rank": 205,
+     "rank": 175,
      "sponsored": false,
      "categories": [
       "German"
@@ -3859,7 +3256,7 @@
      "review_count_raw": "856",
      "price": "$$",
      "distance_miles": null,
-     "rank": 206,
+     "rank": 176,
      "sponsored": false,
      "categories": [
       "New American",
@@ -3873,7 +3270,7 @@
      "review_count_raw": "103",
      "price": "$$$",
      "distance_miles": null,
-     "rank": 207,
+     "rank": 177,
      "sponsored": false,
      "categories": [
       "Desserts",
@@ -3888,7 +3285,7 @@
      "review_count_raw": "139",
      "price": "",
      "distance_miles": null,
-     "rank": 208,
+     "rank": 178,
      "sponsored": false,
      "categories": [
       "Thai"
@@ -3901,76 +3298,11 @@
      "review_count_raw": "189",
      "price": "$$",
      "distance_miles": null,
-     "rank": 209,
+     "rank": 179,
      "sponsored": false,
      "categories": [
       "Tacos",
       "Beer Bar"
-     ]
-    },
-    {
-     "name": "La Guerrerita Mexican Food",
-     "href": "/biz/la-guerrerita-mexican-food-goleta?osq=Restaurants",
-     "rating": 4.2,
-     "review_count_raw": "218",
-     "price": "$",
-     "distance_miles": null,
-     "rank": 210,
-     "sponsored": false,
-     "categories": [
-      "Mexican",
-      "Breakfast & Brunch"
-     ]
-    }
-   ]
-  },
-  {
-   "start": 210,
-   "total": 240,
-   "cards": [
-    {
-     "name": "IV Pizza Pub",
-     "href": "/adredir?ad_business_id=uytK-3Oy-PnmmyuRACep0Q&campaign_id=172897562&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fiv-pizza-pub-goleta&request_id=9cae20eb586b64a7&signature=8734b1bd2470534d4da1842eab4fda6cf690fe711b6bb54a742af1a95ee7f76f&slot=0",
-     "rating": 4.4,
-     "review_count_raw": "68",
-     "price": "",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Pizza",
-      "Sports Bars",
-      "Breakfast & Brunch"
-     ]
-    },
-    {
-     "name": "Benchmark Eatery",
-     "href": "/adredir?ad_business_id=-TjT3y-Glfnbt6LbKETAYg&campaign_id=150047033&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fbenchmark-eatery-santa-barbara&request_id=9cae20eb586b64a7&signature=5d1c2f6426c87f091a20301b471cd797e1a0465c6633a624b6fd5d0edfe8e3de&slot=1",
-     "rating": 3.9,
-     "review_count_raw": "721",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "New American",
-      "Seafood",
-      "Cocktail Bars"
-     ]
-    },
-    {
-     "name": "AMA Sushi",
-     "href": "/adredir?ad_business_id=7KcHOCWb67qDHwZKIAHsGA&campaign_id=164549472&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fama-sushi-montecito&request_id=9cae20eb586b64a7&signature=b7253271c9f7e44f22b040664946a065a0e616bf03e05f65e14938ac6860928f&slot=2",
-     "rating": 4.3,
-     "review_count_raw": "61",
-     "price": "",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Sushi Bars",
-      "Japanese",
-      "Seafood"
      ]
     },
     {
@@ -3980,11 +3312,61 @@
      "review_count_raw": "534",
      "price": "$$",
      "distance_miles": null,
-     "rank": 211,
+     "rank": 180,
      "sponsored": false,
      "categories": [
       "Breakfast & Brunch",
       "Burgers"
+     ]
+    }
+   ]
+  },
+  {
+   "start": 180,
+   "total": 240,
+   "cards": [
+    {
+     "name": "Lilac Pâtisserie",
+     "href": "/adredir?ad_business_id=hPzPpfSjgQkpWCD7YjcY-A&campaign_id=221675840&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Flilac-p%25C3%25A2tisserie-santa-barbara&request_id=eddfe3635c33cc2c&signature=accb854fc84bd9814e94311c0e623982c421345d5a3c9f88dfa4a5edbcf9f17b&slot=0",
+     "rating": 4.4,
+     "review_count_raw": "917",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Coffee & Tea",
+      "Desserts",
+      "Breakfast & Brunch"
+     ]
+    },
+    {
+     "name": "Ospi Montecito",
+     "href": "/adredir?ad_business_id=wq3YSsD9Uq0z9azgSrGI2A&campaign_id=209593487&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fospi-montecito-montecito&request_id=eddfe3635c33cc2c&signature=8e67052277d823ec745a272488128bf97e059c518d4e02f659ba519c93c5037b&slot=1",
+     "rating": 4.2,
+     "review_count_raw": "145",
+     "price": "",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Italian",
+      "Pizza"
+     ]
+    },
+    {
+     "name": "The Shop Brunch",
+     "href": "/adredir?ad_business_id=SYHDOHRNAH-2xsw3XB5qbg&campaign_id=223321877&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fthe-shop-brunch-santa-barbara&request_id=eddfe3635c33cc2c&signature=9a5b50767e6f7aa5273daeee703296730e295e57c4848020cd9f21eaeccbffe3&slot=2",
+     "rating": 4.3,
+     "review_count_raw": "1.5k",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "New American",
+      "Coffee & Tea",
+      "Breakfast & Brunch"
      ]
     },
     {
@@ -3994,7 +3376,7 @@
      "review_count_raw": "129",
      "price": "",
      "distance_miles": null,
-     "rank": 212,
+     "rank": 181,
      "sponsored": false,
      "categories": [
       "Korean",
@@ -4009,7 +3391,7 @@
      "review_count_raw": "37",
      "price": "",
      "distance_miles": null,
-     "rank": 213,
+     "rank": 182,
      "sponsored": false,
      "categories": [
       "Vietnamese"
@@ -4022,7 +3404,7 @@
      "review_count_raw": "1.6k",
      "price": "$$",
      "distance_miles": null,
-     "rank": 214,
+     "rank": 183,
      "sponsored": false,
      "categories": [
       "Lebanese",
@@ -4037,7 +3419,7 @@
      "review_count_raw": "1.7k",
      "price": "$$",
      "distance_miles": null,
-     "rank": 215,
+     "rank": 184,
      "sponsored": false,
      "categories": [
       "Cocktail Bars",
@@ -4052,7 +3434,7 @@
      "review_count_raw": "2.1k",
      "price": "$$$",
      "distance_miles": null,
-     "rank": 216,
+     "rank": 185,
      "sponsored": false,
      "categories": [
       "New American",
@@ -4067,7 +3449,7 @@
      "review_count_raw": "233",
      "price": "$$",
      "distance_miles": null,
-     "rank": 217,
+     "rank": 186,
      "sponsored": false,
      "categories": [
       "Pizza",
@@ -4082,7 +3464,7 @@
      "review_count_raw": "48",
      "price": "",
      "distance_miles": null,
-     "rank": 218,
+     "rank": 187,
      "sponsored": false,
      "categories": [
       "Mediterranean",
@@ -4097,7 +3479,7 @@
      "review_count_raw": "5",
      "price": "",
      "distance_miles": null,
-     "rank": 219,
+     "rank": 188,
      "sponsored": false,
      "categories": [
       "Italian"
@@ -4110,61 +3492,12 @@
      "review_count_raw": "91",
      "price": "$",
      "distance_miles": null,
-     "rank": 220,
+     "rank": 189,
      "sponsored": false,
      "categories": [
       "Grocery",
       "Beer, Wine & Spirits",
       "Delis"
-     ]
-    }
-   ]
-  },
-  {
-   "start": 220,
-   "total": 240,
-   "cards": [
-    {
-     "name": "On The Alley",
-     "href": "/adredir?ad_business_id=y4x_wAQvUxvTR8iV-JP4Jg&campaign_id=150058346&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fon-the-alley-santa-barbara-2&request_id=1128e58f1d351cba&signature=12b81174b0dfc0831445a40c30c145fbbf3abc6a2e82430f11fd41ace8395afd&slot=0",
-     "rating": 4.1,
-     "review_count_raw": "659",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Breakfast & Brunch",
-      "American"
-     ]
-    },
-    {
-     "name": "Paloma",
-     "href": "/adredir?ad_business_id=4FdsX3MbkcdBRAr1aymF6A&campaign_id=212893069&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fpaloma-santa-barbara&request_id=1128e58f1d351cba&signature=1e139dbed374f6fa15ef445cdd489cb34c8eeb571f7f9d7d2cdc8e8ee8f5cd48&slot=1",
-     "rating": 4.4,
-     "review_count_raw": "336",
-     "price": "$$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Cocktail Bars",
-      "Breakfast & Brunch",
-      "American"
-     ]
-    },
-    {
-     "name": "Empty Bowl Gourmet Noodle Bar",
-     "href": "/adredir?ad_business_id=bPVPZeqMuYtU_yGCb4P-jg&campaign_id=223792335&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fempty-bowl-gourmet-noodle-bar-santa-barbara&request_id=1128e58f1d351cba&signature=c3118c49a8a4220e3aa98fa53d67d9755503bbad946bd8bda12f119b95b13611&slot=2",
-     "rating": 4.3,
-     "review_count_raw": "956",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Thai",
-      "Noodles"
      ]
     },
     {
@@ -4174,12 +3507,33 @@
      "review_count_raw": "618",
      "price": "$$",
      "distance_miles": null,
-     "rank": 221,
+     "rank": 190,
      "sponsored": false,
      "categories": [
       "American",
       "Breakfast & Brunch",
       "Sandwiches"
+     ]
+    }
+   ]
+  },
+  {
+   "start": 190,
+   "total": 240,
+   "cards": [
+    {
+     "name": "AMA Sushi",
+     "href": "/adredir?ad_business_id=7KcHOCWb67qDHwZKIAHsGA&campaign_id=164549472&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fama-sushi-montecito&request_id=b989fb3e0d3c1e9a&signature=07dc9740db966cbdd04e425d624d93a9222a8cb5ffde95314a791ad51e9f5631&slot=0",
+     "rating": 4.3,
+     "review_count_raw": "61",
+     "price": "",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Sushi Bars",
+      "Japanese",
+      "Seafood"
      ]
     },
     {
@@ -4189,7 +3543,7 @@
      "review_count_raw": "26",
      "price": "",
      "distance_miles": null,
-     "rank": 222,
+     "rank": 191,
      "sponsored": false,
      "categories": [
       "Mexican"
@@ -4202,7 +3556,7 @@
      "review_count_raw": "235",
      "price": "$$",
      "distance_miles": null,
-     "rank": 223,
+     "rank": 192,
      "sponsored": false,
      "categories": [
       "Sandwiches",
@@ -4217,7 +3571,7 @@
      "review_count_raw": "445",
      "price": "$$",
      "distance_miles": null,
-     "rank": 224,
+     "rank": 193,
      "sponsored": false,
      "categories": [
       "Thai"
@@ -4230,7 +3584,7 @@
      "review_count_raw": "935",
      "price": "$$",
      "distance_miles": null,
-     "rank": 225,
+     "rank": 194,
      "sponsored": false,
      "categories": [
       "New American",
@@ -4245,7 +3599,7 @@
      "review_count_raw": "642",
      "price": "$$",
      "distance_miles": null,
-     "rank": 226,
+     "rank": 195,
      "sponsored": false,
      "categories": [
       "Bakeries",
@@ -4260,7 +3614,7 @@
      "review_count_raw": "491",
      "price": "$$",
      "distance_miles": null,
-     "rank": 227,
+     "rank": 196,
      "sponsored": false,
      "categories": [
       "Breakfast & Brunch",
@@ -4275,7 +3629,7 @@
      "review_count_raw": "43",
      "price": "",
      "distance_miles": null,
-     "rank": 228,
+     "rank": 197,
      "sponsored": false,
      "categories": [
       "Cafes",
@@ -4289,7 +3643,7 @@
      "review_count_raw": "368",
      "price": "$$",
      "distance_miles": null,
-     "rank": 229,
+     "rank": 198,
      "sponsored": false,
      "categories": [
       "Chinese"
@@ -4302,59 +3656,10 @@
      "review_count_raw": "228",
      "price": "",
      "distance_miles": null,
-     "rank": 230,
+     "rank": 199,
      "sponsored": false,
      "categories": [
       "Mexican"
-     ]
-    }
-   ]
-  },
-  {
-   "start": 230,
-   "total": 240,
-   "cards": [
-    {
-     "name": "IV Pizza Pub",
-     "href": "/adredir?ad_business_id=uytK-3Oy-PnmmyuRACep0Q&campaign_id=172897562&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fiv-pizza-pub-goleta&request_id=ec34f7d72f8bce83&signature=1f555d646c1c009089d39ce6e2a4ae568c825e72000f7767ea349e89d35cecba&slot=0",
-     "rating": 4.4,
-     "review_count_raw": "68",
-     "price": "",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Pizza",
-      "Sports Bars",
-      "Breakfast & Brunch"
-     ]
-    },
-    {
-     "name": "Masala Spice Indian Cuisine",
-     "href": "/adredir?ad_business_id=8NsWB-TsB1NmGJoawbhcqg&campaign_id=223482150&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fmasala-spice-indian-cuisine-santa-barbara&request_id=ec34f7d72f8bce83&signature=aad5bde6aa1bba62373615a3c0c770dbdf840b39c8036f2c563ad785834d0e50&slot=1",
-     "rating": 4.3,
-     "review_count_raw": "29",
-     "price": "",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Vegetarian",
-      "Indian",
-      "Halal"
-     ]
-    },
-    {
-     "name": "Indian Tandoori Kingdom",
-     "href": "/adredir?ad_business_id=U8HwJaM2PbSe7Ky2mwVqTw&campaign_id=205177088&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Findian-tandoori-kingdom-santa-barbara&request_id=ec34f7d72f8bce83&signature=f312375a5083814b8263be44c171d076aeb30882a821c08168946b68183ad5c2&slot=2",
-     "rating": 4.8,
-     "review_count_raw": "431",
-     "price": "$$",
-     "distance_miles": null,
-     "rank": null,
-     "sponsored": true,
-     "categories": [
-      "Indian"
      ]
     },
     {
@@ -4364,12 +3669,62 @@
      "review_count_raw": "409",
      "price": "$$",
      "distance_miles": null,
-     "rank": 231,
+     "rank": 200,
      "sponsored": false,
      "categories": [
       "American",
       "Beer Bar",
       "Burgers"
+     ]
+    }
+   ]
+  },
+  {
+   "start": 200,
+   "total": 240,
+   "cards": [
+    {
+     "name": "Fattes Pizza",
+     "href": "/adredir?ad_business_id=PBXFaKio7FJ-4JehJGh_gg&campaign_id=207012707&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Ffattes-pizza-santa-barbara&request_id=d9b1a0c0dae09700&signature=a16e899887479757a5268b7c18382803aa151b38bb42b60115e42c90d514c2f4&slot=0",
+     "rating": 4.4,
+     "review_count_raw": "96",
+     "price": "",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Pizza",
+      "Chicken Wings",
+      "Fast Food"
+     ]
+    },
+    {
+     "name": "Local",
+     "href": "/adredir?ad_business_id=ok-mNrMW15l0RIQ4ZvslpA&campaign_id=208066703&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Flocal-santa-barbara&request_id=d9b1a0c0dae09700&signature=e19aa6f47d25679c43ad824e25cf945edc3feb5ac5c3a374e874e44bb1264a12&slot=1",
+     "rating": 4.2,
+     "review_count_raw": "185",
+     "price": "",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "New American",
+      "Cocktail Bars",
+      "Gluten-Free"
+     ]
+    },
+    {
+     "name": "Sun Sushi",
+     "href": "/adredir?ad_business_id=jR3sTUWCPuOCWpdm8Pn-wQ&campaign_id=103476118&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fsun-sushi-santa-barbara&request_id=d9b1a0c0dae09700&signature=64d8add1435086a170b8bb417eaf93f7f2a6bbeec5694c8bf8fd5808d4a3a791&slot=2",
+     "rating": 4.3,
+     "review_count_raw": "506",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Japanese",
+      "Sushi Bars"
      ]
     },
     {
@@ -4379,7 +3734,7 @@
      "review_count_raw": "1.2k",
      "price": "$$",
      "distance_miles": null,
-     "rank": 232,
+     "rank": 201,
      "sponsored": false,
      "categories": [
       "Japanese",
@@ -4393,26 +3748,11 @@
      "review_count_raw": "145",
      "price": "",
      "distance_miles": null,
-     "rank": 233,
+     "rank": 202,
      "sponsored": false,
      "categories": [
       "Italian",
       "Pizza"
-     ]
-    },
-    {
-     "name": "Backyard Bowls",
-     "href": "/biz/backyard-bowls-goleta?osq=Restaurants",
-     "rating": 4.2,
-     "review_count_raw": "269",
-     "price": "$",
-     "distance_miles": null,
-     "rank": 234,
-     "sponsored": false,
-     "categories": [
-      "Juice Bars & Smoothies",
-      "Breakfast & Brunch",
-      "Acai Bowls"
      ]
     },
     {
@@ -4422,7 +3762,7 @@
      "review_count_raw": "799",
      "price": "$$",
      "distance_miles": null,
-     "rank": 235,
+     "rank": 203,
      "sponsored": false,
      "categories": [
       "Cajun/Creole",
@@ -4437,7 +3777,7 @@
      "review_count_raw": "138",
      "price": "$",
      "distance_miles": null,
-     "rank": 236,
+     "rank": 204,
      "sponsored": false,
      "categories": [
       "Mexican"
@@ -4450,7 +3790,7 @@
      "review_count_raw": "23",
      "price": "$",
      "distance_miles": null,
-     "rank": 237,
+     "rank": 205,
      "sponsored": false,
      "categories": [
       "Food Trucks",
@@ -4464,7 +3804,7 @@
      "review_count_raw": "1.7k",
      "price": "$$",
      "distance_miles": null,
-     "rank": 238,
+     "rank": 206,
      "sponsored": false,
      "categories": [
       "New American",
@@ -4479,7 +3819,7 @@
      "review_count_raw": "366",
      "price": "$$",
      "distance_miles": null,
-     "rank": 239,
+     "rank": 207,
      "sponsored": false,
      "categories": [
       "Seafood",
@@ -4487,16 +3827,612 @@
      ]
     },
     {
-     "name": "La Hacienda Mexican Restaurant",
-     "href": "/biz/la-hacienda-mexican-restaurant-goleta?osq=Restaurants",
+     "name": "Luna Grill Santa Barbara",
+     "href": "/biz/luna-grill-santa-barbara-4?osq=Restaurants",
      "rating": 4.2,
-     "review_count_raw": "93",
+     "review_count_raw": "593",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": 208,
+     "sponsored": false,
+     "categories": [
+      "Greek",
+      "Mediterranean",
+      "Salad"
+     ]
+    },
+    {
+     "name": "Merci Montecito",
+     "href": "/biz/merci-montecito-montecito?osq=Restaurants",
+     "rating": 4.2,
+     "review_count_raw": "95",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": 209,
+     "sponsored": false,
+     "categories": [
+      "Cafes",
+      "Breakfast & Brunch",
+      "Bakeries"
+     ]
+    },
+    {
+     "name": "The Kitchen at Calvary Chapel",
+     "href": "/biz/the-kitchen-at-calvary-chapel-santa-barbara?osq=Restaurants",
+     "rating": 4.7,
+     "review_count_raw": "3",
+     "price": "",
+     "distance_miles": null,
+     "rank": 210,
+     "sponsored": false,
+     "categories": [
+      "Burgers",
+      "Salad",
+      "Sandwiches"
+     ]
+    }
+   ]
+  },
+  {
+   "start": 210,
+   "total": 240,
+   "cards": [
+    {
+     "name": "The Knock",
+     "href": "/adredir?ad_business_id=xRapA2lG7mjJ6eOqHmxe-A&campaign_id=221852223&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fthe-knock-santa-barbara&request_id=4ca73a4ab185861d&signature=2b8047af2c98decbac334c01c83592042a9929e380c4d1ceb1819b2b978ad117&slot=0",
+     "rating": 3.9,
+     "review_count_raw": "244",
+     "price": "$$$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "New American",
+      "Cocktail Bars",
+      "Tapas/Small Plates"
+     ]
+    },
+    {
+     "name": "‘Que",
+     "href": "/adredir?ad_business_id=Wq3SQiXhyvy1JH2ZE6gLSQ&campaign_id=223193018&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fque-by-whiskey-n-rye-santa-barbara-2&request_id=4ca73a4ab185861d&signature=10d7b21a260bfdca58e4d3119c83f25ac0ae12eb8ab2e68958a288bedb3aa677&slot=1",
+     "rating": 4.7,
+     "review_count_raw": "56",
+     "price": "",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Barbeque",
+      "Burgers",
+      "Salad"
+     ]
+    },
+    {
+     "name": "Cris Market & Restaurant",
+     "href": "/biz/cris-market-and-restaurant-santa-barbara?osq=Restaurants",
+     "rating": 4.7,
+     "review_count_raw": "3",
+     "price": "",
+     "distance_miles": null,
+     "rank": 211,
+     "sponsored": false,
+     "categories": [
+      "Meat Shops",
+      "Mexican"
+     ]
+    },
+    {
+     "name": "El Camino Catering",
+     "href": "/biz/el-camino-catering-santa-barbara?osq=Restaurants",
+     "rating": 4.2,
+     "review_count_raw": "6",
+     "price": "",
+     "distance_miles": null,
+     "rank": 212,
+     "sponsored": false,
+     "categories": [
+      "Desserts",
+      "Food Trucks",
+      "American"
+     ]
+    },
+    {
+     "name": "Lama Dog - Tap Room + Bottle Shop",
+     "href": "/biz/lama-dog-tap-room-bottle-shop-santa-barbara-3?osq=Restaurants",
+     "rating": 4.2,
+     "review_count_raw": "42",
+     "price": "",
+     "distance_miles": null,
+     "rank": 213,
+     "sponsored": false,
+     "categories": [
+      "Asian Fusion",
+      "Beer Bar",
+      "Wine Bars"
+     ]
+    },
+    {
+     "name": "Fresco At The Market",
+     "href": "/biz/fresco-at-the-market-santa-barbara?osq=Restaurants",
+     "rating": 4.2,
+     "review_count_raw": "18",
+     "price": "",
+     "distance_miles": null,
+     "rank": 214,
+     "sponsored": false,
+     "categories": [
+      "Wraps",
+      "Salad",
+      "Sandwiches"
+     ]
+    },
+    {
+     "name": "Milk & Honey Tapas",
+     "href": "/biz/milk-and-honey-tapas-santa-barbara?osq=Restaurants",
+     "rating": 4.2,
+     "review_count_raw": "668",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": 215,
+     "sponsored": false,
+     "categories": [
+      "Tapas Bars",
+      "Cocktail Bars"
+     ]
+    },
+    {
+     "name": "European Deli & Market",
+     "href": "/biz/european-deli-and-market-santa-barbara?osq=Restaurants",
+     "rating": 4.2,
+     "review_count_raw": "62",
+     "price": "$",
+     "distance_miles": null,
+     "rank": 216,
+     "sponsored": false,
+     "categories": [
+      "Grocery",
+      "Delis"
+     ]
+    },
+    {
+     "name": "Casa Comal",
+     "href": "/biz/casa-comal-santa-barbara?osq=Restaurants",
+     "rating": 4.2,
+     "review_count_raw": "143",
+     "price": "",
+     "distance_miles": null,
+     "rank": 217,
+     "sponsored": false,
+     "categories": [
+      "Mexican"
+     ]
+    },
+    {
+     "name": "Cali-Forno Pizzeria",
+     "href": "/biz/cali-forno-pizzeria-santa-barbara?osq=Restaurants",
+     "rating": 4.2,
+     "review_count_raw": "144",
+     "price": "",
+     "distance_miles": null,
+     "rank": 218,
+     "sponsored": false,
+     "categories": [
+      "Pizza",
+      "Italian",
+      "Sandwiches"
+     ]
+    },
+    {
+     "name": "Sakana Sushi Bar & Japanese",
+     "href": "/biz/sakana-sushi-bar-and-japanese-santa-barbara?osq=Restaurants",
+     "rating": 4.2,
+     "review_count_raw": "436",
+     "price": "$$$",
+     "distance_miles": null,
+     "rank": 219,
+     "sponsored": false,
+     "categories": [
+      "Sushi Bars",
+      "Japanese"
+     ]
+    },
+    {
+     "name": "Lighthouse Coffee",
+     "href": "/biz/lighthouse-coffee-santa-barbara?osq=Restaurants",
+     "rating": 4.2,
+     "review_count_raw": "150",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": 220,
+     "sponsored": false,
+     "categories": [
+      "Coffee & Tea",
+      "Sandwiches",
+      "Acai Bowls"
+     ]
+    }
+   ]
+  },
+  {
+   "start": 220,
+   "total": 240,
+   "cards": [
+    {
+     "name": "Masala Spice Indian Cuisine",
+     "href": "/adredir?ad_business_id=8NsWB-TsB1NmGJoawbhcqg&campaign_id=223482150&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fmasala-spice-indian-cuisine-santa-barbara&request_id=f519abca2b63924e&signature=bf335bb4b1184ae4f4e2049d6234a9e4c08bc22d0783d89770610ad8a25a2f28&slot=0",
+     "rating": 4.3,
+     "review_count_raw": "29",
+     "price": "",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Vegetarian",
+      "Indian",
+      "Halal"
+     ]
+    },
+    {
+     "name": "The Knock",
+     "href": "/adredir?ad_business_id=xRapA2lG7mjJ6eOqHmxe-A&campaign_id=221852227&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fthe-knock-santa-barbara&request_id=f519abca2b63924e&signature=faebe7059a9fe0ce4d4a71dd3df2ff5657c1a0c794418d103b22906c3d1f59eb&slot=1",
+     "rating": 3.9,
+     "review_count_raw": "244",
+     "price": "$$$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "New American",
+      "Cocktail Bars",
+      "Tapas/Small Plates"
+     ]
+    },
+    {
+     "name": "Denny’s",
+     "href": "/adredir?ad_business_id=icGg8xgDJVufg-xptMrDGw&campaign_id=217969321&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fdennys-santa-barbara-2&request_id=f519abca2b63924e&signature=0f60c9e546e240954130b449adadb7d8745f75dac52af67bd1e42deda34b1516&slot=2",
+     "rating": 2.8,
+     "review_count_raw": "235",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Diners",
+      "Breakfast & Brunch",
+      "American"
+     ]
+    },
+    {
+     "name": "Rare Society",
+     "href": "/biz/rare-society-santa-barbara?osq=Restaurants",
+     "rating": 4.1,
+     "review_count_raw": "348",
+     "price": "$$$$",
+     "distance_miles": null,
+     "rank": 221,
+     "sponsored": false,
+     "categories": [
+      "Steakhouses"
+     ]
+    },
+    {
+     "name": "Bree’osh - Santa Barbara",
+     "href": "/biz/bree-osh-santa-barbara-santa-barbara?osq=Restaurants",
+     "rating": 4.1,
+     "review_count_raw": "177",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": 222,
+     "sponsored": false,
+     "categories": [
+      "Bakeries",
+      "Coffee & Tea",
+      "Breakfast & Brunch"
+     ]
+    },
+    {
+     "name": "Broad Street Oyster Company",
+     "href": "/biz/broad-street-oyster-company-santa-barbara?osq=Restaurants",
+     "rating": 4.1,
+     "review_count_raw": "331",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": 223,
+     "sponsored": false,
+     "categories": [
+      "Seafood"
+     ]
+    },
+    {
+     "name": "Brophy Bros",
+     "href": "/biz/brophy-bros-santa-barbara-7?osq=Restaurants",
+     "rating": 4.1,
+     "review_count_raw": "4.2k",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": 224,
+     "sponsored": false,
+     "categories": [
+      "Seafood"
+     ]
+    },
+    {
+     "name": "Taqueria Rincon Alteno",
+     "href": "/biz/taqueria-rincon-alteno-santa-barbara?osq=Restaurants",
+     "rating": 4.1,
+     "review_count_raw": "98",
+     "price": "$",
+     "distance_miles": null,
+     "rank": 225,
+     "sponsored": false,
+     "categories": [
+      "Mexican"
+     ]
+    },
+    {
+     "name": "Takitos 8oh5",
+     "href": "/biz/takitos-8oh5-santa-barbara-3?osq=Restaurants",
+     "rating": 4.1,
+     "review_count_raw": "14",
+     "price": "",
+     "distance_miles": null,
+     "rank": 226,
+     "sponsored": false,
+     "categories": [
+      "Mexican",
+      "Pop-Up Restaurants",
+      "Hot Dogs"
+     ]
+    },
+    {
+     "name": "On The Alley",
+     "href": "/biz/on-the-alley-santa-barbara-2?osq=Restaurants",
+     "rating": 4.1,
+     "review_count_raw": "659",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": 227,
+     "sponsored": false,
+     "categories": [
+      "Breakfast & Brunch",
+      "American"
+     ]
+    },
+    {
+     "name": "Jill's Place",
+     "href": "/biz/jills-place-santa-barbara-2?osq=Restaurants",
+     "rating": 4.1,
+     "review_count_raw": "428",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": 228,
+     "sponsored": false,
+     "categories": [
+      "Steakhouses",
+      "New American",
+      "Bars"
+     ]
+    },
+    {
+     "name": "Bettina",
+     "href": "/biz/bettina-santa-barbara?osq=Restaurants",
+     "rating": 4.1,
+     "review_count_raw": "843",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": 229,
+     "sponsored": false,
+     "categories": [
+      "Pizza",
+      "Italian"
+     ]
+    },
+    {
+     "name": "Red Sand Market and Deli",
+     "href": "/biz/red-sand-market-and-deli-santa-barbara?osq=Restaurants",
+     "rating": 4.1,
+     "review_count_raw": "15",
+     "price": "$",
+     "distance_miles": null,
+     "rank": 230,
+     "sponsored": false,
+     "categories": [
+      "Delis",
+      "Grocery",
+      "Beer, Wine & Spirits"
+     ]
+    }
+   ]
+  },
+  {
+   "start": 230,
+   "total": 240,
+   "cards": [
+    {
+     "name": "Benchmark Eatery",
+     "href": "/adredir?ad_business_id=-TjT3y-Glfnbt6LbKETAYg&campaign_id=150047033&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fbenchmark-eatery-santa-barbara&request_id=8d944c69c790868b&signature=995d7705f32d361da8cbb373fe18f0409472aae2960a0e2abed7450bab5719ea&slot=0",
+     "rating": 3.9,
+     "review_count_raw": "721",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "New American",
+      "Seafood",
+      "Cocktail Bars"
+     ]
+    },
+    {
+     "name": "Wingstop",
+     "href": "/adredir?ad_business_id=tlgKByYNa-5Arj7aYUhtaQ&campaign_id=223903554&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fwingstop-santa-barbara-2&request_id=8d944c69c790868b&signature=077a09730ad0b9fab414dcb36ba108ec8cb73ca801938a11fc03c74d145ebea1&slot=1",
+     "rating": 4.3,
+     "review_count_raw": "3",
+     "price": "",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Chicken Wings"
+     ]
+    },
+    {
+     "name": "Chick-fil-A",
+     "href": "/adredir?ad_business_id=NuMR1xJu6Ewxaicc4yLOFw&campaign_id=219616792&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fchick-fil-a-santa-barbara&request_id=8d944c69c790868b&signature=361e08ccd8faea7b190b9a07b3b1110dfa27b59310a73a7093e82bfac02d3e71&slot=2",
+     "rating": 3.6,
+     "review_count_raw": "316",
+     "price": "$",
+     "distance_miles": null,
+     "rank": null,
+     "sponsored": true,
+     "categories": [
+      "Fast Food",
+      "Chicken Shop",
+      "Salad"
+     ]
+    },
+    {
+     "name": "Flor De Maiz",
+     "href": "/biz/flor-de-maiz-santa-barbara-2?osq=Restaurants",
+     "rating": 4.1,
+     "review_count_raw": "1.1k",
+     "price": "$$$",
+     "distance_miles": null,
+     "rank": 231,
+     "sponsored": false,
+     "categories": [
+      "Cocktail Bars",
+      "Mexican"
+     ]
+    },
+    {
+     "name": "Sachi Ramen And Robata Bar",
+     "href": "/biz/sachi-ramen-and-robata-bar-santa-barbara-2?osq=Restaurants",
+     "rating": 4.1,
+     "review_count_raw": "475",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": 232,
+     "sponsored": false,
+     "categories": [
+      "Ramen",
+      "Sushi Bars"
+     ]
+    },
+    {
+     "name": "Augie's of Santa Barbara",
+     "href": "/biz/augies-of-santa-barbara-santa-barbara?osq=Restaurants",
+     "rating": 4.1,
+     "review_count_raw": "257",
+     "price": "",
+     "distance_miles": null,
+     "rank": 233,
+     "sponsored": false,
+     "categories": [
+      "Cocktail Bars",
+      "New Mexican Cuisine"
+     ]
+    },
+    {
+     "name": "Wine Cask",
+     "href": "/biz/wine-cask-santa-barbara?osq=Restaurants",
+     "rating": 4.1,
+     "review_count_raw": "335",
+     "price": "$$$",
+     "distance_miles": null,
+     "rank": 234,
+     "sponsored": false,
+     "categories": [
+      "New American",
+      "Wine Bars",
+      "Venues & Event Spaces"
+     ]
+    },
+    {
+     "name": "Boathouse at Hendry's Beach",
+     "href": "/biz/boathouse-at-hendrys-beach-santa-barbara?osq=Restaurants",
+     "rating": 4.1,
+     "review_count_raw": "3.9k",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": 235,
+     "sponsored": false,
+     "categories": [
+      "Seafood",
+      "Breakfast & Brunch",
+      "New American"
+     ]
+    },
+    {
+     "name": "Sazón Latino & Catering",
+     "href": "/biz/saz%C3%B3n-latino-and-catering-santa-barbara?osq=Restaurants",
+     "rating": 4.1,
+     "review_count_raw": "36",
+     "price": "",
+     "distance_miles": null,
+     "rank": 236,
+     "sponsored": false,
+     "categories": [
+      "Mexican"
+     ]
+    },
+    {
+     "name": "Nook",
+     "href": "/biz/nook-santa-barbara-2?osq=Restaurants",
+     "rating": 4.1,
+     "review_count_raw": "295",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": 237,
+     "sponsored": false,
+     "categories": [
+      "Bars",
+      "New American"
+     ]
+    },
+    {
+     "name": "Convivo Restaurant and Bar",
+     "href": "/biz/convivo-restaurant-and-bar-santa-barbara-3?osq=Restaurants",
+     "rating": 4.1,
+     "review_count_raw": "768",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": 238,
+     "sponsored": false,
+     "categories": [
+      "Bars",
+      "Italian",
+      "Venues & Event Spaces"
+     ]
+    },
+    {
+     "name": "Gino's Sicilian Express",
+     "href": "/biz/ginos-sicilian-express-santa-barbara-2?osq=Restaurants",
+     "rating": 4.1,
+     "review_count_raw": "355",
+     "price": "$$",
+     "distance_miles": null,
+     "rank": 239,
+     "sponsored": false,
+     "categories": [
+      "Pizza",
+      "Sandwiches",
+      "Italian"
+     ]
+    },
+    {
+     "name": "Scarlett Begonia",
+     "href": "/biz/scarlett-begonia-santa-barbara?osq=Restaurants",
+     "rating": 4.1,
+     "review_count_raw": "1.2k",
      "price": "$$",
      "distance_miles": null,
      "rank": 240,
      "sponsored": false,
      "categories": [
-      "Mexican"
+      "Breakfast & Brunch",
+      "Beer, Wine & Spirits",
+      "American"
      ]
     }
    ]
@@ -4511,18 +4447,21 @@
   "/biz/the-black-sheep-restaurant-bar-santa-barbara": 1325,
   "/biz/bouchon-santa-barbara": 1799,
   "/biz/loquita-santa-barbara-2": 1773,
-  "/biz/lure-fish-house-santa-barbara": 2230,
+  "/biz/lure-fish-house-santa-barbara": 2232,
   "/biz/santo-mezcal-santa-barbara": 2060,
   "/biz/the-shop-brunch-santa-barbara": 1542,
   "/biz/opal-santa-barbara-2": 1205,
   "/biz/oku-santa-barbara": 1125,
   "/biz/the-palace-grill-santa-barbara": 1750,
-  "/biz/cold-spring-tavern-santa-barbara": 1477,
   "/biz/los-agaves-santa-barbara-2": 1057,
   "/biz/zaytoon-santa-barbara": 1573,
   "/biz/finneys-crafthouse-santa-barbara-santa-barbara": 1741,
   "/biz/the-lark-santa-barbara-3": 2103,
   "/biz/arigato-sushi-santa-barbara": 1241,
-  "/biz/finch-and-fork-santa-barbara": 1675
+  "/biz/finch-and-fork-santa-barbara": 1675,
+  "/biz/brophy-bros-santa-barbara-7": 4203,
+  "/biz/flor-de-maiz-santa-barbara-2": 1071,
+  "/biz/boathouse-at-hendrys-beach-santa-barbara": 3889,
+  "/biz/scarlett-begonia-santa-barbara": 1197
  }
 }
