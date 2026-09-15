@@ -28,6 +28,9 @@ PAUSE_BETWEEN_REQUESTS = (4, 7)
 REQUESTS_PER_BREAK = 40
 PAUSE_AT_BREAK = (30, 60)
 DEFAULT_MAX_BLOCK_WAIT_MINUTES = 30
+MAP_BATCH_SIZE = 50
+GET_MAP_DATA_DOCUMENT_ID = "98df21437b5529a0a207ec71e04716f0dc8cdaa3dd9eefd595c2319f0e90fe63"
+EARTH_RADIUS_MILES = 3958.8
 CARD_SELECTOR = '[data-testid="serp-ia-card"]'
 PRICE_LEVELS = {"$": "Low", "$$": "Medium", "$$$": "High", "$$$$": "Very High"}
 RESULT_COLUMNS = ["url", "name", "rating", "review_count", "review_count_is_exact", "price", "distance_miles", "categories"]
@@ -56,12 +59,55 @@ const parseCards = (doc) => Array.from(doc.querySelectorAll('[data-testid="serp-
 });
 """
 
-FETCH_SEARCH_PAGE_JS = "async ([path]) => {" + PARSE_CARDS_JS + r"""
+BUSINESS_IDS_JS = r"""
+const businessIds = (doc) => {
+  const ids = {};
+  const visit = (node) => {
+    if (Array.isArray(node)) {
+      node.forEach(visit);
+      return;
+    }
+    if (!node || typeof node !== 'object') return;
+    if (node.bizId && typeof node.businessUrl === 'string' && node.businessUrl.startsWith('/biz/')) ids[node.businessUrl.split('?')[0]] = node.bizId;
+    Object.values(node).forEach(visit);
+  };
+  for (const script of doc.querySelectorAll('script[type="application/json"]')) {
+    const text = script.textContent.trim().replace(/^<!--/, '').replace(/-->$/, '');
+    try {
+      visit(JSON.parse(text));
+    } catch (error) {}
+  }
+  return ids;
+};
+"""
+
+FETCH_SEARCH_PAGE_JS = "async ([path]) => {" + PARSE_CARDS_JS + BUSINESS_IDS_JS + r"""
   const response = await fetch(path, {headers: {Accept: 'text/html'}});
   const html = await response.text();
   const totalMatch = html.match(/"totalResults":\s*(\d+)/);
   const doc = new DOMParser().parseFromString(html, 'text/html');
-  return {status: response.status, total: totalMatch ? Number(totalMatch[1]) : null, cards: parseCards(doc)};
+  const ids = businessIds(doc);
+  const cards = parseCards(doc).map((card) => ({...card, business_id: card.href ? ids[card.href.split('?')[0]] || null : null}));
+  return {status: response.status, total: totalMatch ? Number(totalMatch[1]) : null, cards};
+}"""
+
+FETCH_COORDINATES_JS = r"""async ([request]) => {
+  const body = [{operationName: 'GetMapData', variables: {BizEncIds: request.ids}, extensions: {operationType: 'query', documentId: request.documentId}}];
+  const response = await fetch('/gql/batch', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(body)});
+  const text = await response.text();
+  let payload = null;
+  try {
+    payload = JSON.parse(text)[0];
+  } catch (error) {}
+  const businesses = payload && payload.data && payload.data.businesses ? payload.data.businesses : null;
+  const errors = payload && payload.errors ? payload.errors.map((entry) => entry.message) : [];
+  const coordinates = businesses && Object.fromEntries(
+    businesses.filter((business) => business && business.encid).map((business) => {
+      const point = business.location && business.location.geoCoordinate;
+      return [business.encid, point ? [point.latitude, point.longitude] : null];
+    })
+  );
+  return {status: response.status, errors, coordinates};
 }"""
 
 FETCH_BUSINESS_JS = r"""async ([path]) => {
@@ -129,7 +175,20 @@ def business_path(href):
     return href.split("?")[0]
 
 
+def miles_between(center, point):
+    if not center or not point:
+        return None
+    lat1, lon1 = (math.radians(value) for value in center)
+    lat2, lon2 = (math.radians(value) for value in point)
+    a = math.sin((lat2 - lat1) / 2) ** 2 + math.cos(lat1) * math.cos(lat2) * math.sin((lon2 - lon1) / 2) ** 2
+    return round(2 * EARTH_RADIUS_MILES * math.asin(math.sqrt(a)), 1)
+
+
 class BotCheckFailed(Exception):
+    pass
+
+
+class MapDataUnavailable(Exception):
     pass
 
 
@@ -187,6 +246,19 @@ class YelpSession:
         self.search_url = search_url
         self.max_block_wait_seconds = max_block_wait_seconds
         self.requests = 0
+        self.map_document_id = GET_MAP_DATA_DOCUMENT_ID
+        page.on("request", self.note_map_document_id)
+
+    def note_map_document_id(self, request):
+        if request.method != "POST" or "/gql/batch" not in request.url:
+            return
+        try:
+            operations = json.loads(request.post_data or "")
+        except ValueError:
+            return
+        for operation in operations if isinstance(operations, list) else []:
+            if isinstance(operation, dict) and operation.get("operationName") == "GetMapData" and operation.get("extensions", {}).get("documentId"):
+                self.map_document_id = operation["extensions"]["documentId"]
 
     def open(self):
         open_search_patiently(self.page, self.search_url, self.max_block_wait_seconds)
@@ -195,10 +267,8 @@ class YelpSession:
         failures = 0
         waited = 0
         while True:
-            result = self.page.evaluate(js, [path])
-            self.requests += 1
+            result = self.fetch_once(js, path)
             if result["status"] == 200:
-                self.rest()
                 return result
             if result["status"] not in (403, 429):
                 raise RuntimeError(f"Yelp answered {path} with HTTP {result['status']}")
@@ -210,6 +280,13 @@ class YelpSession:
             time.sleep(wait)
             waited += wait
             self.open()
+
+    def fetch_once(self, js, argument):
+        result = self.page.evaluate(js, [argument])
+        self.requests += 1
+        if result["status"] == 200:
+            self.rest()
+        return result
 
     def rest(self):
         if self.requests % REQUESTS_PER_BREAK:
@@ -244,6 +321,10 @@ class RunState:
         self.run["exact_counts"][path] = count
         self.save()
 
+    def add_coordinates(self, coordinates_by_path):
+        self.run["coordinates"].update(coordinates_by_path)
+        self.save()
+
 
 def new_run(what, location, radius_miles):
     return {
@@ -260,6 +341,7 @@ def new_run(what, location, radius_miles):
         "tiles": [],
         "capped": [],
         "exact_counts": {},
+        "coordinates": {},
     }
 
 
@@ -268,7 +350,15 @@ def load_run(pages_file):
     if "tiles" not in run:
         run["tiles"] = [{"bounds": run.get("bounds"), "center": None, "half_width_miles": None, "total": None, "pages": run.pop("pages")}]
     run.setdefault("capped", [])
+    run.setdefault("coordinates", {})
     return run
+
+
+def paths_missing_coordinates(run):
+    if not run.get("center"):
+        return []
+    paths = unique_paths(card for card in organic_cards(run["tiles"]) if card.get("business_id"))
+    return [path for path in paths if path not in run["coordinates"]]
 
 
 def load_unfinished_run(pages_file, what, location, radius_miles):
@@ -276,9 +366,15 @@ def load_unfinished_run(pages_file, what, location, radius_miles):
         return None
     run = load_run(pages_file)
     same_search = run.get("what") == what and run.get("location") == location and (run.get("radius_miles") or 0) == (radius_miles or 0)
-    if run.get("complete", True) or not same_search:
+    if not same_search:
         return None
-    log(f"Resuming the unfinished run started {run['started_at']}: {len(run['tiles'])} tiles and {len(run['exact_counts'])} exact counts already saved")
+    if not run.get("complete", True):
+        log(f"Resuming the unfinished run started {run['started_at']}: {len(run['tiles'])} tiles, {len(run['exact_counts'])} exact counts, and {len(run['coordinates'])} coordinates already saved")
+        return run
+    missing = paths_missing_coordinates(run)
+    if not missing:
+        return None
+    log(f"The finished run started {run['started_at']} has no coordinates for {len(missing)} places, fetching just those")
     return run
 
 
@@ -365,6 +461,49 @@ def resolve_exact_counts(session, state):
         log(f"exact count {index}/{len(pending)}: {path} -> {state.run['exact_counts'].get(path)}")
 
 
+def resolve_coordinates(session, state):
+    paths_by_id = {}
+    for card in organic_cards(state.run["tiles"]):
+        if card.get("business_id"):
+            paths_by_id.setdefault(card["business_id"], business_path(card["href"]))
+    pending = [business_id for business_id, path in paths_by_id.items() if path not in state.run["coordinates"]]
+    log(f"{len(paths_by_id)} places carry a business id, {len(pending)} still need coordinates from Yelp's map data")
+    try:
+        for offset in range(0, len(pending), MAP_BATCH_SIZE):
+            if not fetch_coordinates(session, state, pending[offset : offset + MAP_BATCH_SIZE], paths_by_id):
+                raise MapDataUnavailable("Yelp's map data call returned nothing for a whole batch")
+            log(f"coordinates {min(offset + MAP_BATCH_SIZE, len(pending))}/{len(pending)}")
+    except MapDataUnavailable as error:
+        log(f"{error}, leaving the remaining distances empty")
+
+
+def fetch_map_data(session, business_ids):
+    for attempt in range(2):
+        result = session.fetch_once(FETCH_COORDINATES_JS, {"ids": business_ids, "documentId": session.map_document_id})
+        if result["status"] == 200:
+            return result
+        log(f"HTTP {result['status']} from Yelp's map data call, reloading the search page to pick up its current GetMapData query id")
+        session.open()
+        pause(*PAUSE_BETWEEN_REQUESTS)
+    raise MapDataUnavailable(f"Yelp kept answering the map data call with HTTP {result['status']}")
+
+
+def fetch_coordinates(session, state, business_ids, paths_by_id):
+    result = fetch_map_data(session, business_ids)
+    if result["coordinates"] is not None:
+        state.add_coordinates({paths_by_id[business_id]: result["coordinates"].get(business_id) for business_id in business_ids})
+        return True
+    reason = "; ".join(result["errors"])[:120] or "empty response"
+    if len(business_ids) == 1:
+        log(f"Yelp's map data call failed for {paths_by_id[business_ids[0]]} ({reason}), leaving its distance empty")
+        return False
+    log(f"Yelp's map data call failed for {len(business_ids)} places ({reason}), trying two smaller batches")
+    half = len(business_ids) // 2
+    first = fetch_coordinates(session, state, business_ids[:half], paths_by_id)
+    second = fetch_coordinates(session, state, business_ids[half:], paths_by_id)
+    return first or second
+
+
 def launch_chrome(playwright, channel):
     PROFILE_DIR.mkdir(parents=True, exist_ok=True)
     return playwright.chromium.launch_persistent_context(
@@ -389,12 +528,13 @@ def scrape_with_browser(state, channel, max_block_wait_seconds):
             run["page_title"] = page.title()
             log(f"Yelp page title: {run['page_title']}")
             radius_miles = run["radius_miles"]
-            center = tuple(run["center"]) if run["center"] else (search_center(page) if radius_miles else None)
-            if radius_miles and not center:
-                log("Yelp gave no map bounds for this location, falling back to its own search area")
-                run["radius_miles"] = None
+            center = tuple(run["center"]) if run["center"] else search_center(page)
             if center:
                 run["center"] = list(center)
+            if radius_miles and not center:
+                log("Yelp gave no map bounds for this location, falling back to its own search area")
+                run["radius_miles"] = radius_miles = None
+            if radius_miles:
                 run["bounds"] = tile_bounds(center, radius_miles)
                 log(f"Searching within {radius_miles:g} miles of {center[0]:.4f}, {center[1]:.4f}, splitting any tile Yelp caps at {YELP_RESULT_CAP}")
                 fetch_tile(session, state, center, radius_miles)
@@ -403,6 +543,8 @@ def scrape_with_browser(state, channel, max_block_wait_seconds):
             places = len(unique_paths(organic_cards(run["tiles"])))
             log(f"{places} unique places across {len(run['tiles'])} tiles, now fetching exact review counts")
             resolve_exact_counts(session, state)
+            if center:
+                resolve_coordinates(session, state)
         finally:
             context.close()
     run["search_url"] = f"{YELP}{search_path(run['what'], run['location'], 0, run['bounds'])}"
@@ -429,16 +571,18 @@ def describe_area(run):
     return f"near {run['location']}"
 
 
-def build_results(tiles, exact_counts):
+def build_results(run):
+    exact_counts, coordinates, center = run["exact_counts"], run["coordinates"], run.get("center")
     rows = []
     seen = set()
-    for card in organic_cards(tiles):
+    for card in organic_cards(run["tiles"]):
         path = business_path(card["href"])
         if path in seen:
             continue
         seen.add(path)
         approximate = parse_review_count(card["review_count_raw"])
         abbreviated = (card["review_count_raw"] or "").endswith("k")
+        shown_distance = card.get("distance_miles")
         rows.append(
             {
                 "url": f"{YELP}{path}",
@@ -447,7 +591,7 @@ def build_results(tiles, exact_counts):
                 "review_count": exact_counts.get(path, approximate),
                 "review_count_is_exact": path in exact_counts or not abbreviated,
                 "price": card["price"],
-                "distance_miles": card["distance_miles"],
+                "distance_miles": shown_distance if shown_distance is not None else miles_between(center, coordinates.get(path)),
                 "categories": ", ".join(card["categories"]),
             }
         )
@@ -476,10 +620,10 @@ def plot_ratings_by_price(df, title, output_path):
 
 def print_summary(df, run, out_dir):
     print(f"{run['what']} {describe_area(run)} ({run['page_title']})")
-    print(f"results: {len(df)} from {len(run['tiles'])} search tiles, exact review counts: {int(df['review_count_is_exact'].sum())} of {len(df)}")
+    print(f"results: {len(df)} from {len(run['tiles'])} search tiles, exact review counts: {int(df['review_count_is_exact'].sum())} of {len(df)}, distances: {int(df['distance_miles'].notna().sum())} of {len(df)}")
     print(f"saved to {out_dir}: results.csv, ratings_by_price.png, search_pages.json")
     print()
-    print(df.head(15)[["name", "rating", "review_count", "price", "categories"]].to_string(index=False))
+    print(df.head(15)[["name", "rating", "review_count", "price", "distance_miles", "categories"]].to_string(index=False))
     priced = df[df["price"].fillna("").str.len() > 0]
     if not priced.empty:
         print()
@@ -525,7 +669,7 @@ def main():
             sys.exit(f"{error}. Progress is saved in {pages_file}, run the same command again to resume")
         run = state.run
 
-    df = build_results(run["tiles"], run["exact_counts"])
+    df = build_results(run)
     df.to_csv(out_dir / "results.csv", index=False)
     plot_ratings_by_price(df, f"{run['what']} Ratings by Price Level {describe_area(run)}", out_dir / "ratings_by_price.png")
     print_summary(df, run, out_dir)
