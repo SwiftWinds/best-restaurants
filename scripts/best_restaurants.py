@@ -41,8 +41,7 @@ const parseCards = (doc) => Array.from(doc.querySelectorAll('[data-testid="serp-
   const text = card.textContent || '';
   const reviewMatch = text.match(/\(([\d,.]+k?)\s+reviews?\)/i);
   const priceEl = Array.from(card.querySelectorAll('span, div')).find((el) => el.children.length === 0 && /^\${1,4}$/.test(el.textContent.trim()));
-  const distanceMatch = text.match(/(\d+(?:\.\d+)?)\s+Miles?/);
-  const distanceRaw = distanceMatch ? distanceMatch[1].replace(/^(19|20)\d\d(?=\d)/, '') : null;
+  const distanceEl = Array.from(card.querySelectorAll('span, div')).find((el) => el.children.length === 0 && /^\d+(?:\.\d+)?\s+Miles?$/.test(el.textContent.trim()));
   const categories = Array.from(card.querySelectorAll('a[href^="/search?find_desc="]')).map((a) => a.textContent.trim()).filter(Boolean);
   return {
     name: nameLink ? nameLink.textContent.trim() : null,
@@ -50,7 +49,7 @@ const parseCards = (doc) => Array.from(doc.querySelectorAll('[data-testid="serp-
     rating: ratingEl ? parseFloat(ratingEl.getAttribute('aria-label')) : null,
     review_count_raw: reviewMatch ? reviewMatch[1] : null,
     price: priceEl ? priceEl.textContent.trim() : '',
-    distance_miles: distanceRaw ? parseFloat(distanceRaw) : null,
+    distance_miles: distanceEl ? parseFloat(distanceEl.textContent) : null,
     sponsored: !!card.querySelector('a[href^="/adredir"]'),
     categories,
   };

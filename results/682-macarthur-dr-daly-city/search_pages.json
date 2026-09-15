@@ -21959,7 +21959,7 @@
        "rating": 4.2,
        "review_count_raw": "2.2k",
        "price": "$$",
-       "distance_miles": 7,
+       "distance_miles": null,
        "sponsored": false,
        "categories": [
         "Sports Bars",
